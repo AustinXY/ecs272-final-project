@@ -1,0 +1,5 @@
+references:
+https://observablehq.com/@d3/dot-plot
+https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3
+https://bl.ocks.org/dnprock/5215cc464cfb9affd283
+https://bl.ocks.org/jadiehm/0d341b74bef30889c893a3b14cbeb974

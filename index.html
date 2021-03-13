@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+
+#col-container {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 42px; */
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
+circle.swatch  {
+    r: 3.5;
+}
+
+.label {
+    font: 10px sans-serif;
+}
+
+body {
+    top: 0;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+text {
+    font-family: proxima-nova;
+    font-size: 12px;
+    fill: #666;
+}
+.ticks text {
+    font-size: 10px;
+}
+
+.countries {
+    fill: #333333;
+}
+.ticks {
+    font-size: 10px;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+    stroke-linecap: round;
+}
+
+.track {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 10px;
+}
+
+.track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+    cursor: crosshair;
+}
+
+.handle {
+    fill: #fff;
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+}
+
+.titals {
+    font-weight: bold;
+}
+#desc {
+    margin-top: 50px;
+    font-size: 14px;
+}
+#desc text {
+    font-size: 17px;
+    padding-left: 30px;
+}
+#dotplot .handle {
+    width: 0px;
+}
+
+</style>
+    </head>
+    <body>
+        <div id='container'>
+            <div id="col-container">
+                <div id='line-buttons'>
+                    <label for="year1">select year 1:</label>
+                    <select id="selectyear1"></select>
+                    <label for="year2">select year 2:</label>
+                    <select id="selectyear2"></select>
+                </div>
+                <div id="lineplot"></div>
+                <button id='display-button' type='button'>toggle display mode</button>
+                <div id='spikemap'></div>
+            </div>
+            <div id='dotplot'></div>
+        </div>
+        <!-- <div id='desc'>
+            <text>
+                Global Significant Earthquakes since 1996<br>
+            </text> -->
+            <!-- <ul>
+                Data retrieved from <a href="https://www.kaggle.com/mohitkr05/global-significant-earthquake-database-from-2150bc">Global Significant Earthquake Database from 2150BC</a><br>
+                <li>Top left view can be used to view earthquake activities geographically. Support zoom and drag for more detailed view. Height of spikes represent number of deaths and injuries in each earthquake.</li>
+                <li>Top right view can be used to view earthquake magnitude versus deaths and injuries. Support brush to select subset of earthquakes to display on map. Click to deselect when there exist selection.</li>
+                <li>Bottom view can be used to view each earthquakes' activities over time. Use the slider to see earthquakes of respective year on map. Hover over different stream to see respective magnitude earthquake <br>
+                    activities on map. When time frame is specified, hover over stream will be disabled. Click to reset map view.</li>
+                <li>References are listed <a href="references.txt">here</a></li>
+            </ul> -->
+        <!-- </div> -->
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/topojson.v1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider"></script>
+
+        <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+        <script>
+
+function resetData() {
+    mapsvg.selectAll('.spikes').style('opacity', 1);
+}
+
+
+const map_margin = {top: 30, right: 0, bottom: 0, left: 0},
+    map_width = 640 - map_margin.left - map_margin.right,
+    map_height = 400 - map_margin.top - map_margin.bottom;
+// const map_width = 450;
+// const map_height = 300;
+const line_margin = {top: 60, right: 0, bottom: 5, left: 30},
+    line_width = 900 - line_margin.left - line_margin.right,
+    line_height = 320 - line_margin.top - line_margin.bottom;
+
+const dot_margin = {top: 70, right: 0, bottom: 20, left: 150},
+    dot_width = 440 - dot_margin.left - dot_margin.right,
+    dot_height = 1000 - dot_margin.top - dot_margin.bottom;
+
+
+
+let mapsvg = d3.select('#spikemap')
+                    .append('svg')
+                    // .attr("viewBox", [0, 0, map_width, map_height])
+                    // .attr('id', 'map')
+                    .attr("width", 900)
+                    .attr("height", 700)
+                    // .attr("width", map_width + map_margin.left + map_margin.right)
+                    // .attr("height", map_height + map_margin.top + map_margin.bottom)
+                    // // .append("g")
+                    // .attr("transform",
+                    //     "translate(" + map_margin.left + "," + map_margin.top + ")");
+
+let dotplt = d3.select('#dotplot')
+                    .append('svg')
+                    // .attr("viewBox", [0, 0, dot_width, dot_height])
+                    // .attr('id', 'map')
+                    .attr("width", dot_width + dot_margin.left + dot_margin.right)
+                    .attr("height", dot_height + dot_margin.top + dot_margin.bottom)
+                    // // .append("g")
+                    // .attr("transform",
+                    //     "translate(" + dot_margin.left + "," + dot_margin.top + ")");
+
+let linesvg = d3.select("#lineplot")
+                    .append("svg")
+                    // .attr("viewBox", [0, 0, stream_width, stream_height])
+                    .attr("width", line_width + line_margin.left + line_margin.right)
+                    .attr("height", line_height + line_margin.top + line_margin.bottom)
+                    // // .append("g")
+                    // .attr("transform",
+                    //     "translate(" + stream_margin.left + "," + stream_margin.top + ")");
+
+
+let formatDate = d3.timeFormat("%b %Y");
+
+
+let year1_group = ['2020', '2019', '2018'];
+let year2_group = ["N/A", '2020', '2019', '2018'];
+
+d3.select("#selectyear1")
+    .selectAll('options')
+    .data(year1_group)
+    .enter()
+    .append('option')
+    .text(function (d) {return d;})
+    .attr("value", function (d) {return d;});
+
+d3.select("#selectyear2")
+    .selectAll('options')
+    .data(year2_group)
+    .enter()
+    .append('option')
+    .text(function (d) {return d;})
+    .attr("value", function (d) {return d;});
+
+d3.queue()
+    .defer(d3.json, 'states-albers-10m.json')
+    .defer(d3.csv, 'pm25_stat.csv')
+    .defer(d3.csv, 'so2_stat.csv')
+    .defer(d3.csv, 'pm25_out.csv')
+    .defer(d3.csv, 'so2_out.csv')
+    .defer(d3.csv, 'state_list.csv')
+    .await(main);
+
+function main(error, us, pm25_stat, so2_stat, pm25_out, so2_out, state_list) {
+    // global config
+    const start_date_2022 = '01/01/2022';
+    const start_date_2021 = '01/01/2021';
+    const start_date_2020 = '01/01/2020';
+    const start_date_2019 = '01/01/2019';
+    const start_date_2018 = '01/01/2018';
+
+    let selected_year1 = '2020';
+    let selected_year2 = 'N/A';
+
+    let year1_lb = start_date_2020;
+    let year1_ub = start_date_2021;
+
+    let year2_lb = -1;
+    let year2_ub = -1;
+
+    let cur_date = '01/01/2020';
+    let cur_state = 'country total';
+    let selected_states = []
+    // let date_changed = false;
+    // const state_keys = state_list.columns
+    const state_color = d3.scaleOrdinal(d3.schemeDark2)
+    const state_color2 = d3.scaleOrdinal(d3.schemeTableau10)
+
+    let line_ordinal = d3.scaleOrdinal();
+    let update_map = false;
+    let display_mode = 0; // absolute
+    let max_line_height = 0;
+
+    linesvg.append("g")
+            .attr("class", "legendOrdinal")
+            .attr("transform", "translate(" + line_margin.top + ",50)");
+
+    let line_legendOrdinal = d3.legendColor()
+                        .shapePadding(50)
+                        .orient('horizontal')
+                        .shape("line")
+                        .shapeWidth(70)
+                        .labelWrap(70)
+                        .scale(line_ordinal);
+
+
+    // line plot
+    let line_x = d3.scaleUtc()
+                .domain([new Date('01/01/2020'), new Date('12/31/2020')])
+                .range([line_margin.left, line_width - line_margin.right])
+
+    let state_max = []
+
+    let line_y = d3.scaleLinear()
+                    .domain([0, state_max[0]])
+                    .range([line_height - line_margin.bottom, line_margin.top])
+
+    let line_y_ax = linesvg.append("g")
+                    .attr("transform", "translate(" + line_margin.left + ",0)")
+                    .call(d3.axisLeft(line_y));
+
+
+    add_state('country total');
+
+    function add_state(state) {
+        if (selected_states[0] == 'country total') {
+            remove_state('country total');
+        }
+
+        selected_states.push(state);
+        state_max.push(d3.max(so2_stat.filter(
+            d => d.STATE == state), d => parseFloat(d.HIGH)));
+        append_plots(state);
+        update_selected_states();
+    }
+
+    function remove_state(state) {
+        let sid = selected_states.indexOf(state);
+        selected_states[sid] = '';
+        state_max[sid] = 0;
+        remove_plots(state)
+
+        for (const s of selected_states) {
+            if (s != '') { // if exist valid state
+                update_selected_states();
+                return;
+            }
+        }
+
+        selected_states = []
+        state_max = []
+        if (state != 'country total') {
+            add_state('country total');
+        }
+    }
+
+    function remove_plots(state) {
+        linesvg.select('#' + state.split(' ').join('') + "-area").remove()
+        linesvg.select('#' + state.split(' ').join('') + "-line").remove()
+        linesvg.select('#' + state.split(' ').join('') + "-line2").remove()
+    }
+
+    function append_plots(state) {
+        linesvg.append("path")
+                .datum(so2_stat.filter(function(d){
+                    let flag = (d.STATE == state);
+                    flag = flag && new Date(d.DATE) >= new Date(year1_lb);
+                    flag = flag && new Date(d.DATE) < new Date(year1_ub);
+                    return flag;}).sort((a, b) => (new Date(a.DATE) - new Date(b.DATE))))
+                // .transition().duration(1000)
+                .attr("fill", d => state_color(selected_states.indexOf(state)))
+                .attr("stroke", d => state_color(selected_states.indexOf(state)))
+                .attr("stroke-width", 1.5)
+                .attr("opacity", 0.2)
+                .attr("id", state.split(' ').join('') + "-area")
+                .attr("d", d3.area()
+                    .x(function(d) {
+                        let temp_date = d.DATE.split('/');
+                        temp_date[2] = '2020';
+                        temp_date = temp_date.join('/');
+                        return line_x(new Date(temp_date));
+                    })
+                    .y0(d => (line_height - line_margin.bottom))
+                    .y1(d => (line_height - line_margin.bottom)));
+
+        linesvg.append("path")
+                .datum(so2_out.filter(function(d){
+                    let flag = (d.STATE == state);
+                    flag = flag && new Date(d.DATE) >= new Date(year1_lb);
+                    flag = flag && new Date(d.DATE) < new Date(year1_ub);
+                    return flag;}).sort((a, b) => (new Date(a.DATE) - new Date(b.DATE))))
+                // .transition().duration(1000)
+                .attr("fill", "none")
+                .attr("stroke", d => state_color(selected_states.indexOf(state)))
+                .attr("stroke-width", 1.5)
+                .attr("stroke-linejoin", "round")
+                .attr("stroke-linecap", "round")
+                .attr("id", state.split(' ').join('') + "-line")
+                .attr("d", d3.line()
+                    .x(function(d) {
+                        let temp_date = d.DATE.split('/');
+                        temp_date[2] = '2020';
+                        temp_date = temp_date.join('/');
+                        return line_x(new Date(temp_date));
+                    })
+                    .y(d => (line_height - line_margin.bottom)));
+
+        linesvg.append("path")
+                .datum(so2_out.filter(function(d){
+                    let flag = (d.STATE == state);
+                    flag = flag && new Date(d.DATE) >= new Date(year2_lb);
+                    flag = flag && new Date(d.DATE) < new Date(year2_ub);
+                    return flag;}).sort((a, b) => (new Date(a.DATE) - new Date(b.DATE))))
+                // .transition().duration(1000)
+                .attr("fill", "none")
+                .attr("stroke", d => state_color2(selected_states.indexOf(state)+3))
+                .attr("stroke-width", 1.5)
+                .attr("stroke-linejoin", "round")
+                .attr("stroke-linecap", "round")
+                .attr("id", state.split(' ').join('') + "-line2")
+                .attr("d", d3.line()
+                    .x(function(d) {
+                        let temp_date = d.DATE.split('/');
+                        temp_date[2] = '2020';
+                        temp_date = temp_date.join('/');
+                        return line_x(new Date(temp_date));
+                    })
+                    .y(d => (line_height - line_margin.bottom)));
+    }
+
+    function update_selected_states() {
+        if (selected_states[0] != 'country total') {
+            d3.selectAll(".state").transition().duration(1000).style("opacity", 0.2);
+        }
+        else {
+            d3.selectAll(".state").transition().duration(1000).style("opacity", 1);
+        }
+
+        line_y.domain([0, d3.max(state_max)]);
+        console.log(state_max)
+        line_y_ax.transition().duration(1000).call(d3.axisLeft(line_y));
+
+        let legend_domain = []
+        let legend_range = []
+
+        selected_states.forEach(function(state){
+            if (state != '') {
+                if (state != 'country total') {
+                    d3.select("#"+state.split(' ').join('')).transition().duration(1000).style("opacity", 1);
+                }
+
+                legend_domain.push(state + ' ' + selected_year1)
+                legend_range.push(state_color(selected_states.indexOf(state)))
+                if (selected_year2 != 'N/A') {
+                    legend_domain.push(state + ' ' + selected_year2)
+                    legend_range.push(state_color2(selected_states.indexOf(state)+3))
+                }
+
+                linesvg.select('#' + state.split(' ').join('') + "-area")
+                        .datum(so2_stat.filter(function(d){
+                            let flag = (d.STATE == state);
+                            flag = flag && new Date(d.DATE) >= new Date(year1_lb);
+                            flag = flag && new Date(d.DATE) < new Date(year1_ub);
+                            return flag;}).sort((a, b) => (new Date(a.DATE) - new Date(b.DATE))))
+                        .transition().duration(1000)
+                        .attr("fill", d => state_color(selected_states.indexOf(state)))
+                        .attr("stroke", d => state_color(selected_states.indexOf(state)))
+                        .attr("stroke-width", 1.5)
+                        .attr("opacity", 0.2)
+                        .attr("d", d3.area()
+                            .x(function(d) {
+                                let temp_date = d.DATE.split('/');
+                                temp_date[2] = '2020';
+                                temp_date = temp_date.join('/');
+                                return line_x(new Date(temp_date));
+                            })
+                            .y0(d => line_y(parseFloat(d.HIGH)))
+                            .y1(d => line_y(parseFloat(d.LOW))));
+
+                linesvg.select('#' + state.split(' ').join('') + "-line")
+                        .datum(so2_out.filter(function(d){
+                            let flag = (d.STATE == state);
+                            flag = flag && new Date(d.DATE) >= new Date(year1_lb);
+                            flag = flag && new Date(d.DATE) < new Date(year1_ub);
+                            return flag;}).sort((a, b) => (new Date(a.DATE) - new Date(b.DATE))))
+                        .transition().duration(1000)
+                        .attr("fill", "none")
+                        .attr("stroke", d => state_color(selected_states.indexOf(state)))
+                        .attr("stroke-width", 1.5)
+                        .attr("opacity", 1)
+                        .attr("stroke-linejoin", "round")
+                        .attr("stroke-linecap", "round")
+                        .attr("d", d3.line()
+                            .x(function(d) {
+                                let temp_date = d.DATE.split('/');
+                                temp_date[2] = '2020';
+                                temp_date = temp_date.join('/');
+                                return line_x(new Date(temp_date));
+                            })
+                            .y(d => line_y(parseFloat(d.DAILY_AQI_VALUE))));
+
+                linesvg.select('#' + state.split(' ').join('') + "-line2")
+                        .datum(so2_out.filter(function(d){
+                            let flag = (d.STATE == state);
+                            flag = flag && new Date(d.DATE) >= new Date(year2_lb);
+                            flag = flag && new Date(d.DATE) < new Date(year2_ub);
+                            return flag;}).sort((a, b) => (new Date(a.DATE) - new Date(b.DATE))))
+                        .transition().duration(1000)
+                        .attr("fill", "none")
+                        .attr("stroke", d => state_color2(selected_states.indexOf(state)+3))
+                        .attr("stroke-width", 1.5)
+                        .attr("opacity", 1)
+                        .attr("stroke-linejoin", "round")
+                        .attr("stroke-linecap", "round")
+                        .attr("d", d3.line()
+                            .x(function(d) {
+                                let temp_date = d.DATE.split('/');
+                                temp_date[2] = '2020';
+                                temp_date = temp_date.join('/');
+                                return line_x(new Date(temp_date));
+                            })
+                            .y(d => line_y(parseFloat(d.DAILY_AQI_VALUE))));
+            }
+        });
+
+        line_ordinal.domain(legend_domain)
+                    .range(legend_range);
+        linesvg.select(".legendOrdinal")
+                .call(line_legendOrdinal);
+    }
+
+
+    function select_year1() {
+        // recover the option that has been chosen
+        selected_year1 = d3.select(this).property("value");
+        if (selected_year1 == '2021') {
+            year1_lb = start_date_2021;
+            year1_ub = start_date_2022;
+        }
+        else if (selected_year1 == '2020') {
+            year1_lb = start_date_2020;
+            year1_ub = start_date_2021;
+        }
+        else if (selected_year1 == '2019') {
+            year1_lb = start_date_2019;
+            year1_ub = start_date_2020;
+        }
+        else if (selected_year1 == '2018') {
+            year1_lb = start_date_2018;
+            year1_ub = start_date_2019;
+        }
+        update_selected_states();
+        update_map = true;
+        update(new Date(cur_date));
+    }
+    d3.select("#selectyear1").on("change", select_year1)
+
+
+
+    function select_year2() {
+        // recover the option that has been chosen
+        selected_year2 = d3.select(this).property("value");
+        if (selected_year2 == '2021') {
+            year2_lb = start_date_2021;
+            year2_ub = start_date_2022;
+        }
+        else if (selected_year2 == '2020') {
+            year2_lb = start_date_2020;
+            year2_ub = start_date_2021;
+        }
+        else if (selected_year2 == '2019') {
+            year2_lb = start_date_2019;
+            year2_ub = start_date_2020;
+        }
+        else if (selected_year2 == '2018') {
+            year2_lb = start_date_2018;
+            year2_ub = start_date_2019;
+        }
+        else if (selected_year2 == 'N/A') {
+            year2_lb = -1;
+            year2_ub = -1;
+            display_mode = 0;
+        }
+        update_selected_states();
+        update_map = true;
+        update(new Date(cur_date));
+    }
+    d3.select("#selectyear2").on("change", select_year2)
+
+
+    // draw map
+    let states = topojson.feature(us, us.objects.states).features;
+    let borders = topojson.mesh(
+        us,
+        us.objects.states,
+        (a,b) => a == b ? 'coast' : d3.extent([a.id, b.id]).join('-')
+        );
+    // let projection = d3.geoAlbers().fitSize([10, 10], us),
+    let path = d3.geoPath();
+
+    let so2_aqi_abs_max = 100;
+    let so2_aqi_rel_max = 20;
+
+    let state_aqi = new Map();
+    so2_out.forEach(function(d){
+        if (d.DATE == cur_date) {
+            state_aqi.set(d.STATE, parseFloat(d.DAILY_AQI_VALUE));
+        }
+    });
+
+
+    // Define the div for the tooltip
+    var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+    let mouseenter_state = function(d) {
+        tooltip.transition()
+            .duration(200)
+            .style("opacity", .9);
+        tooltip.html(d.properties.name)
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+    }
+
+    let mouseleave_state = function(d) {
+        tooltip.transition()
+            .duration(500)
+            .style("opacity", 0);
+    }
+
+    let click_state = function(state) {
+        // if state not in selected states
+        let sid = selected_states.indexOf(state.properties.name);
+        if (sid == -1) { // add state plot
+            add_state(state.properties.name);
+        }
+        else { // remove state plot
+            remove_state(state.properties.name);
+        }
+        console.log(selected_states);
+    }
+
+
+    // states
+    function getColor(state) {
+        if (display_mode == 0) {
+            return d3.interpolateRdYlGn(1 - state_aqi.get(state) / so2_aqi_abs_max);
+        }
+        return d3.interpolateRdYlGn(-(0.5 + state_aqi.get(state) / so2_aqi_rel_max));
+    }
+
+    let map_states = mapsvg.append('g')
+        .classed('us_map', true)
+        .selectAll(".us_map")
+        .data(states)
+        .enter()
+        .append("path")
+        // .attr("class", "state")
+        .attr("fill", d => getColor(d.properties.name))
+        .attr("d", path)
+        .on("mouseenter", mouseenter_state)
+        .on("mouseleave", mouseleave_state)
+        .on("click", click_state)
+        // .attr("color", d => d3.interpolateRdYlGn(d.DAILY_AQI_VALUE))
+        .attr("class", "state")
+        .attr("id", d => d.properties.name.split(' ').join(''));
+
+    // boarders
+    mapsvg.append('g')
+        .classed('boarders', true)
+        .append("path")
+        .attr("fill", "none")
+        .attr("stroke", "white")
+        .attr('stroke-width', 0.1)
+        .attr("stroke-linejoin", "round")
+        .attr("d", path(borders));
+
+    d3.select('#display-button')
+        .on('click', function() {
+            if (display_mode == 0 && selected_year2 != 'N/A') {
+                display_mode = 1;
+
+                // change legend
+                linear.domain([10, -10])
+                    .range([d3.interpolateRdYlGn(0), d3.interpolateRdYlGn(1)]);
+                mapsvg.select(".map_legendOrdinal")
+                        .call(map_legendOrdinal);
+            }
+            else {display_mode = 0;}
+            update_map = true;
+            update(new Date(cur_date));
+        });
+
+
+    let linear = d3.scaleLinear()
+                .domain([0, so2_aqi_abs_max])
+                .range([d3.interpolateRdYlGn(1), d3.interpolateRdYlGn(0)]);
+
+    console.l
+    mapsvg.append("g")
+            .attr("class", "map_legendOrdinal")
+            .attr("transform", "translate(" + (map_width+200) + "," + (map_height+map_margin.top+20) + ")");
+
+
+    let map_legendOrdinal = d3.legendColor()
+                        // .shapePadding(10)
+                        .orient('vertical')
+                        // .labelWrap(70)
+                        .scale(linear);
+
+    mapsvg.select(".map_legendOrdinal")
+            .call(map_legendOrdinal);
+
+
+
+
+    // dot plot
+    let keys = so2_stat.columns.slice(2);
+
+    let dot_ordinal = d3.scaleOrdinal()
+                        .domain(keys)
+                        .range(d3.schemeSpectral[keys.length]);
+
+    dotplt.append("g")
+            .attr("class", "dot_legendOrdinal")
+            .attr("transform", "translate(" + 280 + ",90)");
+
+    let dot_legendOrdinal = d3.legendColor()
+                        .shapePadding(10)
+                        .orient('vertical')
+                        .shape('circle')
+                        .labelWrap(70)
+                        .scale(dot_ordinal);
+
+    dotplt.select(".dot_legendOrdinal")
+            .call(dot_legendOrdinal);
+
+
+    let dot_x = d3.scaleLinear()
+                .domain([0, d3.max(so2_stat.filter(d => d.DATE == cur_date), d => parseFloat(d.HIGH))])
+                .rangeRound([dot_margin.left, dot_width - dot_margin.right]);
+
+    let dot_y = d3.scalePoint()
+                // .domain(so2_stat.filter(d => d.DATE == cur_date).map(d => d.STATE).sort((a,b) => d3.ascending(parseFloat(a.LOW), parseFloat(a.LOW))))
+                .domain(so2_stat.filter(d => d.DATE == cur_date).sort((a, b) => (parseFloat(a.LOW) - parseFloat(b.LOW))).map(d => d.STATE))
+                .rangeRound([dot_margin.top, dot_height - dot_margin.bottom])
+                .padding(1);
+
+    let color = d3.scaleOrdinal()
+                .domain(keys)
+                .range(d3.schemeSpectral[keys.length])
+                .unknown("#ccc");
+
+
+    let dot_g = dotplt.append("g")
+        .attr("text-anchor", "end")
+        .style("font", "10px sans-serif")
+        .selectAll("g")
+        .data(so2_stat.filter(d => d.DATE == cur_date).sort((a, b) => (parseFloat(a.LOW) - parseFloat(b.LOW))))
+        .enter()
+        .append("g")
+        .attr("transform", (d, i) => `translate(0,${dot_y(d.STATE)})`);
+
+    let dot_line = dot_g.append("line")
+                        .attr("stroke", "#aaa")
+                        .attr("x1", d => dot_x(parseFloat(d.LOW)))
+                        .attr("x2", d => dot_x(parseFloat(d.HIGH)));
+
+    // d3.cross(keys, so2_stat.filter(d => d.DATE == cur_date).sort((a, b) => (parseFloat(a.LOW) - parseFloat(b.LOW))))
+    let dot_cir = dot_g.append("g")
+                        .selectAll("circle")
+                        .data(d => d3.cross(keys, [d]))
+                        .enter()
+                        .append("circle")
+                        .attr("cx", ([k, d]) => dot_x(parseFloat(d[k])))
+                        .attr("fill", ([k]) => color(k))
+                        // .attr("width", function(d) {console.log(1);return 1;})
+                        .attr("r", 3.5);
+
+    let dot_txt = dot_g.append("text")
+                        .attr("dy", "0.35em")
+                        .attr("x", d => dot_x(parseFloat(d.LOW)) - 6)
+                        .text((d, i) => d.STATE);
+
+    dotplt.append("g")
+        .attr("transform", `translate(0,${dot_margin.top })`)
+        .call(d3.axisTop(dot_x))
+        // .call(g => g.selectAll(".tick line").clone().attr("stroke-opacity", 0.1).attr("y2", dot_height - dot_margin.bottom))
+        .call(g => g.select(".domain").remove())
+
+
+
+    // time slider
+    function getDateString(date) {
+        return [('0' + (date.getMonth() + 1)).slice(-2),
+                ('0' + date.getDate()).slice(-2),
+                selected_year1].join('/')
+    }
+
+    function update(val) {
+        let date = getDateString(val);
+        if ((date == cur_date) && !update_map) {return;}
+        cur_date = date;
+        // date_changed = true;
+        let dataFiltered = so2_stat.filter(d => d.DATE == cur_date).sort((a, b) => (parseFloat(a.LOW) - parseFloat(b.LOW)));
+        dot_g.data(dataFiltered).select("line");
+        dot_line.attr("x1", d => dot_x(parseFloat(d.LOW)))
+                .attr("x2", d => dot_x(parseFloat(d.HIGH)))
+        // console.log(dot_g.selectAll("circle"))
+        dot_g.selectAll("circle").remove();
+
+        // dot_g.data(dataFiltered)
+        dot_g.append("g")
+            .selectAll("circle")
+            .data(d => d3.cross(keys, [d]))
+            .enter()
+            .append("circle")
+            .attr("cx", ([k, d]) => dot_x(parseFloat(d[k])))
+            .attr("fill", ([k]) => color(k))
+            .attr("r", 3.5);
+
+        dot_g.data(dataFiltered).select("text");
+        dot_txt.transition().duration(1000)
+            .attr("dy", "0.35em")
+            .attr("x", d => dot_x(parseFloat(d.LOW)) - 6)
+            .text((d, i) => d.STATE);
+
+        if (display_mode == 0) {
+            so2_out.forEach(function(d){
+                if (d.DATE == cur_date) {
+                    state_aqi.set(d.STATE, parseFloat(d.DAILY_AQI_VALUE));
+                }
+            });
+        }
+        else {
+            if (select_year2 != 'N/A') {
+                let mmdd = cur_date.split('/').splice(0,2).join('/')
+                so2_out.forEach(function(d){
+                    if (d.DATE.split('/').splice(0,2).join('/') == mmdd) {
+                        if (d.DATE == cur_date) {
+                            state_aqi.set(d.STATE, parseFloat(d.DAILY_AQI_VALUE));
+                        }
+                        else {
+                            state_aqi.set(d.STATE, state_aqi.get(d.STATE)-parseFloat(d.DAILY_AQI_VALUE));
+                        }
+                    }
+                });
+            }
+        }
+        map_states.transition().duration(500).attr("fill", d => getColor(d.properties.name));
+        // date_changed = false;
+        update_map = false;
+    }
+
+    let slider = linesvg.append('g')
+                        .attr('transform', `translate(0,${line_height})`)
+                        .call(d3.sliderBottom(line_x)
+                            // .step(60 * 60 * 24 * 7)
+                            // .step(10)
+                            .ticks(12)
+                            .displayValue(true)
+                            .displayFormat(d3.timeFormat("%B %d"))
+                            .on('onchange', value => update(value))
+                        );
+
+    // linesvg.append("line")
+    //     // .attr("class", "x-hover-line hover-line")
+    //     .style("stroke", "lightgreen")
+    //     .style("stroke-width", 10)
+    //     .attr("y1", line_height)
+    //     .attr("y2", 200)
+    //     .attr("x1", line_x(new Date(cur_date)))
+    //     .attr("x2", line_x(new Date(cur_date)))
+
+
+
+
+    // console.log()
+
+
+    // mapsvg.append("g")
+    //         .classed('deaths', true)
+    //         .selectAll('.death')
+    //         .data(full_out)
+    //         .enter()
+    //         .append('path')
+    //         .attr("fill-opacity", 0.3)
+    //         .attr("stroke", function(d) {return color(d.mag_key);})
+    //         .attr("transform", d => `translate(${d.coords})`)
+    //         .attr("d", d => spike(length(d.value)))
+    //         .attr('id', d => 'id' + d.id)
+    //         .attr('class', function(d) {
+    //             let cl = 'spikes';
+    //             cl += ' year' + d.date;
+    //             cl += ' magkey' + d.mag_key
+    //             // cl += ' year' + year
+    //             // cl += ' ' + d.gname.slice(0,3);
+    //             // cl += ' ' + d.attype.slice(0,4);
+    //             // cl += ' ' + month;
+    //             // let kill;
+    //             // if (d.value < 20) {kill = group_cl[0];}
+    //             // else if (d.value < 40) {kill = group_cl[1];}
+    //             // else if (d.value < 60) {kill = group_cl[2];}
+    //             // else if (d.value < 80) {kill = group_cl[3];}
+    //             // else {kill = group_cl[4];}
+
+    //             // cl += ' ' + kill;
+    //             return cl});
+
+    //     drag_handler = d3.drag()
+    //         .on('start', drag_start)
+    //         .on('drag', drag_drag)
+
+    //     function drag_start() {
+    //         start_x = +d3.event.x
+    //         start_y = +d3.event.y
+    //     }
+
+    //     function drag_drag(d) {
+    //         d3.select(this)
+    //           .attr('cx', d.x = d3.event.x).attr('cy', d.y = d3.event.y)
+    //     }
+
+    // drag_handler(mapsvg.selectAll('.spikes'));
+    // // zoom and pan
+    // const zoom = d3.zoom()
+    //     .on('zoom', () => {
+    //         let g = mapsvg.selectAll('g')
+    //         g.style('stroke-width', `${1.5 / d3.event.transform.k}px`)
+    //         g.attr('transform', d3.event.transform) // updated for d3 v4
+    //     })
+
+    // mapsvg.call(zoom)
+    // mapsvg.append("text")
+    //     .attr("x", 0)
+    //     .attr("y", map_height + map_margin.top - 5)
+    //     .attr('class', 'titals')
+    //     .text(function(d) { return "Earthquakes' deaths and injuries over region"; });
+
+    // function select_update(selectedGroup) {
+    //     for (let i = 0; i < allGroup.length; i+= 1) {
+    //         let kill = group_cl[i];
+    //         if (selectedGroup == allGroup[i]) {
+    //             mapsvg.selectAll('.'+kill).style('opacity', 1)
+    //         }
+    //         else {
+    //             mapsvg.selectAll('.'+kill).style('opacity', 0)
+    //         }
+    //     }
+    // }
+
+    // // draw scatter pot
+    // let sctr_x = d3.scaleLinear()
+    //     .domain([0, 10])
+    //     .range([sctr_margin.left, sctr_width]);
+    // let sctr_xAxis = (g, x) => g
+    //     .attr("transform", `translate(0,${sctr_height})`)
+    //     .call(d3.axisBottom(x))
+    //     .call(g => g.select(".domain").attr("display", "none"))
+
+    // // sctrplt.append("g")
+    // //     .attr("transform", "translate(0," + sctr_height + ")")
+    // //     .call(d3.axisBottom(sctr_x));
+
+    // let sctr_y = d3.scaleLinear()
+    //     .domain([0, 500000])
+    //     .range([sctr_height, sctr_margin.top]);
+    // let sctr_yAxis = (g, y) => g
+    //     .attr("transform", `translate(${sctr_margin.left},0)`)
+    //     .call(d3.axisLeft(y))
+    //     .call(g => g.select(".domain").attr("display", "none"))
+    // // sctrplt.append("g")
+    // //     .attr("transform", "translate(" + sctr_margin.left + ',' + 0 + ")")
+    // //     .call(d3.axisLeft(sctr_y));
+
+    // const gDot = sctrplt.append('g')
+    //     .selectAll("dot")
+    //     .data(full_out)
+    //     .enter()
+    //     .append("circle")
+    //     .attr("cx", function (d) { return sctr_x(d.magnitude); } )
+    //     .attr("cy", function (d) { return sctr_y(d.value); } )
+    //     .attr("r", 5)
+    //     .style("fill", d=>color(d.mag_key))
+
+    // const brush = d3.brush()
+    //     .on("start brush end", brushed);
+
+    // // const sctr_zoom = d3.zoom()
+    // //     // .filter(event => !d3.event.ctrlKey
+    // //     //     && !d3.event.button
+    // //     //     && (d3.event.metaKey
+    // //     //     || d3.event.target.__data__.type !== "overlay"))
+    // //     .scaleExtent([0.5, 1000])
+    // //     .on("zoom", sctr_zoomed);
+
+    // const gx = sctrplt.append("g");
+    // const gy = sctrplt.append("g");
+    // gx.call(sctr_xAxis, sctr_x);
+    // gy.call(sctr_yAxis, sctr_y);
+
+    // let x0 = 0,
+    //     y0 = 0,
+    //     x1 = 0,
+    //     y1 = 0;
+    // function brushed() {
+    //     let value = [];
+    //     if (d3.event.selection) {
+
+    //         mapsvg.selectAll('.spikes').style('opacity', 0);
+    //         [[x0, y0], [x1, y1]] = d3.event.selection;
+    //         value = gDot
+    //             .style("fill", "gray")
+    //             .filter(d => x0 <= sctr_x(d.magnitude) && sctr_x(d.magnitude) < x1 && y0 <= sctr_y(d.value) && sctr_y(d.value) < y1)
+    //             .style("fill", function(d){
+    //                 mapsvg.selectAll('#id'+d.id).transition().duration(500).style('opacity', 1);
+    //                 return color(d.mag_key);})
+    //             .data();
+    //     }
+    //     sctrplt.property("value", value).dispatch("input");
+    // }
+    // // function sctr_zoomed() {
+    // //     const zx = d3.event.transform.rescaleX(sctr_x).interpolate(d3.interpolateRound);
+    // //     const zy = d3.event.transform.rescaleY(sctr_y).interpolate(d3.interpolateRound);
+    // //     gDot.attr("transform", d3.event.transform).attr("r", 5 / d3.event.transform.k);
+    // //     gx.call(sctr_xAxis, zx);
+    // //     gy.call(sctr_yAxis, zy);
+    // // }
+
+    // function clicked(event, d) {
+    //     let [cur_x, cur_y] = d3.mouse(this);
+    //     if (x0 <= cur_x && cur_x < x1 && y0 <= cur_y && cur_y < y1) {return;}
+    //     value = gDot
+    //         .style("fill", d=>color(d.mag_key))
+    //         .data();
+    //     mapsvg.selectAll('.spikes').transition().duration(500).style('opacity', 1);
+    // }
+
+    // sctrplt.call(brush);
+    // sctrplt.on('click', clicked)
+
+    // sctrplt.append("text")
+    //     .attr("x", 0)
+    //     .attr("y", map_height + map_margin.top - 5)
+    //     .attr('class', 'titals')
+    //     .text(function(d) {return "Earthquakes' magnitude vs. deaths and injuries"; });
+
+    // // draw lineplot
+    // let series = d3.stack()
+    //     .keys(year_mag.columns.slice(1))
+    //     .offset(d3.stackOffsetWiggle)
+    //     .order(d3.stackOrderInsideOut)
+    // (year_mag);
+
+    // // Add X axis
+    // let x = d3.scaleUtc()
+    //     .domain(d3.extent(year_mag, d => new Date(d.date)))
+    //     .range([stream_margin.left + 40, stream_width - stream_margin.right])
+    //     .clamp(true);
+
+    // let y = d3.scaleLinear()
+    //     .domain([d3.min(series, d => d3.min(d, d => d[0])), d3.max(series, d => d3.max(d, d => d[1]))])
+    //     .range([stream_height - stream_margin.bottom, stream_margin.top]);
+
+    // let area = d3.area()
+    //         .x(d => x(new Date(d.data.date)))
+    //         .y0(d => y(d[0]))
+    //         .y1(d => y(d[1]));
+
+    // streamsvg.selectAll(".tick line").attr("stroke", "#b8b8b8")
+
+    // // lineplot legend
+    // streamsvg.append("g")
+    //     .attr("class", "legendOrdinal")
+    //     .attr("transform", "translate(15,30)")
+    //     .append('text')
+    //     .attr("transform", "translate(-3,-20)")
+    //     .attr('class', 'titals')
+    //     .text(d=>'Earthquake magnitude');
+
+
+    // var legendOrdinal = d3.legendColor()
+    //                 .shape("path", d3.symbol().type(d3.symbolCircle).size(150)())
+    //                 .shapePadding(10)
+    //                 .scale(color)
+
+
+    // streamsvg.select(".legendOrdinal")
+    //     .call(legendOrdinal);
+
+    // let in_focus_view = false;
+    // let mouseenter = function(d, i) {
+    //     if (in_focus_view) {return}
+    //     // Tooltip.style("opacity", 1)
+    //     d3.selectAll(".myArea").style("opacity", .2)
+    //     d3.select(this).transition().duration(200).style("opacity", 1)
+    //     grp = keys[i]
+    //     // Tooltip.text(grp)
+    //     mapsvg.selectAll('.spikes').style('opacity', 0);
+
+    //     mapsvg.selectAll('.magkey'+grp).transition().duration(200).style('opacity', 1);
+    // }
+
+    // let mouseleave = function(d) {
+    //     if (in_focus_view) {return}
+    //     // Tooltip.style("opacity", 0)
+    //     d3.selectAll(".myArea").style("opacity", 1)
+    //     d3.selectAll('.spikes').style('opacity', 1);
+    // }
+
+    // var slider = streamsvg.append("g")
+    //                     .attr("class", "slider")
+    //                     .attr("transform", `translate(0,${stream_height})`);
+
+    // slider.append("line")
+    //     .attr("class", "track")
+    //     .attr("x1", x.range()[0])
+    //     .attr("x2", x.range()[1])
+    //     .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+    //     .attr("class", "track-inset")
+    //     .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+    //     .attr("class", "track-overlay")
+    //     .call(d3.drag()
+    //         .on("start.interrupt", function() { slider.interrupt(); })
+    //         .on("start drag", function() {
+    //             currentValue = d3.event.x;
+    //             slider_update(x.invert(currentValue));
+    //         })
+    //     );
+
+    // var startDate = new Date("1996-01-02")
+    // slider.insert("g", ".track-overlay")
+    //     .attr("class", "ticks")
+    //     .attr("transform", "translate(0," + 18 + ")")
+    //     .selectAll("text")
+    //     .data(year_mag)
+    //     .enter()
+    //     .append("text")
+    //     .attr("x", d => x(new Date(d.date)))
+    //     .attr("y", 10)
+    //     .attr("text-anchor", "middle")
+    //     .text(function(d) { return formatDate(new Date(d.date));});
+
+    // var handle = slider.insert("circle", ".track-overlay")
+    //         .attr("class", "handle")
+    //         .attr("r", 9)
+    //         .attr("cx", x(startDate));
+
+    // var label = slider.append("text")
+    //         .attr("class", "label")
+    //         .attr("text-anchor", "middle")
+    //         .text(formatDate(startDate))
+    //         .attr("transform", "translate(0," + (-15) + ")")
+    //         .attr("x", x(startDate))
+
+    // function slider_update(h) {
+    //     in_focus_view = true;
+    //     let year = formatDate(h);
+    //     year = year.slice(4,);
+    //     // update position and text of label according to slider scale
+    //     handle.attr("cx", x(h));
+    //     label.attr("x", x(h))
+    //         .text(formatDate(h));
+
+    //     // update spikes
+    //     mapsvg.selectAll('.spikes').transition().duration(500).style('opacity', 0);
+    //     mapsvg.selectAll('.year'+year).transition().duration(500).style('opacity', 1);
+    // }
+
+    // streamsvg.selectAll("mylayers")
+    //         .data(series)
+    //         .enter()
+    //         .append("path")
+    //         .attr("class", "myArea")
+    //         .style("fill", function(d) { return color(d.key); })
+    //         .attr("d", area)
+    //         .on("mouseenter", mouseenter)
+    //         .on("mouseleave", mouseleave)
+
+    // streamsvg.append("text")
+    //         .attr("x", stream_width-290)
+    //         .attr("y", stream_height-30)
+    //         .attr('class', 'titals')
+    //         .text(function(d) { return "Different magnitude earthquake occurance over time"; });
+
+    // streamsvg.on('click', function clicked(event, d) {
+    //     in_focus_view = false;
+    //     let [cur_x, cur_y] = d3.mouse(this);
+    //     if (cur_y < 200) {
+    //         mapsvg.selectAll('.spikes').transition().duration(500).style('opacity', 1);
+    //     }
+    // })
+}
+        </script>
+    </body>
+</html>
