@@ -101,23 +101,32 @@ text {
     width: 920px;
     height: 80px;
     border: 1px solid #ccc;
-    border-radius: 16px;
+    border-radius: 4px;
     padding: 20px;
     position: relative;
     margin-bottom: 15px;
+    background-color: black;
 }
-
+#narration-text {
+    color: white;
+}
 
 #forward-button {
     position: absolute;
     right: 0;
     bottom: 0;
+    background: black;
+    border: black;
+    color: white;
 }
 
 #backward-button {
     position: absolute;
     left: 0;
     bottom: 0;
+    background: black;
+    border: black;
+    color: white;
 }
 
 label {
@@ -233,7 +242,7 @@ const narration = ['It has been over a year since the corona virus breakout in t
                    'The line plot below plots the daily country average SO2 index. The shaded area demonstrates the 2018-2020 three year daily high and low SO2 index. We can clearly observe that the country average SO2 index is at three year low in the majority of days.',
                    'We can observe that, before California issued stay-at-home order March 9, 2020, the SO2 index stayed in the middle part of the three year range. However, after the stay-at-home order has been issued, the 2020\'s SO2 index quickly dropped and almost consistently stayed at the bottom all the way until October.  It\'s worth mentioning that California had its worst wild fire in history in 2020, which is probably the cause of the bad air quality after October.',
                    'We can better observe the impact of people staying at home on SO2 index with the "relative display mode". Which displays the relative difference of 2020\'s SO2 index and previous reference year\'s.',
-                   'During the period of mid March (when most states issued stay-at-home order) and mid May (when most states lifted stay-at-home order), we can observe that most states were having better (average) SO2 index compare to the reference year of 2019. We can see that this remains true even for some states that didn\'t issue stay-at-home order, such as South Dakota, which probably indicate that people were consciously staying at home even when the government didn\'t issue the order',
+                   'During the period of mid March (when most states issued stay-at-home order) and mid May (when most states lifted stay-at-home order), we can observe that most states were having better (average) SO2 index compare to the reference year of 2019. We can see that this remains true even for some states that didn\'t issue stay-at-home order, such as South Dakota, which probably indicate that people were consciously staying at home even without the state government issuing the order.',
                    'Now you can go on and explore :)'
                 ];
 
