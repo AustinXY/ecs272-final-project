@@ -43061,1099 +43061,1099 @@ DATE,STATE,STATE_CODE,AQS_PARAMETER_DESC,DAILY_AQI_VALUE
 06/08/2018,New Jersey,34,PM2.5 - Local Conditions,37.4
 09/10/2018,New Jersey,34,PM2.5 - Local Conditions,14.571428571428571
 12/12/2018,New Jersey,34,PM2.5 - Local Conditions,66.76923076923077
-01/01/2020,country_total,00,PM2.5 - Local Conditions,24.46324108396153
-01/04/2020,country_total,00,PM2.5 - Local Conditions,24.034223153220932
-01/07/2020,country_total,00,PM2.5 - Local Conditions,21.475686399751698
-01/10/2020,country_total,00,PM2.5 - Local Conditions,27.910121853199726
-01/13/2020,country_total,00,PM2.5 - Local Conditions,26.243505264306748
-01/16/2020,country_total,00,PM2.5 - Local Conditions,24.425309110193435
-01/19/2020,country_total,00,PM2.5 - Local Conditions,21.73118151705505
-01/22/2020,country_total,00,PM2.5 - Local Conditions,34.79425610309848
-01/25/2020,country_total,00,PM2.5 - Local Conditions,23.33692780570226
-01/28/2020,country_total,00,PM2.5 - Local Conditions,21.47360972242622
-01/31/2020,country_total,00,PM2.5 - Local Conditions,35.894478622968144
-02/03/2020,country_total,00,PM2.5 - Local Conditions,23.969648715061318
-02/06/2020,country_total,00,PM2.5 - Local Conditions,20.226431773173566
-02/09/2020,country_total,00,PM2.5 - Local Conditions,26.57471834123165
-02/12/2020,country_total,00,PM2.5 - Local Conditions,26.65963912946931
-02/15/2020,country_total,00,PM2.5 - Local Conditions,23.733328345599908
-02/18/2020,country_total,00,PM2.5 - Local Conditions,28.48024852975159
-02/21/2020,country_total,00,PM2.5 - Local Conditions,27.489625750369537
-02/24/2020,country_total,00,PM2.5 - Local Conditions,28.270050670324164
-02/27/2020,country_total,00,PM2.5 - Local Conditions,16.798319798098234
-03/01/2020,country_total,00,PM2.5 - Local Conditions,23.776912306225732
-03/04/2020,country_total,00,PM2.5 - Local Conditions,19.089906597039878
-03/07/2020,country_total,00,PM2.5 - Local Conditions,21.525285760065948
-03/10/2020,country_total,00,PM2.5 - Local Conditions,25.831995753257
-03/13/2020,country_total,00,PM2.5 - Local Conditions,19.13979657292781
-03/16/2020,country_total,00,PM2.5 - Local Conditions,24.220557463561754
-03/19/2020,country_total,00,PM2.5 - Local Conditions,24.96603278654649
-03/22/2020,country_total,00,PM2.5 - Local Conditions,22.43736214279143
-03/25/2020,country_total,00,PM2.5 - Local Conditions,23.336465179891125
-03/28/2020,country_total,00,PM2.5 - Local Conditions,28.219425895746408
-03/31/2020,country_total,00,PM2.5 - Local Conditions,18.624963743224175
-04/03/2020,country_total,00,PM2.5 - Local Conditions,22.205124038450343
-04/06/2020,country_total,00,PM2.5 - Local Conditions,28.579002778482245
-04/09/2020,country_total,00,PM2.5 - Local Conditions,22.255278895998433
-04/12/2020,country_total,00,PM2.5 - Local Conditions,28.562848362243642
-04/15/2020,country_total,00,PM2.5 - Local Conditions,22.981124874217326
-04/18/2020,country_total,00,PM2.5 - Local Conditions,25.941936745193143
-04/21/2020,country_total,00,PM2.5 - Local Conditions,21.79673081223532
-04/24/2020,country_total,00,PM2.5 - Local Conditions,24.671381229314687
-04/27/2020,country_total,00,PM2.5 - Local Conditions,18.928219825137536
-04/30/2020,country_total,00,PM2.5 - Local Conditions,18.685671372999977
-05/03/2020,country_total,00,PM2.5 - Local Conditions,27.3876412648127
-05/06/2020,country_total,00,PM2.5 - Local Conditions,19.67797820450257
-05/09/2020,country_total,00,PM2.5 - Local Conditions,19.921261786191856
-05/12/2020,country_total,00,PM2.5 - Local Conditions,20.09913187106378
-05/15/2020,country_total,00,PM2.5 - Local Conditions,27.131161269688647
-05/18/2020,country_total,00,PM2.5 - Local Conditions,19.949843068035996
-05/21/2020,country_total,00,PM2.5 - Local Conditions,23.5897983329801
-05/24/2020,country_total,00,PM2.5 - Local Conditions,25.43500672843063
-05/27/2020,country_total,00,PM2.5 - Local Conditions,20.546417290476665
-05/30/2020,country_total,00,PM2.5 - Local Conditions,22.25882095595942
-06/02/2020,country_total,00,PM2.5 - Local Conditions,30.05145687147013
-06/05/2020,country_total,00,PM2.5 - Local Conditions,29.06648631403448
-06/08/2020,country_total,00,PM2.5 - Local Conditions,23.46680884203298
-06/11/2020,country_total,00,PM2.5 - Local Conditions,22.37321744649749
-06/14/2020,country_total,00,PM2.5 - Local Conditions,23.825746319380094
-06/17/2020,country_total,00,PM2.5 - Local Conditions,31.161590617545134
-06/20/2020,country_total,00,PM2.5 - Local Conditions,36.99391707691141
-06/23/2020,country_total,00,PM2.5 - Local Conditions,27.498548740772204
-06/26/2020,country_total,00,PM2.5 - Local Conditions,37.866936107311744
-06/29/2020,country_total,00,PM2.5 - Local Conditions,33.245158231175076
-07/02/2020,country_total,00,PM2.5 - Local Conditions,34.91652246368805
-07/05/2020,country_total,00,PM2.5 - Local Conditions,49.758579789574355
-07/08/2020,country_total,00,PM2.5 - Local Conditions,34.322927540217265
-07/11/2020,country_total,00,PM2.5 - Local Conditions,24.41136320801606
-07/14/2020,country_total,00,PM2.5 - Local Conditions,28.298530578456965
-07/17/2020,country_total,00,PM2.5 - Local Conditions,29.5993963855449
-07/20/2020,country_total,00,PM2.5 - Local Conditions,29.598683264318236
-07/23/2020,country_total,00,PM2.5 - Local Conditions,23.17682840270679
-07/26/2020,country_total,00,PM2.5 - Local Conditions,27.589594374934727
-07/29/2020,country_total,00,PM2.5 - Local Conditions,26.72218775368489
-08/01/2020,country_total,00,PM2.5 - Local Conditions,29.79070830564757
-08/04/2020,country_total,00,PM2.5 - Local Conditions,26.382545134549872
-08/07/2020,country_total,00,PM2.5 - Local Conditions,30.961218013464748
-08/10/2020,country_total,00,PM2.5 - Local Conditions,34.24045486833851
-08/13/2020,country_total,00,PM2.5 - Local Conditions,32.46221545054407
-08/16/2020,country_total,00,PM2.5 - Local Conditions,29.345354137153187
-08/19/2020,country_total,00,PM2.5 - Local Conditions,32.54397219255229
-08/22/2020,country_total,00,PM2.5 - Local Conditions,41.45419077372988
-08/25/2020,country_total,00,PM2.5 - Local Conditions,41.96804182433539
-08/28/2020,country_total,00,PM2.5 - Local Conditions,32.16110357954007
-08/31/2020,country_total,00,PM2.5 - Local Conditions,25.53054088213643
-09/03/2020,country_total,00,PM2.5 - Local Conditions,34.76698478344337
-09/06/2020,country_total,00,PM2.5 - Local Conditions,34.60080219842863
-09/09/2020,country_total,00,PM2.5 - Local Conditions,26.354766315801687
-09/12/2020,country_total,00,PM2.5 - Local Conditions,33.9434807776309
-10/03/2020,country_total,00,PM2.5 - Local Conditions,31.12941525657442
-10/06/2020,country_total,00,PM2.5 - Local Conditions,37.80716544187505
-10/09/2020,country_total,00,PM2.5 - Local Conditions,39.14223309597626
-10/12/2020,country_total,00,PM2.5 - Local Conditions,19.468357668579124
-10/15/2020,country_total,00,PM2.5 - Local Conditions,25.338290447326603
-10/18/2020,country_total,00,PM2.5 - Local Conditions,27.328918632693757
-10/21/2020,country_total,00,PM2.5 - Local Conditions,29.152016455171417
-10/24/2020,country_total,00,PM2.5 - Local Conditions,22.821643306896128
-10/27/2020,country_total,00,PM2.5 - Local Conditions,27.70670865704463
-10/30/2020,country_total,00,PM2.5 - Local Conditions,22.903333901337742
-11/02/2020,country_total,00,PM2.5 - Local Conditions,22.13634326434287
-11/05/2020,country_total,00,PM2.5 - Local Conditions,38.06105118004965
-11/08/2020,country_total,00,PM2.5 - Local Conditions,38.426874893853046
-11/11/2020,country_total,00,PM2.5 - Local Conditions,21.916989600717923
-11/14/2020,country_total,00,PM2.5 - Local Conditions,32.60006071340957
-11/17/2020,country_total,00,PM2.5 - Local Conditions,21.85208983162639
-11/20/2020,country_total,00,PM2.5 - Local Conditions,34.4979070574644
-11/23/2020,country_total,00,PM2.5 - Local Conditions,26.370376263069772
-11/26/2020,country_total,00,PM2.5 - Local Conditions,25.24457291127513
-11/29/2020,country_total,00,PM2.5 - Local Conditions,30.320735873431786
-09/21/2020,country_total,00,PM2.5 - Local Conditions,31.715565089416664
-09/24/2020,country_total,00,PM2.5 - Local Conditions,38.201988433732026
-09/26/2020,country_total,00,PM2.5 - Local Conditions,32.251742246664996
-09/30/2020,country_total,00,PM2.5 - Local Conditions,24.380264883194
-09/15/2020,country_total,00,PM2.5 - Local Conditions,32.94599370767727
-09/18/2020,country_total,00,PM2.5 - Local Conditions,38.41332792378944
-09/27/2020,country_total,00,PM2.5 - Local Conditions,25.105761309281938
-05/29/2020,country_total,00,PM2.5 - Local Conditions,22.07174269256281
-10/13/2020,country_total,00,PM2.5 - Local Conditions,21.148499044032533
-11/03/2020,country_total,00,PM2.5 - Local Conditions,31.162918772359212
-11/24/2020,country_total,00,PM2.5 - Local Conditions,28.0889270441126
-12/02/2020,country_total,00,PM2.5 - Local Conditions,25.252677246415526
-12/05/2020,country_total,00,PM2.5 - Local Conditions,33.32509052622543
-12/08/2020,country_total,00,PM2.5 - Local Conditions,33.34111027707828
-12/11/2020,country_total,00,PM2.5 - Local Conditions,43.5454885268943
-12/15/2020,country_total,00,PM2.5 - Local Conditions,26.054308107038583
-12/17/2020,country_total,00,PM2.5 - Local Conditions,34.21706157541907
-12/20/2020,country_total,00,PM2.5 - Local Conditions,39.71878424599774
-12/23/2020,country_total,00,PM2.5 - Local Conditions,24.353265192527253
-12/29/2020,country_total,00,PM2.5 - Local Conditions,28.340845047702594
-01/02/2020,country_total,00,PM2.5 - Local Conditions,26.171319217047746
-01/03/2020,country_total,00,PM2.5 - Local Conditions,28.950329221886673
-01/05/2020,country_total,00,PM2.5 - Local Conditions,19.133946854167277
-01/06/2020,country_total,00,PM2.5 - Local Conditions,21.31400226756747
-01/08/2020,country_total,00,PM2.5 - Local Conditions,22.117093567278328
-01/09/2020,country_total,00,PM2.5 - Local Conditions,25.319460285627734
-01/11/2020,country_total,00,PM2.5 - Local Conditions,21.608541613232326
-01/12/2020,country_total,00,PM2.5 - Local Conditions,19.313807048328165
-01/14/2020,country_total,00,PM2.5 - Local Conditions,31.914245036209167
-01/15/2020,country_total,00,PM2.5 - Local Conditions,32.47590505343089
-01/17/2020,country_total,00,PM2.5 - Local Conditions,21.302390976160815
-01/18/2020,country_total,00,PM2.5 - Local Conditions,22.885657596047963
-01/20/2020,country_total,00,PM2.5 - Local Conditions,26.52960871466432
-01/24/2020,country_total,00,PM2.5 - Local Conditions,34.731762260407585
-01/26/2020,country_total,00,PM2.5 - Local Conditions,24.93742413541744
-01/27/2020,country_total,00,PM2.5 - Local Conditions,25.77578593546786
-01/29/2020,country_total,00,PM2.5 - Local Conditions,25.30354543582891
-01/30/2020,country_total,00,PM2.5 - Local Conditions,32.28771471426319
-02/01/2020,country_total,00,PM2.5 - Local Conditions,35.697549282824156
-02/02/2020,country_total,00,PM2.5 - Local Conditions,25.03560849519893
-02/04/2020,country_total,00,PM2.5 - Local Conditions,24.173476107805346
-02/05/2020,country_total,00,PM2.5 - Local Conditions,20.37403138994522
-02/07/2020,country_total,00,PM2.5 - Local Conditions,20.539320495952797
-02/08/2020,country_total,00,PM2.5 - Local Conditions,25.66292091373587
-02/10/2020,country_total,00,PM2.5 - Local Conditions,27.631423318145547
-02/11/2020,country_total,00,PM2.5 - Local Conditions,26.837109042839213
-02/13/2020,country_total,00,PM2.5 - Local Conditions,22.44166855610099
-02/14/2020,country_total,00,PM2.5 - Local Conditions,22.911302757867027
-02/16/2020,country_total,00,PM2.5 - Local Conditions,30.961757066517528
-02/17/2020,country_total,00,PM2.5 - Local Conditions,33.61628863285599
-02/19/2020,country_total,00,PM2.5 - Local Conditions,24.64292042344827
-02/20/2020,country_total,00,PM2.5 - Local Conditions,23.48705679893928
-02/22/2020,country_total,00,PM2.5 - Local Conditions,31.650624253057785
-02/23/2020,country_total,00,PM2.5 - Local Conditions,33.51118425034281
-02/25/2020,country_total,00,PM2.5 - Local Conditions,25.616168529934257
-02/26/2020,country_total,00,PM2.5 - Local Conditions,22.014091016108537
-02/28/2020,country_total,00,PM2.5 - Local Conditions,22.772378098147357
-02/29/2020,country_total,00,PM2.5 - Local Conditions,24.203674373702142
-03/02/2020,country_total,00,PM2.5 - Local Conditions,28.780931151057548
-03/03/2020,country_total,00,PM2.5 - Local Conditions,28.939576112365952
-03/05/2020,country_total,00,PM2.5 - Local Conditions,21.544637619986627
-03/06/2020,country_total,00,PM2.5 - Local Conditions,22.63661651855376
-03/08/2020,country_total,00,PM2.5 - Local Conditions,27.88469286872746
-03/09/2020,country_total,00,PM2.5 - Local Conditions,28.63586855864054
-03/11/2020,country_total,00,PM2.5 - Local Conditions,26.246063067730923
-03/12/2020,country_total,00,PM2.5 - Local Conditions,28.663347522655314
-03/14/2020,country_total,00,PM2.5 - Local Conditions,18.86839350707331
-03/15/2020,country_total,00,PM2.5 - Local Conditions,21.60973353416755
-03/17/2020,country_total,00,PM2.5 - Local Conditions,26.113184962489946
-03/18/2020,country_total,00,PM2.5 - Local Conditions,28.316249755406677
-03/20/2020,country_total,00,PM2.5 - Local Conditions,23.15343780248892
-03/21/2020,country_total,00,PM2.5 - Local Conditions,19.09547423984612
-03/23/2020,country_total,00,PM2.5 - Local Conditions,21.909818902675664
-03/24/2020,country_total,00,PM2.5 - Local Conditions,23.72756025779848
-03/26/2020,country_total,00,PM2.5 - Local Conditions,27.196671530171045
-03/27/2020,country_total,00,PM2.5 - Local Conditions,32.59660295937872
-03/29/2020,country_total,00,PM2.5 - Local Conditions,20.60340896236964
-03/30/2020,country_total,00,PM2.5 - Local Conditions,19.108638626979452
-04/01/2020,country_total,00,PM2.5 - Local Conditions,21.18251534468498
-04/02/2020,country_total,00,PM2.5 - Local Conditions,21.195229199793165
-04/04/2020,country_total,00,PM2.5 - Local Conditions,25.322344671457447
-04/05/2020,country_total,00,PM2.5 - Local Conditions,29.742823105663042
-04/07/2020,country_total,00,PM2.5 - Local Conditions,31.110884508519703
-04/08/2020,country_total,00,PM2.5 - Local Conditions,29.180336456871306
-04/10/2020,country_total,00,PM2.5 - Local Conditions,19.856372330593818
-04/11/2020,country_total,00,PM2.5 - Local Conditions,27.67108013203486
-04/13/2020,country_total,00,PM2.5 - Local Conditions,20.289967539283296
-04/14/2020,country_total,00,PM2.5 - Local Conditions,20.583724193996456
-04/16/2020,country_total,00,PM2.5 - Local Conditions,25.546324415069115
-04/17/2020,country_total,00,PM2.5 - Local Conditions,29.775321956789508
-04/19/2020,country_total,00,PM2.5 - Local Conditions,26.49244255294928
-04/20/2020,country_total,00,PM2.5 - Local Conditions,23.089260936477615
-04/22/2020,country_total,00,PM2.5 - Local Conditions,22.154639426874784
-04/23/2020,country_total,00,PM2.5 - Local Conditions,25.089508824249485
-04/25/2020,country_total,00,PM2.5 - Local Conditions,25.972441357523223
-04/26/2020,country_total,00,PM2.5 - Local Conditions,19.691086068422226
-04/28/2020,country_total,00,PM2.5 - Local Conditions,24.69147667325852
-04/29/2020,country_total,00,PM2.5 - Local Conditions,20.996248097130827
-05/01/2020,country_total,00,PM2.5 - Local Conditions,21.302828145817685
-05/02/2020,country_total,00,PM2.5 - Local Conditions,24.734309262777355
-05/04/2020,country_total,00,PM2.5 - Local Conditions,20.61790123534571
-05/05/2020,country_total,00,PM2.5 - Local Conditions,20.944412918179815
-05/07/2020,country_total,00,PM2.5 - Local Conditions,22.01115866038478
-05/08/2020,country_total,00,PM2.5 - Local Conditions,21.691888807888397
-05/10/2020,country_total,00,PM2.5 - Local Conditions,20.283024926289922
-05/11/2020,country_total,00,PM2.5 - Local Conditions,19.531890405868094
-05/13/2020,country_total,00,PM2.5 - Local Conditions,23.740061105560542
-05/14/2020,country_total,00,PM2.5 - Local Conditions,26.922243347828832
-05/16/2020,country_total,00,PM2.5 - Local Conditions,23.163423906800407
-05/17/2020,country_total,00,PM2.5 - Local Conditions,21.740017528056992
-05/19/2020,country_total,00,PM2.5 - Local Conditions,20.412421973589787
-05/20/2020,country_total,00,PM2.5 - Local Conditions,19.942720831416036
-05/22/2020,country_total,00,PM2.5 - Local Conditions,24.784035658943214
-05/23/2020,country_total,00,PM2.5 - Local Conditions,24.337409976660908
-05/25/2020,country_total,00,PM2.5 - Local Conditions,22.6479861884797
-05/26/2020,country_total,00,PM2.5 - Local Conditions,21.868532653024335
-05/28/2020,country_total,00,PM2.5 - Local Conditions,19.26650043534025
-05/31/2020,country_total,00,PM2.5 - Local Conditions,20.820920697341386
-06/01/2020,country_total,00,PM2.5 - Local Conditions,22.740475325681555
-06/03/2020,country_total,00,PM2.5 - Local Conditions,32.45113510712335
-06/04/2020,country_total,00,PM2.5 - Local Conditions,30.975758561389206
-06/06/2020,country_total,00,PM2.5 - Local Conditions,26.53786641149494
-06/07/2020,country_total,00,PM2.5 - Local Conditions,22.188301325843863
-06/09/2020,country_total,00,PM2.5 - Local Conditions,27.247182754358352
-06/10/2020,country_total,00,PM2.5 - Local Conditions,26.28529144496647
-06/12/2020,country_total,00,PM2.5 - Local Conditions,23.012219939019857
-06/13/2020,country_total,00,PM2.5 - Local Conditions,22.479617973898538
-06/15/2020,country_total,00,PM2.5 - Local Conditions,25.436810233947682
-06/16/2020,country_total,00,PM2.5 - Local Conditions,28.39844372423561
-06/18/2020,country_total,00,PM2.5 - Local Conditions,30.83815951052637
-06/19/2020,country_total,00,PM2.5 - Local Conditions,34.85776624076677
-06/21/2020,country_total,00,PM2.5 - Local Conditions,30.999739044483764
-06/22/2020,country_total,00,PM2.5 - Local Conditions,25.373763423044903
-06/24/2020,country_total,00,PM2.5 - Local Conditions,29.383516858789534
-06/25/2020,country_total,00,PM2.5 - Local Conditions,29.477286148794388
-06/27/2020,country_total,00,PM2.5 - Local Conditions,44.493659487112396
-06/28/2020,country_total,00,PM2.5 - Local Conditions,37.07906784615247
-06/30/2020,country_total,00,PM2.5 - Local Conditions,29.583580091582622
-07/01/2020,country_total,00,PM2.5 - Local Conditions,27.56856295385726
-07/03/2020,country_total,00,PM2.5 - Local Conditions,38.63534538371599
-07/04/2020,country_total,00,PM2.5 - Local Conditions,53.69412919485938
-07/06/2020,country_total,00,PM2.5 - Local Conditions,34.461947157991204
-07/07/2020,country_total,00,PM2.5 - Local Conditions,31.921916242489154
-07/09/2020,country_total,00,PM2.5 - Local Conditions,32.070583756983154
-07/10/2020,country_total,00,PM2.5 - Local Conditions,26.013646169840285
-07/12/2020,country_total,00,PM2.5 - Local Conditions,23.32918637918271
-07/13/2020,country_total,00,PM2.5 - Local Conditions,25.926865343209617
-07/15/2020,country_total,00,PM2.5 - Local Conditions,29.56973989982928
-07/16/2020,country_total,00,PM2.5 - Local Conditions,27.926369800220357
-07/18/2020,country_total,00,PM2.5 - Local Conditions,32.53686051691488
-07/19/2020,country_total,00,PM2.5 - Local Conditions,31.952924628911987
-07/21/2020,country_total,00,PM2.5 - Local Conditions,25.93312820585235
-07/22/2020,country_total,00,PM2.5 - Local Conditions,24.666834549827296
-07/24/2020,country_total,00,PM2.5 - Local Conditions,23.93997005291004
-07/25/2020,country_total,00,PM2.5 - Local Conditions,26.66051014223872
-07/27/2020,country_total,00,PM2.5 - Local Conditions,26.558488566588988
-07/28/2020,country_total,00,PM2.5 - Local Conditions,24.955796120796407
-07/30/2020,country_total,00,PM2.5 - Local Conditions,32.26000019348128
-07/31/2020,country_total,00,PM2.5 - Local Conditions,27.95093912254446
-08/02/2020,country_total,00,PM2.5 - Local Conditions,28.25008284329823
-08/03/2020,country_total,00,PM2.5 - Local Conditions,26.553103369363924
-08/05/2020,country_total,00,PM2.5 - Local Conditions,29.474187834370902
-08/06/2020,country_total,00,PM2.5 - Local Conditions,29.945852471181496
-08/08/2020,country_total,00,PM2.5 - Local Conditions,33.580841942148446
-08/09/2020,country_total,00,PM2.5 - Local Conditions,35.66701163620573
-08/11/2020,country_total,00,PM2.5 - Local Conditions,34.46633389667946
-08/12/2020,country_total,00,PM2.5 - Local Conditions,29.778882397908262
-08/14/2020,country_total,00,PM2.5 - Local Conditions,31.641221650726195
-08/15/2020,country_total,00,PM2.5 - Local Conditions,30.611248779618524
-08/17/2020,country_total,00,PM2.5 - Local Conditions,29.81698692696697
-08/18/2020,country_total,00,PM2.5 - Local Conditions,31.134410765455442
-08/20/2020,country_total,00,PM2.5 - Local Conditions,34.422553591386105
-08/21/2020,country_total,00,PM2.5 - Local Conditions,40.87036899674086
-08/23/2020,country_total,00,PM2.5 - Local Conditions,42.46100471449561
-08/24/2020,country_total,00,PM2.5 - Local Conditions,42.47565672920601
-08/26/2020,country_total,00,PM2.5 - Local Conditions,35.63435105871057
-08/27/2020,country_total,00,PM2.5 - Local Conditions,35.102475400437534
-08/29/2020,country_total,00,PM2.5 - Local Conditions,28.34527584003772
-08/30/2020,country_total,00,PM2.5 - Local Conditions,26.44427501889769
-09/01/2020,country_total,00,PM2.5 - Local Conditions,25.57322113934087
-09/02/2020,country_total,00,PM2.5 - Local Conditions,29.856005273981133
-09/04/2020,country_total,00,PM2.5 - Local Conditions,32.527983926418386
-09/05/2020,country_total,00,PM2.5 - Local Conditions,29.69108147417367
-09/07/2020,country_total,00,PM2.5 - Local Conditions,34.573043877129194
-09/08/2020,country_total,00,PM2.5 - Local Conditions,29.909716710139165
-09/10/2020,country_total,00,PM2.5 - Local Conditions,25.61167723431153
-09/11/2020,country_total,00,PM2.5 - Local Conditions,31.04756901366717
-09/13/2020,country_total,00,PM2.5 - Local Conditions,34.207924771124105
-09/14/2020,country_total,00,PM2.5 - Local Conditions,32.24039126217229
-09/16/2020,country_total,00,PM2.5 - Local Conditions,39.093137440855685
-09/17/2020,country_total,00,PM2.5 - Local Conditions,37.77892670492481
-09/19/2020,country_total,00,PM2.5 - Local Conditions,34.51653605344998
-09/20/2020,country_total,00,PM2.5 - Local Conditions,32.856425215701584
-09/25/2020,country_total,00,PM2.5 - Local Conditions,36.479192219956275
-09/28/2020,country_total,00,PM2.5 - Local Conditions,21.185711422058358
-09/29/2020,country_total,00,PM2.5 - Local Conditions,20.638994907613874
-10/01/2020,country_total,00,PM2.5 - Local Conditions,23.803985144883924
-10/02/2020,country_total,00,PM2.5 - Local Conditions,26.54995774003057
-10/04/2020,country_total,00,PM2.5 - Local Conditions,33.78476820765551
-10/05/2020,country_total,00,PM2.5 - Local Conditions,34.1693231330605
-10/07/2020,country_total,00,PM2.5 - Local Conditions,39.843819745276164
-10/08/2020,country_total,00,PM2.5 - Local Conditions,36.723870758736204
-10/10/2020,country_total,00,PM2.5 - Local Conditions,36.02965828751213
-10/11/2020,country_total,00,PM2.5 - Local Conditions,25.268584072798653
-10/14/2020,country_total,00,PM2.5 - Local Conditions,24.642408772626123
-10/16/2020,country_total,00,PM2.5 - Local Conditions,22.411437335126223
-10/17/2020,country_total,00,PM2.5 - Local Conditions,24.844890239153788
-10/19/2020,country_total,00,PM2.5 - Local Conditions,28.829136367940986
-10/20/2020,country_total,00,PM2.5 - Local Conditions,29.168653870645198
-10/22/2020,country_total,00,PM2.5 - Local Conditions,29.40529200488707
-10/23/2020,country_total,00,PM2.5 - Local Conditions,25.905762351897504
-10/25/2020,country_total,00,PM2.5 - Local Conditions,21.834797618253805
-10/26/2020,country_total,00,PM2.5 - Local Conditions,25.74407448525305
-10/28/2020,country_total,00,PM2.5 - Local Conditions,29.237076427098835
-10/29/2020,country_total,00,PM2.5 - Local Conditions,22.921176568044945
-10/31/2020,country_total,00,PM2.5 - Local Conditions,29.45492209280021
-11/01/2020,country_total,00,PM2.5 - Local Conditions,26.18292518582995
-11/04/2020,country_total,00,PM2.5 - Local Conditions,34.964610650513244
-11/06/2020,country_total,00,PM2.5 - Local Conditions,41.15939205183691
-11/07/2020,country_total,00,PM2.5 - Local Conditions,43.033549526668025
-11/09/2020,country_total,00,PM2.5 - Local Conditions,31.16308661495017
-11/10/2020,country_total,00,PM2.5 - Local Conditions,26.263050285206823
-11/12/2020,country_total,00,PM2.5 - Local Conditions,27.373126143623566
-11/13/2020,country_total,00,PM2.5 - Local Conditions,29.254257420456085
-11/15/2020,country_total,00,PM2.5 - Local Conditions,25.58081066983
-11/16/2020,country_total,00,PM2.5 - Local Conditions,20.43334247951765
-11/18/2020,country_total,00,PM2.5 - Local Conditions,23.21290638240321
-11/19/2020,country_total,00,PM2.5 - Local Conditions,28.99875236877038
-11/21/2020,country_total,00,PM2.5 - Local Conditions,39.28279217487036
-11/22/2020,country_total,00,PM2.5 - Local Conditions,32.6485210379012
-11/25/2020,country_total,00,PM2.5 - Local Conditions,27.861224963796996
-11/27/2020,country_total,00,PM2.5 - Local Conditions,28.35631364570389
-11/28/2020,country_total,00,PM2.5 - Local Conditions,29.984862164184516
-11/30/2020,country_total,00,PM2.5 - Local Conditions,21.462158863390254
-12/01/2020,country_total,00,PM2.5 - Local Conditions,20.91865984792669
-12/03/2020,country_total,00,PM2.5 - Local Conditions,29.696094884818578
-12/04/2020,country_total,00,PM2.5 - Local Conditions,31.827824135545338
-12/06/2020,country_total,00,PM2.5 - Local Conditions,31.89362876171113
-12/07/2020,country_total,00,PM2.5 - Local Conditions,30.86587475860308
-12/09/2020,country_total,00,PM2.5 - Local Conditions,41.24193084305592
-12/10/2020,country_total,00,PM2.5 - Local Conditions,44.524394862732464
-12/12/2020,country_total,00,PM2.5 - Local Conditions,36.38685741845463
-12/13/2020,country_total,00,PM2.5 - Local Conditions,28.75780307878565
-12/14/2020,country_total,00,PM2.5 - Local Conditions,24.747553408473202
-12/16/2020,country_total,00,PM2.5 - Local Conditions,28.840802374822555
-12/18/2020,country_total,00,PM2.5 - Local Conditions,36.84862318534446
-12/19/2020,country_total,00,PM2.5 - Local Conditions,39.15962701760798
-12/21/2020,country_total,00,PM2.5 - Local Conditions,36.79125426144956
-12/22/2020,country_total,00,PM2.5 - Local Conditions,28.018485999326508
-12/24/2020,country_total,00,PM2.5 - Local Conditions,22.705519779051606
-12/25/2020,country_total,00,PM2.5 - Local Conditions,22.550655836775057
-12/26/2020,country_total,00,PM2.5 - Local Conditions,26.561544786667554
-12/27/2020,country_total,00,PM2.5 - Local Conditions,31.851649083068622
-12/28/2020,country_total,00,PM2.5 - Local Conditions,30.12140439676713
-12/30/2020,country_total,00,PM2.5 - Local Conditions,27.764188910083632
-12/31/2020,country_total,00,PM2.5 - Local Conditions,33.47102242103771
-01/21/2020,country_total,00,PM2.5 - Local Conditions,32.579022953779514
-01/23/2020,country_total,00,PM2.5 - Local Conditions,40.51062890043163
-09/22/2020,country_total,00,PM2.5 - Local Conditions,33.711324560248045
-09/23/2020,country_total,00,PM2.5 - Local Conditions,36.22558758150837
-01/03/2019,country_total,00,PM2.5 - Local Conditions,28.387253356974785
-01/06/2019,country_total,00,PM2.5 - Local Conditions,26.237245373526083
-01/09/2019,country_total,00,PM2.5 - Local Conditions,18.228476879278993
-01/12/2019,country_total,00,PM2.5 - Local Conditions,32.040175561917714
-01/15/2019,country_total,00,PM2.5 - Local Conditions,38.123529545168886
-01/24/2019,country_total,00,PM2.5 - Local Conditions,24.682539133509707
-01/27/2019,country_total,00,PM2.5 - Local Conditions,34.49419854969699
-01/30/2019,country_total,00,PM2.5 - Local Conditions,23.63780893205146
-02/02/2019,country_total,00,PM2.5 - Local Conditions,45.25182967200981
-02/05/2019,country_total,00,PM2.5 - Local Conditions,32.149700467587046
-02/08/2019,country_total,00,PM2.5 - Local Conditions,20.06975799766655
-02/14/2019,country_total,00,PM2.5 - Local Conditions,24.235584688327553
-02/17/2019,country_total,00,PM2.5 - Local Conditions,25.480447139093492
-02/20/2019,country_total,00,PM2.5 - Local Conditions,26.56366888306873
-02/23/2019,country_total,00,PM2.5 - Local Conditions,33.732550019711006
-02/26/2019,country_total,00,PM2.5 - Local Conditions,24.65796804913734
-03/01/2019,country_total,00,PM2.5 - Local Conditions,34.67321175068409
-03/04/2019,country_total,00,PM2.5 - Local Conditions,25.905596898200656
-03/07/2019,country_total,00,PM2.5 - Local Conditions,33.033913224514876
-03/10/2019,country_total,00,PM2.5 - Local Conditions,25.415919447443173
-03/13/2019,country_total,00,PM2.5 - Local Conditions,25.4179505502235
-03/16/2019,country_total,00,PM2.5 - Local Conditions,16.74641677211186
-03/19/2019,country_total,00,PM2.5 - Local Conditions,30.53296777438421
-03/22/2019,country_total,00,PM2.5 - Local Conditions,20.764446157260178
-03/25/2019,country_total,00,PM2.5 - Local Conditions,28.680508612207674
-03/28/2019,country_total,00,PM2.5 - Local Conditions,28.80063191329429
-04/03/2019,country_total,00,PM2.5 - Local Conditions,27.599795142456674
-04/09/2019,country_total,00,PM2.5 - Local Conditions,19.657956147405457
-04/12/2019,country_total,00,PM2.5 - Local Conditions,19.72538043047852
-04/15/2019,country_total,00,PM2.5 - Local Conditions,16.168478669808156
-04/21/2019,country_total,00,PM2.5 - Local Conditions,18.930660145140642
-04/24/2019,country_total,00,PM2.5 - Local Conditions,23.140397069439533
-04/27/2019,country_total,00,PM2.5 - Local Conditions,18.883816512156198
-04/30/2019,country_total,00,PM2.5 - Local Conditions,27.187241943434074
-05/03/2019,country_total,00,PM2.5 - Local Conditions,23.915896997729043
-05/06/2019,country_total,00,PM2.5 - Local Conditions,20.20739575952254
-05/12/2019,country_total,00,PM2.5 - Local Conditions,16.772135191748735
-05/15/2019,country_total,00,PM2.5 - Local Conditions,26.091351044201406
-05/18/2019,country_total,00,PM2.5 - Local Conditions,26.721259372030655
-05/21/2019,country_total,00,PM2.5 - Local Conditions,17.807484345882308
-05/24/2019,country_total,00,PM2.5 - Local Conditions,24.15787884330011
-05/27/2019,country_total,00,PM2.5 - Local Conditions,26.10381600173281
-06/02/2019,country_total,00,PM2.5 - Local Conditions,34.13228512180897
-06/05/2019,country_total,00,PM2.5 - Local Conditions,36.001673919383826
-06/08/2019,country_total,00,PM2.5 - Local Conditions,27.04098364239272
-06/11/2019,country_total,00,PM2.5 - Local Conditions,21.140409400159438
-06/14/2019,country_total,00,PM2.5 - Local Conditions,21.62091768762619
-06/17/2019,country_total,00,PM2.5 - Local Conditions,25.90294578746141
-06/20/2019,country_total,00,PM2.5 - Local Conditions,25.377909828621906
-06/23/2019,country_total,00,PM2.5 - Local Conditions,24.738043038575352
-06/26/2019,country_total,00,PM2.5 - Local Conditions,30.637946395663803
-06/29/2019,country_total,00,PM2.5 - Local Conditions,35.637851498664354
-07/02/2019,country_total,00,PM2.5 - Local Conditions,32.794062975968664
-07/05/2019,country_total,00,PM2.5 - Local Conditions,40.78427264242453
-07/08/2019,country_total,00,PM2.5 - Local Conditions,33.70017500843357
-07/11/2019,country_total,00,PM2.5 - Local Conditions,29.083881141095993
-07/14/2019,country_total,00,PM2.5 - Local Conditions,31.773562338254013
-07/17/2019,country_total,00,PM2.5 - Local Conditions,31.734599599541568
-07/20/2019,country_total,00,PM2.5 - Local Conditions,33.504904478582276
-07/23/2019,country_total,00,PM2.5 - Local Conditions,24.75029519585758
-07/26/2019,country_total,00,PM2.5 - Local Conditions,37.732809453970226
-07/29/2019,country_total,00,PM2.5 - Local Conditions,37.035738224799836
-08/01/2019,country_total,00,PM2.5 - Local Conditions,28.931480273408607
-08/04/2019,country_total,00,PM2.5 - Local Conditions,31.523939137586662
-08/07/2019,country_total,00,PM2.5 - Local Conditions,31.469158871500433
-08/10/2019,country_total,00,PM2.5 - Local Conditions,25.87945826474787
-08/13/2019,country_total,00,PM2.5 - Local Conditions,31.275680721575704
-08/16/2019,country_total,00,PM2.5 - Local Conditions,29.58394565191102
-08/19/2019,country_total,00,PM2.5 - Local Conditions,28.482486755119748
-08/22/2019,country_total,00,PM2.5 - Local Conditions,25.767859065703387
-08/25/2019,country_total,00,PM2.5 - Local Conditions,22.40175190192764
-08/28/2019,country_total,00,PM2.5 - Local Conditions,20.769444726924597
-08/31/2019,country_total,00,PM2.5 - Local Conditions,28.193311841019277
-09/03/2019,country_total,00,PM2.5 - Local Conditions,29.03068280993716
-09/06/2019,country_total,00,PM2.5 - Local Conditions,27.43953972342027
-09/09/2019,country_total,00,PM2.5 - Local Conditions,29.343159326861485
-09/12/2019,country_total,00,PM2.5 - Local Conditions,29.239988569471763
-09/15/2019,country_total,00,PM2.5 - Local Conditions,26.36483785699356
-09/18/2019,country_total,00,PM2.5 - Local Conditions,29.007304308118382
-09/21/2019,country_total,00,PM2.5 - Local Conditions,29.964106906642762
-09/24/2019,country_total,00,PM2.5 - Local Conditions,19.944903936664176
-09/27/2019,country_total,00,PM2.5 - Local Conditions,24.566223982264596
-09/30/2019,country_total,00,PM2.5 - Local Conditions,27.30299888722045
-10/03/2019,country_total,00,PM2.5 - Local Conditions,24.685235082490568
-10/06/2019,country_total,00,PM2.5 - Local Conditions,22.073345353373973
-10/09/2019,country_total,00,PM2.5 - Local Conditions,23.992035730236523
-10/12/2019,country_total,00,PM2.5 - Local Conditions,19.441806150213633
-10/15/2019,country_total,00,PM2.5 - Local Conditions,24.13723338499876
-10/18/2019,country_total,00,PM2.5 - Local Conditions,19.773724053473824
-10/21/2019,country_total,00,PM2.5 - Local Conditions,20.987734974980818
-10/24/2019,country_total,00,PM2.5 - Local Conditions,21.68805843365668
-10/27/2019,country_total,00,PM2.5 - Local Conditions,19.02935654912663
-10/30/2019,country_total,00,PM2.5 - Local Conditions,20.66393990350653
-11/08/2019,country_total,00,PM2.5 - Local Conditions,22.155490714381592
-11/11/2019,country_total,00,PM2.5 - Local Conditions,31.105670975561935
-11/14/2019,country_total,00,PM2.5 - Local Conditions,33.63438101493959
-11/17/2019,country_total,00,PM2.5 - Local Conditions,31.47984904716238
-11/20/2019,country_total,00,PM2.5 - Local Conditions,31.831308024272143
-11/23/2019,country_total,00,PM2.5 - Local Conditions,24.58180231283877
-11/26/2019,country_total,00,PM2.5 - Local Conditions,32.76094168469859
-11/29/2019,country_total,00,PM2.5 - Local Conditions,19.03444438226042
-12/02/2019,country_total,00,PM2.5 - Local Conditions,17.53425693742096
-12/14/2019,country_total,00,PM2.5 - Local Conditions,27.375575006767072
-12/17/2019,country_total,00,PM2.5 - Local Conditions,25.63764843951116
-12/20/2019,country_total,00,PM2.5 - Local Conditions,38.39532472089553
-12/26/2019,country_total,00,PM2.5 - Local Conditions,35.783987732475666
-12/29/2019,country_total,00,PM2.5 - Local Conditions,25.933043414863235
-01/18/2019,country_total,00,PM2.5 - Local Conditions,34.120697647459856
-01/21/2019,country_total,00,PM2.5 - Local Conditions,18.814173784227176
-02/11/2019,country_total,00,PM2.5 - Local Conditions,30.799786180506928
-04/06/2019,country_total,00,PM2.5 - Local Conditions,31.052268616178548
-04/18/2019,country_total,00,PM2.5 - Local Conditions,22.722504455437054
-05/30/2019,country_total,00,PM2.5 - Local Conditions,26.460057465203356
-11/05/2019,country_total,00,PM2.5 - Local Conditions,31.086950743811368
-03/31/2019,country_total,00,PM2.5 - Local Conditions,18.01363043100325
-05/09/2019,country_total,00,PM2.5 - Local Conditions,19.92531090171331
-11/02/2019,country_total,00,PM2.5 - Local Conditions,25.272043008247522
-12/08/2019,country_total,00,PM2.5 - Local Conditions,32.07573489275381
-12/23/2019,country_total,00,PM2.5 - Local Conditions,42.17528363203246
-12/05/2019,country_total,00,PM2.5 - Local Conditions,29.12246662065428
-12/11/2019,country_total,00,PM2.5 - Local Conditions,26.783284976109947
-01/01/2019,country_total,00,PM2.5 - Local Conditions,24.301508718611494
-01/02/2019,country_total,00,PM2.5 - Local Conditions,27.982102437323867
-01/04/2019,country_total,00,PM2.5 - Local Conditions,34.01679074614558
-01/05/2019,country_total,00,PM2.5 - Local Conditions,32.898932618065665
-01/07/2019,country_total,00,PM2.5 - Local Conditions,22.714255010133165
-01/08/2019,country_total,00,PM2.5 - Local Conditions,28.268836970428104
-01/10/2019,country_total,00,PM2.5 - Local Conditions,23.946937792032024
-01/11/2019,country_total,00,PM2.5 - Local Conditions,30.76786024078336
-01/13/2019,country_total,00,PM2.5 - Local Conditions,33.03829313778658
-01/14/2019,country_total,00,PM2.5 - Local Conditions,37.12409462383102
-01/16/2019,country_total,00,PM2.5 - Local Conditions,39.29232995095692
-01/17/2019,country_total,00,PM2.5 - Local Conditions,32.97185733114312
-01/19/2019,country_total,00,PM2.5 - Local Conditions,27.94102829771985
-01/20/2019,country_total,00,PM2.5 - Local Conditions,20.513682938502424
-01/22/2019,country_total,00,PM2.5 - Local Conditions,25.9626811995311
-01/23/2019,country_total,00,PM2.5 - Local Conditions,29.52007403919694
-01/25/2019,country_total,00,PM2.5 - Local Conditions,26.875903720457362
-01/26/2019,country_total,00,PM2.5 - Local Conditions,32.90048470723309
-01/28/2019,country_total,00,PM2.5 - Local Conditions,31.22093367343423
-01/29/2019,country_total,00,PM2.5 - Local Conditions,29.2766310499438
-01/31/2019,country_total,00,PM2.5 - Local Conditions,29.474090927537667
-02/01/2019,country_total,00,PM2.5 - Local Conditions,39.730442090285415
-02/03/2019,country_total,00,PM2.5 - Local Conditions,43.836657772587195
-02/04/2019,country_total,00,PM2.5 - Local Conditions,38.79977681088744
-02/06/2019,country_total,00,PM2.5 - Local Conditions,27.619893989768503
-02/07/2019,country_total,00,PM2.5 - Local Conditions,24.99816067537208
-02/09/2019,country_total,00,PM2.5 - Local Conditions,23.406192626063003
-02/10/2019,country_total,00,PM2.5 - Local Conditions,30.653714526120794
-02/12/2019,country_total,00,PM2.5 - Local Conditions,22.107553780284498
-02/13/2019,country_total,00,PM2.5 - Local Conditions,23.662276681797625
-02/15/2019,country_total,00,PM2.5 - Local Conditions,29.53845485795091
-02/16/2019,country_total,00,PM2.5 - Local Conditions,26.872342779579157
-02/18/2019,country_total,00,PM2.5 - Local Conditions,27.224896534604685
-02/19/2019,country_total,00,PM2.5 - Local Conditions,30.30150576459569
-02/21/2019,country_total,00,PM2.5 - Local Conditions,32.525212997123774
-02/22/2019,country_total,00,PM2.5 - Local Conditions,38.83822602486835
-02/24/2019,country_total,00,PM2.5 - Local Conditions,22.60043797940646
-02/25/2019,country_total,00,PM2.5 - Local Conditions,21.2465761618591
-02/27/2019,country_total,00,PM2.5 - Local Conditions,31.012295099475068
-02/28/2019,country_total,00,PM2.5 - Local Conditions,35.741569384725196
-03/02/2019,country_total,00,PM2.5 - Local Conditions,38.1641764078718
-03/03/2019,country_total,00,PM2.5 - Local Conditions,33.66265518023298
-03/05/2019,country_total,00,PM2.5 - Local Conditions,28.534739072837937
-03/06/2019,country_total,00,PM2.5 - Local Conditions,31.719075264177878
-03/08/2019,country_total,00,PM2.5 - Local Conditions,43.40426568754862
-03/09/2019,country_total,00,PM2.5 - Local Conditions,39.15620283371786
-03/11/2019,country_total,00,PM2.5 - Local Conditions,27.366614630268725
-03/12/2019,country_total,00,PM2.5 - Local Conditions,27.88603573457982
-03/14/2019,country_total,00,PM2.5 - Local Conditions,26.491273060390167
-03/15/2019,country_total,00,PM2.5 - Local Conditions,22.911407153195498
-03/17/2019,country_total,00,PM2.5 - Local Conditions,23.034558988044484
-03/18/2019,country_total,00,PM2.5 - Local Conditions,28.897478744402967
-03/20/2019,country_total,00,PM2.5 - Local Conditions,35.78457980961784
-03/21/2019,country_total,00,PM2.5 - Local Conditions,28.59774789276626
-03/23/2019,country_total,00,PM2.5 - Local Conditions,24.76401107413634
-03/24/2019,country_total,00,PM2.5 - Local Conditions,31.90711429841018
-03/26/2019,country_total,00,PM2.5 - Local Conditions,25.279327751236995
-03/27/2019,country_total,00,PM2.5 - Local Conditions,28.175098309327783
-03/29/2019,country_total,00,PM2.5 - Local Conditions,29.709443711302654
-03/30/2019,country_total,00,PM2.5 - Local Conditions,27.27386433116921
-04/01/2019,country_total,00,PM2.5 - Local Conditions,21.835205334696024
-04/02/2019,country_total,00,PM2.5 - Local Conditions,27.11258857600831
-04/04/2019,country_total,00,PM2.5 - Local Conditions,28.956773062114863
-04/05/2019,country_total,00,PM2.5 - Local Conditions,28.943041599211224
-04/07/2019,country_total,00,PM2.5 - Local Conditions,29.709165837176258
-04/08/2019,country_total,00,PM2.5 - Local Conditions,22.951899378193346
-04/10/2019,country_total,00,PM2.5 - Local Conditions,20.340449321718268
-04/11/2019,country_total,00,PM2.5 - Local Conditions,20.24798718254454
-04/13/2019,country_total,00,PM2.5 - Local Conditions,21.336216327513846
-04/14/2019,country_total,00,PM2.5 - Local Conditions,19.099201173455295
-04/16/2019,country_total,00,PM2.5 - Local Conditions,22.073956127476244
-04/17/2019,country_total,00,PM2.5 - Local Conditions,25.191868255042632
-04/19/2019,country_total,00,PM2.5 - Local Conditions,20.590057395116048
-04/20/2019,country_total,00,PM2.5 - Local Conditions,19.818575803137318
-04/22/2019,country_total,00,PM2.5 - Local Conditions,22.384601147352928
-04/23/2019,country_total,00,PM2.5 - Local Conditions,24.25181023162531
-04/25/2019,country_total,00,PM2.5 - Local Conditions,25.6713047349958
-04/26/2019,country_total,00,PM2.5 - Local Conditions,22.023008723943683
-04/28/2019,country_total,00,PM2.5 - Local Conditions,22.622982293519524
-04/29/2019,country_total,00,PM2.5 - Local Conditions,24.137714209220903
-05/01/2019,country_total,00,PM2.5 - Local Conditions,25.14364082049522
-05/02/2019,country_total,00,PM2.5 - Local Conditions,25.748167824090427
-05/05/2019,country_total,00,PM2.5 - Local Conditions,21.02598757682282
-05/07/2019,country_total,00,PM2.5 - Local Conditions,24.663723438981553
-05/08/2019,country_total,00,PM2.5 - Local Conditions,22.911946858998853
-05/10/2019,country_total,00,PM2.5 - Local Conditions,21.19586760532909
-05/11/2019,country_total,00,PM2.5 - Local Conditions,20.72953231496472
-05/13/2019,country_total,00,PM2.5 - Local Conditions,20.25734079595237
-05/14/2019,country_total,00,PM2.5 - Local Conditions,22.375690984246425
-05/16/2019,country_total,00,PM2.5 - Local Conditions,31.181639096123522
-05/17/2019,country_total,00,PM2.5 - Local Conditions,31.394310263841167
-05/19/2019,country_total,00,PM2.5 - Local Conditions,26.88791976966794
-05/20/2019,country_total,00,PM2.5 - Local Conditions,24.18754635645464
-05/22/2019,country_total,00,PM2.5 - Local Conditions,23.243036530095505
-05/23/2019,country_total,00,PM2.5 - Local Conditions,25.030115696589323
-05/25/2019,country_total,00,PM2.5 - Local Conditions,25.443732405462324
-05/26/2019,country_total,00,PM2.5 - Local Conditions,28.24976650458275
-05/28/2019,country_total,00,PM2.5 - Local Conditions,27.896398889681567
-05/29/2019,country_total,00,PM2.5 - Local Conditions,27.116282244337203
-05/31/2019,country_total,00,PM2.5 - Local Conditions,32.53663040404068
-06/04/2019,country_total,00,PM2.5 - Local Conditions,27.2521145544942
-06/06/2019,country_total,00,PM2.5 - Local Conditions,30.839235167708715
-06/07/2019,country_total,00,PM2.5 - Local Conditions,29.748713342899016
-06/09/2019,country_total,00,PM2.5 - Local Conditions,26.57064790489859
-06/10/2019,country_total,00,PM2.5 - Local Conditions,23.842631948748785
-06/12/2019,country_total,00,PM2.5 - Local Conditions,23.62107753649813
-06/13/2019,country_total,00,PM2.5 - Local Conditions,20.867180935545054
-06/15/2019,country_total,00,PM2.5 - Local Conditions,28.62774927608496
-06/16/2019,country_total,00,PM2.5 - Local Conditions,30.19741617647222
-06/18/2019,country_total,00,PM2.5 - Local Conditions,25.810907097147346
-06/19/2019,country_total,00,PM2.5 - Local Conditions,25.22076099314481
-06/21/2019,country_total,00,PM2.5 - Local Conditions,27.73497397093552
-06/22/2019,country_total,00,PM2.5 - Local Conditions,26.198694024490393
-06/24/2019,country_total,00,PM2.5 - Local Conditions,27.506603831645347
-06/25/2019,country_total,00,PM2.5 - Local Conditions,27.577165621243385
-06/27/2019,country_total,00,PM2.5 - Local Conditions,31.590823345861956
-06/28/2019,country_total,00,PM2.5 - Local Conditions,33.86056446199508
-06/30/2019,country_total,00,PM2.5 - Local Conditions,30.523799234276662
-07/01/2019,country_total,00,PM2.5 - Local Conditions,28.225213368261056
-07/03/2019,country_total,00,PM2.5 - Local Conditions,34.351004638639594
-07/04/2019,country_total,00,PM2.5 - Local Conditions,47.43493481942132
-07/06/2019,country_total,00,PM2.5 - Local Conditions,36.890362949806615
-07/07/2019,country_total,00,PM2.5 - Local Conditions,33.32747929018727
-07/09/2019,country_total,00,PM2.5 - Local Conditions,37.16742006448447
-07/10/2019,country_total,00,PM2.5 - Local Conditions,36.404632011185846
-07/12/2019,country_total,00,PM2.5 - Local Conditions,25.781778134430567
-07/13/2019,country_total,00,PM2.5 - Local Conditions,30.851597982793216
-07/15/2019,country_total,00,PM2.5 - Local Conditions,27.955319460411285
-07/16/2019,country_total,00,PM2.5 - Local Conditions,32.23944603129689
-07/18/2019,country_total,00,PM2.5 - Local Conditions,28.022436355540616
-07/19/2019,country_total,00,PM2.5 - Local Conditions,31.990841616174322
-07/21/2019,country_total,00,PM2.5 - Local Conditions,29.78019308700063
-07/22/2019,country_total,00,PM2.5 - Local Conditions,23.500396996462282
-07/24/2019,country_total,00,PM2.5 - Local Conditions,31.873682021099782
-07/25/2019,country_total,00,PM2.5 - Local Conditions,33.65467815769089
-07/27/2019,country_total,00,PM2.5 - Local Conditions,37.18527116282327
-07/28/2019,country_total,00,PM2.5 - Local Conditions,39.002828321491265
-07/30/2019,country_total,00,PM2.5 - Local Conditions,34.53904856582751
-07/31/2019,country_total,00,PM2.5 - Local Conditions,30.618935092511126
-08/02/2019,country_total,00,PM2.5 - Local Conditions,29.558561755716344
-08/03/2019,country_total,00,PM2.5 - Local Conditions,32.88260938731802
-08/05/2019,country_total,00,PM2.5 - Local Conditions,31.81478821041116
-08/06/2019,country_total,00,PM2.5 - Local Conditions,34.097660571393654
-08/08/2019,country_total,00,PM2.5 - Local Conditions,28.43713883939305
-08/09/2019,country_total,00,PM2.5 - Local Conditions,27.388656619271202
-08/11/2019,country_total,00,PM2.5 - Local Conditions,24.346541727968308
-08/12/2019,country_total,00,PM2.5 - Local Conditions,29.62928439860412
-08/14/2019,country_total,00,PM2.5 - Local Conditions,29.708288475831267
-08/15/2019,country_total,00,PM2.5 - Local Conditions,31.446794291272454
-08/17/2019,country_total,00,PM2.5 - Local Conditions,28.238640375667128
-08/18/2019,country_total,00,PM2.5 - Local Conditions,28.4436997893299
-08/20/2019,country_total,00,PM2.5 - Local Conditions,30.534953385307674
-08/21/2019,country_total,00,PM2.5 - Local Conditions,28.705179283151455
-08/23/2019,country_total,00,PM2.5 - Local Conditions,23.40948579718194
-08/24/2019,country_total,00,PM2.5 - Local Conditions,22.821034213419754
-08/26/2019,country_total,00,PM2.5 - Local Conditions,23.38105026142308
-08/27/2019,country_total,00,PM2.5 - Local Conditions,22.54163883149307
-08/29/2019,country_total,00,PM2.5 - Local Conditions,23.443186030251866
-08/30/2019,country_total,00,PM2.5 - Local Conditions,27.73120809121737
-09/01/2019,country_total,00,PM2.5 - Local Conditions,28.99782231689969
-09/02/2019,country_total,00,PM2.5 - Local Conditions,29.157308828106522
-09/04/2019,country_total,00,PM2.5 - Local Conditions,30.114033913453756
-09/05/2019,country_total,00,PM2.5 - Local Conditions,28.411725933211155
-09/07/2019,country_total,00,PM2.5 - Local Conditions,27.680738693470825
-09/08/2019,country_total,00,PM2.5 - Local Conditions,27.129317873536323
-09/10/2019,country_total,00,PM2.5 - Local Conditions,31.077158139761146
-09/11/2019,country_total,00,PM2.5 - Local Conditions,33.12150199286941
-09/13/2019,country_total,00,PM2.5 - Local Conditions,26.64500833057305
-09/14/2019,country_total,00,PM2.5 - Local Conditions,24.977454617391352
-09/16/2019,country_total,00,PM2.5 - Local Conditions,31.855407118468538
-09/17/2019,country_total,00,PM2.5 - Local Conditions,32.93754026684718
-09/19/2019,country_total,00,PM2.5 - Local Conditions,28.53404400078835
-09/20/2019,country_total,00,PM2.5 - Local Conditions,32.166877554217194
-09/22/2019,country_total,00,PM2.5 - Local Conditions,31.108525857069008
-09/23/2019,country_total,00,PM2.5 - Local Conditions,28.754514844797836
-09/25/2019,country_total,00,PM2.5 - Local Conditions,23.774044373568127
-09/26/2019,country_total,00,PM2.5 - Local Conditions,26.76836303475539
-09/28/2019,country_total,00,PM2.5 - Local Conditions,27.778400189214093
-09/29/2019,country_total,00,PM2.5 - Local Conditions,23.8799541922175
-10/01/2019,country_total,00,PM2.5 - Local Conditions,28.551074930739233
-10/02/2019,country_total,00,PM2.5 - Local Conditions,29.583865434338993
-10/04/2019,country_total,00,PM2.5 - Local Conditions,20.496733971842907
-10/05/2019,country_total,00,PM2.5 - Local Conditions,21.273836574880704
-10/07/2019,country_total,00,PM2.5 - Local Conditions,19.718249856389544
-10/08/2019,country_total,00,PM2.5 - Local Conditions,21.750457498926938
-10/10/2019,country_total,00,PM2.5 - Local Conditions,22.74469968156928
-10/11/2019,country_total,00,PM2.5 - Local Conditions,19.032619237009932
-10/13/2019,country_total,00,PM2.5 - Local Conditions,21.430520693874836
-10/14/2019,country_total,00,PM2.5 - Local Conditions,25.604664535024423
-10/16/2019,country_total,00,PM2.5 - Local Conditions,21.57055601312586
-10/17/2019,country_total,00,PM2.5 - Local Conditions,18.90142543834567
-10/19/2019,country_total,00,PM2.5 - Local Conditions,25.66494245361867
-10/20/2019,country_total,00,PM2.5 - Local Conditions,27.37780264680582
-10/22/2019,country_total,00,PM2.5 - Local Conditions,17.643330639461993
-10/23/2019,country_total,00,PM2.5 - Local Conditions,17.901996032371528
-10/25/2019,country_total,00,PM2.5 - Local Conditions,26.13229216230843
-10/26/2019,country_total,00,PM2.5 - Local Conditions,26.070513048061347
-10/28/2019,country_total,00,PM2.5 - Local Conditions,21.045158005591826
-10/29/2019,country_total,00,PM2.5 - Local Conditions,22.368056768930693
-10/31/2019,country_total,00,PM2.5 - Local Conditions,19.72540803259995
-11/01/2019,country_total,00,PM2.5 - Local Conditions,23.160585291240757
-11/03/2019,country_total,00,PM2.5 - Local Conditions,27.59900618774681
-11/04/2019,country_total,00,PM2.5 - Local Conditions,28.481940462680114
-11/06/2019,country_total,00,PM2.5 - Local Conditions,31.927273828058365
-11/07/2019,country_total,00,PM2.5 - Local Conditions,29.510667480008507
-11/09/2019,country_total,00,PM2.5 - Local Conditions,29.016179399373584
-11/10/2019,country_total,00,PM2.5 - Local Conditions,35.88982662096695
-11/12/2019,country_total,00,PM2.5 - Local Conditions,20.43027957880739
-11/13/2019,country_total,00,PM2.5 - Local Conditions,23.353836320041065
-11/15/2019,country_total,00,PM2.5 - Local Conditions,38.957555518034155
-11/16/2019,country_total,00,PM2.5 - Local Conditions,31.81658309303049
-11/18/2019,country_total,00,PM2.5 - Local Conditions,32.062578403246825
-11/19/2019,country_total,00,PM2.5 - Local Conditions,35.71120650112143
-11/21/2019,country_total,00,PM2.5 - Local Conditions,30.116773226945845
-11/22/2019,country_total,00,PM2.5 - Local Conditions,28.11189285242256
-11/24/2019,country_total,00,PM2.5 - Local Conditions,26.111662393888903
-11/25/2019,country_total,00,PM2.5 - Local Conditions,32.677623217893554
-11/27/2019,country_total,00,PM2.5 - Local Conditions,26.897330499746808
-11/28/2019,country_total,00,PM2.5 - Local Conditions,15.861908066107128
-11/30/2019,country_total,00,PM2.5 - Local Conditions,21.051315694212594
-12/01/2019,country_total,00,PM2.5 - Local Conditions,18.186368385391948
-12/03/2019,country_total,00,PM2.5 - Local Conditions,23.212625064874743
-12/04/2019,country_total,00,PM2.5 - Local Conditions,29.162905479251727
-12/06/2019,country_total,00,PM2.5 - Local Conditions,32.12027364083485
-12/07/2019,country_total,00,PM2.5 - Local Conditions,32.18589073857575
-12/09/2019,country_total,00,PM2.5 - Local Conditions,28.949505682232456
-12/10/2019,country_total,00,PM2.5 - Local Conditions,26.762476078924166
-12/12/2019,country_total,00,PM2.5 - Local Conditions,30.902327439780937
-12/13/2019,country_total,00,PM2.5 - Local Conditions,34.26296699033862
-12/15/2019,country_total,00,PM2.5 - Local Conditions,27.536531809148318
-12/16/2019,country_total,00,PM2.5 - Local Conditions,28.665063236644684
-12/18/2019,country_total,00,PM2.5 - Local Conditions,28.630003011195544
-12/19/2019,country_total,00,PM2.5 - Local Conditions,33.86682055808139
-12/21/2019,country_total,00,PM2.5 - Local Conditions,42.87420552510221
-12/22/2019,country_total,00,PM2.5 - Local Conditions,45.05987893534735
-12/24/2019,country_total,00,PM2.5 - Local Conditions,36.59963376447547
-12/25/2019,country_total,00,PM2.5 - Local Conditions,36.39524565282362
-12/27/2019,country_total,00,PM2.5 - Local Conditions,36.04101576104805
-12/28/2019,country_total,00,PM2.5 - Local Conditions,34.9240648383222
-12/30/2019,country_total,00,PM2.5 - Local Conditions,16.435501026294034
-12/31/2019,country_total,00,PM2.5 - Local Conditions,20.555749582630895
-05/04/2019,country_total,00,PM2.5 - Local Conditions,26.845556447176293
-06/01/2019,country_total,00,PM2.5 - Local Conditions,37.39855520365248
-06/03/2019,country_total,00,PM2.5 - Local Conditions,27.674852868762844
-01/02/2018,country_total,00,PM2.5 - Local Conditions,33.201004853371785
-01/05/2018,country_total,00,PM2.5 - Local Conditions,29.400209881836247
-01/08/2018,country_total,00,PM2.5 - Local Conditions,36.64412849831295
-01/11/2018,country_total,00,PM2.5 - Local Conditions,27.056202525357467
-01/14/2018,country_total,00,PM2.5 - Local Conditions,24.59624119422204
-01/17/2018,country_total,00,PM2.5 - Local Conditions,39.84144263403706
-01/20/2018,country_total,00,PM2.5 - Local Conditions,33.07226250612603
-01/23/2018,country_total,00,PM2.5 - Local Conditions,19.46908331947872
-01/26/2018,country_total,00,PM2.5 - Local Conditions,30.995473914649533
-01/29/2018,country_total,00,PM2.5 - Local Conditions,25.438048312037424
-02/01/2018,country_total,00,PM2.5 - Local Conditions,28.52186740555301
-02/04/2018,country_total,00,PM2.5 - Local Conditions,25.425933130683468
-02/07/2018,country_total,00,PM2.5 - Local Conditions,35.8165156286053
-02/10/2018,country_total,00,PM2.5 - Local Conditions,36.91460804198633
-02/13/2018,country_total,00,PM2.5 - Local Conditions,34.22792653231344
-02/16/2018,country_total,00,PM2.5 - Local Conditions,24.952778457900777
-02/19/2018,country_total,00,PM2.5 - Local Conditions,26.41665823557223
-02/22/2018,country_total,00,PM2.5 - Local Conditions,23.320474103778874
-02/25/2018,country_total,00,PM2.5 - Local Conditions,19.590920320924255
-02/28/2018,country_total,00,PM2.5 - Local Conditions,26.666462903968565
-03/03/2018,country_total,00,PM2.5 - Local Conditions,18.481502966358274
-03/06/2018,country_total,00,PM2.5 - Local Conditions,20.365924328184747
-03/09/2018,country_total,00,PM2.5 - Local Conditions,27.487705261513238
-03/12/2018,country_total,00,PM2.5 - Local Conditions,25.862561259774566
-03/15/2018,country_total,00,PM2.5 - Local Conditions,29.25283950814689
-03/18/2018,country_total,00,PM2.5 - Local Conditions,27.940691525070573
-03/21/2018,country_total,00,PM2.5 - Local Conditions,21.01543001831854
-03/24/2018,country_total,00,PM2.5 - Local Conditions,21.557979756991415
-03/27/2018,country_total,00,PM2.5 - Local Conditions,25.956101242934153
-03/30/2018,country_total,00,PM2.5 - Local Conditions,21.802037060189463
-04/02/2018,country_total,00,PM2.5 - Local Conditions,24.646536835957995
-04/05/2018,country_total,00,PM2.5 - Local Conditions,23.601177250896082
-04/08/2018,country_total,00,PM2.5 - Local Conditions,20.936698711296888
-04/11/2018,country_total,00,PM2.5 - Local Conditions,35.533310962799725
-04/14/2018,country_total,00,PM2.5 - Local Conditions,27.360870317670994
-04/17/2018,country_total,00,PM2.5 - Local Conditions,19.3705420004518
-04/20/2018,country_total,00,PM2.5 - Local Conditions,22.36067462143528
-04/23/2018,country_total,00,PM2.5 - Local Conditions,25.90738611287297
-04/26/2018,country_total,00,PM2.5 - Local Conditions,22.654400520806266
-04/29/2018,country_total,00,PM2.5 - Local Conditions,21.76771381521644
-05/02/2018,country_total,00,PM2.5 - Local Conditions,35.503274358968554
-05/05/2018,country_total,00,PM2.5 - Local Conditions,26.05732655932407
-05/08/2018,country_total,00,PM2.5 - Local Conditions,29.36357148547725
-05/11/2018,country_total,00,PM2.5 - Local Conditions,28.740211653450665
-05/14/2018,country_total,00,PM2.5 - Local Conditions,31.94119330908121
-05/17/2018,country_total,00,PM2.5 - Local Conditions,26.296480447724267
-05/20/2018,country_total,00,PM2.5 - Local Conditions,24.015366400979516
-05/23/2018,country_total,00,PM2.5 - Local Conditions,24.905768673395304
-05/26/2018,country_total,00,PM2.5 - Local Conditions,31.98314806419149
-05/29/2018,country_total,00,PM2.5 - Local Conditions,28.921363008215167
-06/01/2018,country_total,00,PM2.5 - Local Conditions,27.252978053066116
-06/04/2018,country_total,00,PM2.5 - Local Conditions,22.123958178410476
-06/07/2018,country_total,00,PM2.5 - Local Conditions,31.202013759113896
-06/10/2018,country_total,00,PM2.5 - Local Conditions,30.65070194284316
-06/13/2018,country_total,00,PM2.5 - Local Conditions,29.57825034205432
-06/16/2018,country_total,00,PM2.5 - Local Conditions,32.17412619884879
-06/19/2018,country_total,00,PM2.5 - Local Conditions,31.677341870740264
-06/22/2018,country_total,00,PM2.5 - Local Conditions,25.269082337082807
-06/25/2018,country_total,00,PM2.5 - Local Conditions,24.47065395897487
-06/28/2018,country_total,00,PM2.5 - Local Conditions,27.754043684792073
-07/04/2018,country_total,00,PM2.5 - Local Conditions,46.602882900591766
-07/07/2018,country_total,00,PM2.5 - Local Conditions,25.32379812348218
-07/10/2018,country_total,00,PM2.5 - Local Conditions,37.374918616879214
-07/13/2018,country_total,00,PM2.5 - Local Conditions,37.42744529472578
-07/19/2018,country_total,00,PM2.5 - Local Conditions,31.23578812539461
-07/22/2018,country_total,00,PM2.5 - Local Conditions,29.7542608298012
-07/25/2018,country_total,00,PM2.5 - Local Conditions,30.405160587152988
-08/03/2018,country_total,00,PM2.5 - Local Conditions,33.14649448452609
-08/06/2018,country_total,00,PM2.5 - Local Conditions,44.68295509018182
-08/09/2018,country_total,00,PM2.5 - Local Conditions,39.47782995257346
-08/12/2018,country_total,00,PM2.5 - Local Conditions,42.4979203373743
-08/15/2018,country_total,00,PM2.5 - Local Conditions,46.82547888972748
-08/18/2018,country_total,00,PM2.5 - Local Conditions,35.598610632020396
-08/21/2018,country_total,00,PM2.5 - Local Conditions,36.13493445271707
-08/27/2018,country_total,00,PM2.5 - Local Conditions,45.66276929869582
-09/05/2018,country_total,00,PM2.5 - Local Conditions,31.161527808652725
-09/08/2018,country_total,00,PM2.5 - Local Conditions,22.253574460024982
-09/14/2018,country_total,00,PM2.5 - Local Conditions,25.595165619618932
-09/17/2018,country_total,00,PM2.5 - Local Conditions,26.52734674299032
-09/20/2018,country_total,00,PM2.5 - Local Conditions,33.918427288067434
-09/23/2018,country_total,00,PM2.5 - Local Conditions,20.49626946643745
-09/26/2018,country_total,00,PM2.5 - Local Conditions,20.78483690718098
-09/29/2018,country_total,00,PM2.5 - Local Conditions,25.04609229026239
-10/02/2018,country_total,00,PM2.5 - Local Conditions,27.15005411723574
-10/05/2018,country_total,00,PM2.5 - Local Conditions,23.86149692243712
-10/08/2018,country_total,00,PM2.5 - Local Conditions,25.034664523661
-10/11/2018,country_total,00,PM2.5 - Local Conditions,16.092202214386734
-10/14/2018,country_total,00,PM2.5 - Local Conditions,21.2122908056375
-10/17/2018,country_total,00,PM2.5 - Local Conditions,18.525465353003952
-10/23/2018,country_total,00,PM2.5 - Local Conditions,25.19114284626932
-10/26/2018,country_total,00,PM2.5 - Local Conditions,23.936570751751045
-10/29/2018,country_total,00,PM2.5 - Local Conditions,20.970250668405306
-11/01/2018,country_total,00,PM2.5 - Local Conditions,24.80790001799708
-11/04/2018,country_total,00,PM2.5 - Local Conditions,20.01399064805622
-11/07/2018,country_total,00,PM2.5 - Local Conditions,19.83532317941311
-11/10/2018,country_total,00,PM2.5 - Local Conditions,22.31519264633681
-12/01/2018,country_total,00,PM2.5 - Local Conditions,30.526554214628305
-12/04/2018,country_total,00,PM2.5 - Local Conditions,16.857198687115915
-12/07/2018,country_total,00,PM2.5 - Local Conditions,31.72700341685842
-12/10/2018,country_total,00,PM2.5 - Local Conditions,42.34632172928481
-12/13/2018,country_total,00,PM2.5 - Local Conditions,37.291136314667064
-12/16/2018,country_total,00,PM2.5 - Local Conditions,25.65899871230466
-12/19/2018,country_total,00,PM2.5 - Local Conditions,34.89841605675528
-12/22/2018,country_total,00,PM2.5 - Local Conditions,22.040039462410427
-12/25/2018,country_total,00,PM2.5 - Local Conditions,28.480268265688707
-12/28/2018,country_total,00,PM2.5 - Local Conditions,18.948971597693255
-12/31/2018,country_total,00,PM2.5 - Local Conditions,30.249305229936482
-07/01/2018,country_total,00,PM2.5 - Local Conditions,41.82992545567219
-07/16/2018,country_total,00,PM2.5 - Local Conditions,37.12983995108441
-07/28/2018,country_total,00,PM2.5 - Local Conditions,33.95839322921113
-07/31/2018,country_total,00,PM2.5 - Local Conditions,35.191348118701484
-08/24/2018,country_total,00,PM2.5 - Local Conditions,47.50544269075603
-08/30/2018,country_total,00,PM2.5 - Local Conditions,26.590731130630946
-09/02/2018,country_total,00,PM2.5 - Local Conditions,24.980861899444985
-09/11/2018,country_total,00,PM2.5 - Local Conditions,22.424012308335683
-10/20/2018,country_total,00,PM2.5 - Local Conditions,21.101813387779746
-11/13/2018,country_total,00,PM2.5 - Local Conditions,26.18069002825112
-11/16/2018,country_total,00,PM2.5 - Local Conditions,30.59514075974492
-11/19/2018,country_total,00,PM2.5 - Local Conditions,40.92695186443841
-11/22/2018,country_total,00,PM2.5 - Local Conditions,28.238918818315327
-11/25/2018,country_total,00,PM2.5 - Local Conditions,26.263563915503454
-11/28/2018,country_total,00,PM2.5 - Local Conditions,24.37504729373434
-01/01/2018,country_total,00,PM2.5 - Local Conditions,35.08128364639362
-01/03/2018,country_total,00,PM2.5 - Local Conditions,38.2803596137642
-01/04/2018,country_total,00,PM2.5 - Local Conditions,34.473859677238295
-01/06/2018,country_total,00,PM2.5 - Local Conditions,33.59155197674048
-01/07/2018,country_total,00,PM2.5 - Local Conditions,35.11020295077412
-01/09/2018,country_total,00,PM2.5 - Local Conditions,38.90289341165591
-01/10/2018,country_total,00,PM2.5 - Local Conditions,33.95394454952963
-01/12/2018,country_total,00,PM2.5 - Local Conditions,19.210606014167105
-01/13/2018,country_total,00,PM2.5 - Local Conditions,19.75333826842205
-01/15/2018,country_total,00,PM2.5 - Local Conditions,31.82070206630884
-01/16/2018,country_total,00,PM2.5 - Local Conditions,35.02335855513484
-01/18/2018,country_total,00,PM2.5 - Local Conditions,38.769702779306236
-01/19/2018,country_total,00,PM2.5 - Local Conditions,38.35071391511294
-01/21/2018,country_total,00,PM2.5 - Local Conditions,38.05865220930107
-01/22/2018,country_total,00,PM2.5 - Local Conditions,31.99765427361584
-01/24/2018,country_total,00,PM2.5 - Local Conditions,24.549318372072445
-01/25/2018,country_total,00,PM2.5 - Local Conditions,28.541002422782817
-01/27/2018,country_total,00,PM2.5 - Local Conditions,32.80713470155604
-01/28/2018,country_total,00,PM2.5 - Local Conditions,29.6101471960057
-01/30/2018,country_total,00,PM2.5 - Local Conditions,25.94496176754337
-01/31/2018,country_total,00,PM2.5 - Local Conditions,26.61527127424192
-02/02/2018,country_total,00,PM2.5 - Local Conditions,24.343556911372207
-02/03/2018,country_total,00,PM2.5 - Local Conditions,26.220851189256404
-02/05/2018,country_total,00,PM2.5 - Local Conditions,26.605806458046235
-02/06/2018,country_total,00,PM2.5 - Local Conditions,35.05106626738839
-02/08/2018,country_total,00,PM2.5 - Local Conditions,37.59950040306348
-02/09/2018,country_total,00,PM2.5 - Local Conditions,40.4768102970823
-02/11/2018,country_total,00,PM2.5 - Local Conditions,29.385003359202607
-02/12/2018,country_total,00,PM2.5 - Local Conditions,29.854130342318967
-02/14/2018,country_total,00,PM2.5 - Local Conditions,36.965482440477984
-02/15/2018,country_total,00,PM2.5 - Local Conditions,32.18918388151761
-02/17/2018,country_total,00,PM2.5 - Local Conditions,26.263943388703805
-02/18/2018,country_total,00,PM2.5 - Local Conditions,27.743420435796597
-02/20/2018,country_total,00,PM2.5 - Local Conditions,28.15959601676254
-02/21/2018,country_total,00,PM2.5 - Local Conditions,27.495477623346755
-02/23/2018,country_total,00,PM2.5 - Local Conditions,28.475158544090608
-02/24/2018,country_total,00,PM2.5 - Local Conditions,28.452683045740002
-02/26/2018,country_total,00,PM2.5 - Local Conditions,23.186292090526795
-02/27/2018,country_total,00,PM2.5 - Local Conditions,24.849148444245714
-03/01/2018,country_total,00,PM2.5 - Local Conditions,29.402615430661708
-03/02/2018,country_total,00,PM2.5 - Local Conditions,21.352341205529516
-03/04/2018,country_total,00,PM2.5 - Local Conditions,19.91509142703797
-03/05/2018,country_total,00,PM2.5 - Local Conditions,20.970662150816246
-03/07/2018,country_total,00,PM2.5 - Local Conditions,21.46181979608988
-03/08/2018,country_total,00,PM2.5 - Local Conditions,25.452118981615484
-03/10/2018,country_total,00,PM2.5 - Local Conditions,31.474199256552748
-03/11/2018,country_total,00,PM2.5 - Local Conditions,29.09717539153024
-03/13/2018,country_total,00,PM2.5 - Local Conditions,23.75926983466483
-03/14/2018,country_total,00,PM2.5 - Local Conditions,24.200778373168514
-03/16/2018,country_total,00,PM2.5 - Local Conditions,25.832524612281503
-03/17/2018,country_total,00,PM2.5 - Local Conditions,28.20991347173029
-03/19/2018,country_total,00,PM2.5 - Local Conditions,28.649260144451308
-03/20/2018,country_total,00,PM2.5 - Local Conditions,23.831725287560914
-03/22/2018,country_total,00,PM2.5 - Local Conditions,25.154700880970907
-03/23/2018,country_total,00,PM2.5 - Local Conditions,26.98280805246948
-03/25/2018,country_total,00,PM2.5 - Local Conditions,23.69725628460701
-03/26/2018,country_total,00,PM2.5 - Local Conditions,28.058801638423958
-03/28/2018,country_total,00,PM2.5 - Local Conditions,32.79130827347236
-03/29/2018,country_total,00,PM2.5 - Local Conditions,32.367592819890284
-03/31/2018,country_total,00,PM2.5 - Local Conditions,22.539608381156015
-04/01/2018,country_total,00,PM2.5 - Local Conditions,22.58055839371138
-04/03/2018,country_total,00,PM2.5 - Local Conditions,28.806983506193514
-04/04/2018,country_total,00,PM2.5 - Local Conditions,23.025948472794028
-04/06/2018,country_total,00,PM2.5 - Local Conditions,28.79777963259063
-04/07/2018,country_total,00,PM2.5 - Local Conditions,21.443113145521504
-04/09/2018,country_total,00,PM2.5 - Local Conditions,27.44278985633064
-04/10/2018,country_total,00,PM2.5 - Local Conditions,33.873828640570416
-04/12/2018,country_total,00,PM2.5 - Local Conditions,38.838790743612265
-04/13/2018,country_total,00,PM2.5 - Local Conditions,37.062392048828364
-04/15/2018,country_total,00,PM2.5 - Local Conditions,20.797234139749136
-04/16/2018,country_total,00,PM2.5 - Local Conditions,19.083359205105097
-04/18/2018,country_total,00,PM2.5 - Local Conditions,21.52986454651398
-04/19/2018,country_total,00,PM2.5 - Local Conditions,23.78117664882162
-04/21/2018,country_total,00,PM2.5 - Local Conditions,28.79909390846308
-04/22/2018,country_total,00,PM2.5 - Local Conditions,28.162869549994145
-04/24/2018,country_total,00,PM2.5 - Local Conditions,27.24443679311131
-04/25/2018,country_total,00,PM2.5 - Local Conditions,23.331978730345522
-04/27/2018,country_total,00,PM2.5 - Local Conditions,26.764226642912007
-04/28/2018,country_total,00,PM2.5 - Local Conditions,28.22019411192659
-05/01/2018,country_total,00,PM2.5 - Local Conditions,31.88173868094804
-05/03/2018,country_total,00,PM2.5 - Local Conditions,35.5681033423971
-05/04/2018,country_total,00,PM2.5 - Local Conditions,34.55468331838266
-05/06/2018,country_total,00,PM2.5 - Local Conditions,28.773007057848183
-05/07/2018,country_total,00,PM2.5 - Local Conditions,29.117594166659224
-05/18/2018,country_total,00,PM2.5 - Local Conditions,25.64389276054239
-05/19/2018,country_total,00,PM2.5 - Local Conditions,25.415682374125915
-05/21/2018,country_total,00,PM2.5 - Local Conditions,26.354745980545836
-05/22/2018,country_total,00,PM2.5 - Local Conditions,27.124272110450665
-05/24/2018,country_total,00,PM2.5 - Local Conditions,29.111796740433324
-05/25/2018,country_total,00,PM2.5 - Local Conditions,33.62972187522012
-05/27/2018,country_total,00,PM2.5 - Local Conditions,30.19899230748281
-05/28/2018,country_total,00,PM2.5 - Local Conditions,26.26550868076584
-05/30/2018,country_total,00,PM2.5 - Local Conditions,26.02139524705113
-05/31/2018,country_total,00,PM2.5 - Local Conditions,25.8980118411986
-07/03/2018,country_total,00,PM2.5 - Local Conditions,41.07150943494251
-07/05/2018,country_total,00,PM2.5 - Local Conditions,36.6882364909681
-07/06/2018,country_total,00,PM2.5 - Local Conditions,28.283105731971684
-07/08/2018,country_total,00,PM2.5 - Local Conditions,30.223839533284423
-07/09/2018,country_total,00,PM2.5 - Local Conditions,34.10478486949671
-07/11/2018,country_total,00,PM2.5 - Local Conditions,35.341327120317715
-07/12/2018,country_total,00,PM2.5 - Local Conditions,33.42508312132082
-07/14/2018,country_total,00,PM2.5 - Local Conditions,35.00029777657562
-07/15/2018,country_total,00,PM2.5 - Local Conditions,35.50297308396136
-07/17/2018,country_total,00,PM2.5 - Local Conditions,33.37032792460571
-07/18/2018,country_total,00,PM2.5 - Local Conditions,30.569481201718528
-07/20/2018,country_total,00,PM2.5 - Local Conditions,33.09903010247004
-07/21/2018,country_total,00,PM2.5 - Local Conditions,30.28497144202161
-07/23/2018,country_total,00,PM2.5 - Local Conditions,32.61232932123673
-07/24/2018,country_total,00,PM2.5 - Local Conditions,30.435304793798295
-07/26/2018,country_total,00,PM2.5 - Local Conditions,32.47442142257383
-07/27/2018,country_total,00,PM2.5 - Local Conditions,36.778849672243474
-07/29/2018,country_total,00,PM2.5 - Local Conditions,35.68960424520498
-07/30/2018,country_total,00,PM2.5 - Local Conditions,37.32088036351726
-08/01/2018,country_total,00,PM2.5 - Local Conditions,33.58956079133197
-08/07/2018,country_total,00,PM2.5 - Local Conditions,42.712669108217135
-08/08/2018,country_total,00,PM2.5 - Local Conditions,39.7551253685634
-08/10/2018,country_total,00,PM2.5 - Local Conditions,45.2912769957416
-08/11/2018,country_total,00,PM2.5 - Local Conditions,44.0203675629158
-08/13/2018,country_total,00,PM2.5 - Local Conditions,44.18757910661275
-08/14/2018,country_total,00,PM2.5 - Local Conditions,42.95170843533751
-08/16/2018,country_total,00,PM2.5 - Local Conditions,47.17932295758526
-08/17/2018,country_total,00,PM2.5 - Local Conditions,42.335455080067085
-08/19/2018,country_total,00,PM2.5 - Local Conditions,39.58526346128614
-08/20/2018,country_total,00,PM2.5 - Local Conditions,39.42714788459183
-08/22/2018,country_total,00,PM2.5 - Local Conditions,41.36756526103969
-08/23/2018,country_total,00,PM2.5 - Local Conditions,45.23923878859866
-08/25/2018,country_total,00,PM2.5 - Local Conditions,48.243009187880425
-08/26/2018,country_total,00,PM2.5 - Local Conditions,44.93667941226933
-08/28/2018,country_total,00,PM2.5 - Local Conditions,41.99501378003773
-08/29/2018,country_total,00,PM2.5 - Local Conditions,35.74605090994157
-08/31/2018,country_total,00,PM2.5 - Local Conditions,27.404454252890908
-09/01/2018,country_total,00,PM2.5 - Local Conditions,27.468780796950526
-09/03/2018,country_total,00,PM2.5 - Local Conditions,27.825794120065606
-09/04/2018,country_total,00,PM2.5 - Local Conditions,29.35418809596748
-09/06/2018,country_total,00,PM2.5 - Local Conditions,30.39867380321048
-09/07/2018,country_total,00,PM2.5 - Local Conditions,26.48082008919604
-09/09/2018,country_total,00,PM2.5 - Local Conditions,20.33667743238265
-08/05/2018,country_total,00,PM2.5 - Local Conditions,41.288054947766454
-11/02/2018,country_total,00,PM2.5 - Local Conditions,22.8511131960237
-04/30/2018,country_total,00,PM2.5 - Local Conditions,26.480628022142692
-05/09/2018,country_total,00,PM2.5 - Local Conditions,31.482590146295745
-05/10/2018,country_total,00,PM2.5 - Local Conditions,30.16862858021632
-05/12/2018,country_total,00,PM2.5 - Local Conditions,33.96892439113573
-05/13/2018,country_total,00,PM2.5 - Local Conditions,32.658211781239594
-05/15/2018,country_total,00,PM2.5 - Local Conditions,31.63082821404918
-05/16/2018,country_total,00,PM2.5 - Local Conditions,27.77838474957546
-06/02/2018,country_total,00,PM2.5 - Local Conditions,29.535435818099547
-06/03/2018,country_total,00,PM2.5 - Local Conditions,25.060712738540854
-06/05/2018,country_total,00,PM2.5 - Local Conditions,25.89060737955933
-06/06/2018,country_total,00,PM2.5 - Local Conditions,27.82470915863149
-06/08/2018,country_total,00,PM2.5 - Local Conditions,35.90712508602192
-06/09/2018,country_total,00,PM2.5 - Local Conditions,36.496325753233265
-06/11/2018,country_total,00,PM2.5 - Local Conditions,27.91579586477377
-06/12/2018,country_total,00,PM2.5 - Local Conditions,30.157621269746986
-06/14/2018,country_total,00,PM2.5 - Local Conditions,27.615832300281447
-06/15/2018,country_total,00,PM2.5 - Local Conditions,30.269402675143155
-06/17/2018,country_total,00,PM2.5 - Local Conditions,36.4938953386513
-06/18/2018,country_total,00,PM2.5 - Local Conditions,37.88459875999922
-06/20/2018,country_total,00,PM2.5 - Local Conditions,28.662356718403412
-06/21/2018,country_total,00,PM2.5 - Local Conditions,28.206613559195787
-06/23/2018,country_total,00,PM2.5 - Local Conditions,27.163562047488053
-06/24/2018,country_total,00,PM2.5 - Local Conditions,28.09005333203093
-06/26/2018,country_total,00,PM2.5 - Local Conditions,24.212898049022403
-06/27/2018,country_total,00,PM2.5 - Local Conditions,25.1635050125912
-06/29/2018,country_total,00,PM2.5 - Local Conditions,32.40122586060542
-06/30/2018,country_total,00,PM2.5 - Local Conditions,38.19186824405561
-07/02/2018,country_total,00,PM2.5 - Local Conditions,39.001363481718315
-08/02/2018,country_total,00,PM2.5 - Local Conditions,32.67525263869127
-08/04/2018,country_total,00,PM2.5 - Local Conditions,36.628250830554634
-09/10/2018,country_total,00,PM2.5 - Local Conditions,21.02921846217793
-09/12/2018,country_total,00,PM2.5 - Local Conditions,26.67936553995203
-09/13/2018,country_total,00,PM2.5 - Local Conditions,25.750959084435124
-09/15/2018,country_total,00,PM2.5 - Local Conditions,27.700920221464795
-09/16/2018,country_total,00,PM2.5 - Local Conditions,26.72357166937364
-09/18/2018,country_total,00,PM2.5 - Local Conditions,26.725937391747216
-09/19/2018,country_total,00,PM2.5 - Local Conditions,33.17698345897585
-09/21/2018,country_total,00,PM2.5 - Local Conditions,31.25656557158512
-09/22/2018,country_total,00,PM2.5 - Local Conditions,23.668215789339502
-09/24/2018,country_total,00,PM2.5 - Local Conditions,21.749169135145717
-09/25/2018,country_total,00,PM2.5 - Local Conditions,21.81715985885672
-09/27/2018,country_total,00,PM2.5 - Local Conditions,22.410720218905926
-09/28/2018,country_total,00,PM2.5 - Local Conditions,22.842818062318937
-09/30/2018,country_total,00,PM2.5 - Local Conditions,29.49063700457798
-10/01/2018,country_total,00,PM2.5 - Local Conditions,31.304362534128543
-10/03/2018,country_total,00,PM2.5 - Local Conditions,27.47419194509154
-10/04/2018,country_total,00,PM2.5 - Local Conditions,28.160367254503537
-10/06/2018,country_total,00,PM2.5 - Local Conditions,26.59102374714246
-10/07/2018,country_total,00,PM2.5 - Local Conditions,27.06921156338014
-10/09/2018,country_total,00,PM2.5 - Local Conditions,22.804542532909075
-10/10/2018,country_total,00,PM2.5 - Local Conditions,19.13941135968903
-10/12/2018,country_total,00,PM2.5 - Local Conditions,20.057408897545745
-10/13/2018,country_total,00,PM2.5 - Local Conditions,20.24788536492769
-10/15/2018,country_total,00,PM2.5 - Local Conditions,23.951412708909697
-10/16/2018,country_total,00,PM2.5 - Local Conditions,19.6828310001063
-10/18/2018,country_total,00,PM2.5 - Local Conditions,19.379526151753556
-10/19/2018,country_total,00,PM2.5 - Local Conditions,24.87830340840775
-10/21/2018,country_total,00,PM2.5 - Local Conditions,17.827097099212768
-10/22/2018,country_total,00,PM2.5 - Local Conditions,24.753136779167807
-10/24/2018,country_total,00,PM2.5 - Local Conditions,24.483832062944487
-10/25/2018,country_total,00,PM2.5 - Local Conditions,25.851327158587843
-10/27/2018,country_total,00,PM2.5 - Local Conditions,25.23234946427209
-10/28/2018,country_total,00,PM2.5 - Local Conditions,22.977076740056795
-10/30/2018,country_total,00,PM2.5 - Local Conditions,26.32450603228327
-10/31/2018,country_total,00,PM2.5 - Local Conditions,31.26548699913478
-11/03/2018,country_total,00,PM2.5 - Local Conditions,22.1179155064807
-11/05/2018,country_total,00,PM2.5 - Local Conditions,20.86026359030235
-12/08/2018,country_total,00,PM2.5 - Local Conditions,38.54309656861353
-12/09/2018,country_total,00,PM2.5 - Local Conditions,40.747190504640095
-12/11/2018,country_total,00,PM2.5 - Local Conditions,45.477047564347444
-12/12/2018,country_total,00,PM2.5 - Local Conditions,40.95696747930039
-12/14/2018,country_total,00,PM2.5 - Local Conditions,37.784185260474295
-12/15/2018,country_total,00,PM2.5 - Local Conditions,32.78774199488019
-12/17/2018,country_total,00,PM2.5 - Local Conditions,27.91718749554368
-12/18/2018,country_total,00,PM2.5 - Local Conditions,29.12995807343451
-12/20/2018,country_total,00,PM2.5 - Local Conditions,36.53581682225643
-12/21/2018,country_total,00,PM2.5 - Local Conditions,24.11317874023831
-12/23/2018,country_total,00,PM2.5 - Local Conditions,27.713201072685113
-12/24/2018,country_total,00,PM2.5 - Local Conditions,32.07116416260097
-12/26/2018,country_total,00,PM2.5 - Local Conditions,35.51343538879413
-12/27/2018,country_total,00,PM2.5 - Local Conditions,28.174074780662906
-12/29/2018,country_total,00,PM2.5 - Local Conditions,24.682874432309347
-12/30/2018,country_total,00,PM2.5 - Local Conditions,30.871357964970045
-11/06/2018,country_total,00,PM2.5 - Local Conditions,18.177830689341377
-11/08/2018,country_total,00,PM2.5 - Local Conditions,24.84318714330623
-11/09/2018,country_total,00,PM2.5 - Local Conditions,26.967234203493685
-11/11/2018,country_total,00,PM2.5 - Local Conditions,30.327312647374782
-11/12/2018,country_total,00,PM2.5 - Local Conditions,34.19675997877041
-11/14/2018,country_total,00,PM2.5 - Local Conditions,29.544991434438728
-11/15/2018,country_total,00,PM2.5 - Local Conditions,30.546016085185762
-11/17/2018,country_total,00,PM2.5 - Local Conditions,38.57349854002468
-11/18/2018,country_total,00,PM2.5 - Local Conditions,37.98462611390026
-11/20/2018,country_total,00,PM2.5 - Local Conditions,37.71877350261787
-11/21/2018,country_total,00,PM2.5 - Local Conditions,36.43647393947018
-11/23/2018,country_total,00,PM2.5 - Local Conditions,27.868480337905346
-11/24/2018,country_total,00,PM2.5 - Local Conditions,29.37888911080049
-11/26/2018,country_total,00,PM2.5 - Local Conditions,24.186055163696153
-11/27/2018,country_total,00,PM2.5 - Local Conditions,21.36754644755949
-11/29/2018,country_total,00,PM2.5 - Local Conditions,33.02364825381476
-11/30/2018,country_total,00,PM2.5 - Local Conditions,38.772485751062874
-12/02/2018,country_total,00,PM2.5 - Local Conditions,21.036861363319407
-12/03/2018,country_total,00,PM2.5 - Local Conditions,20.872760473410526
-12/05/2018,country_total,00,PM2.5 - Local Conditions,28.306366644612087
-12/06/2018,country_total,00,PM2.5 - Local Conditions,33.21648964533348
+01/01/2020,country total,00,PM2.5 - Local Conditions,25.07482211106057
+01/04/2020,country total,00,PM2.5 - Local Conditions,24.635078732051454
+01/07/2020,country total,00,PM2.5 - Local Conditions,22.577003651021016
+01/10/2020,country total,00,PM2.5 - Local Conditions,28.60787489952972
+01/13/2020,country total,00,PM2.5 - Local Conditions,26.899592895914417
+01/16/2020,country total,00,PM2.5 - Local Conditions,25.035941837948272
+01/19/2020,country total,00,PM2.5 - Local Conditions,22.274461054981423
+01/22/2020,country total,00,PM2.5 - Local Conditions,35.664112505675945
+01/25/2020,country total,00,PM2.5 - Local Conditions,23.920351000844818
+01/28/2020,country total,00,PM2.5 - Local Conditions,22.010449965486877
+01/31/2020,country total,00,PM2.5 - Local Conditions,36.79184058854235
+02/03/2020,country total,00,PM2.5 - Local Conditions,24.56888993293785
+02/06/2020,country total,00,PM2.5 - Local Conditions,20.732092567502907
+02/09/2020,country total,00,PM2.5 - Local Conditions,27.23908629976244
+02/12/2020,country total,00,PM2.5 - Local Conditions,27.326130107706042
+02/15/2020,country total,00,PM2.5 - Local Conditions,24.326661554239905
+02/18/2020,country total,00,PM2.5 - Local Conditions,29.19225474299538
+02/21/2020,country total,00,PM2.5 - Local Conditions,28.176866394128773
+02/24/2020,country total,00,PM2.5 - Local Conditions,28.976801937082268
+02/27/2020,country total,00,PM2.5 - Local Conditions,17.21827779305069
+03/01/2020,country total,00,PM2.5 - Local Conditions,24.371335113881376
+03/04/2020,country total,00,PM2.5 - Local Conditions,19.567154261965875
+03/07/2020,country total,00,PM2.5 - Local Conditions,22.0634179040676
+03/10/2020,country total,00,PM2.5 - Local Conditions,26.477795647088424
+03/13/2020,country total,00,PM2.5 - Local Conditions,19.618291487251007
+03/16/2020,country total,00,PM2.5 - Local Conditions,24.8260714001508
+03/19/2020,country total,00,PM2.5 - Local Conditions,25.590183606210154
+03/22/2020,country total,00,PM2.5 - Local Conditions,22.998296196361217
+03/25/2020,country total,00,PM2.5 - Local Conditions,24.533206983988105
+03/28/2020,country total,00,PM2.5 - Local Conditions,28.92491154314007
+03/31/2020,country total,00,PM2.5 - Local Conditions,19.58009008903054
+04/03/2020,country total,00,PM2.5 - Local Conditions,22.7602521394116
+04/06/2020,country total,00,PM2.5 - Local Conditions,29.293477847944303
+04/09/2020,country total,00,PM2.5 - Local Conditions,22.811660868398395
+04/12/2020,country total,00,PM2.5 - Local Conditions,29.276919571299732
+04/15/2020,country total,00,PM2.5 - Local Conditions,23.55565299607276
+04/18/2020,country total,00,PM2.5 - Local Conditions,26.590485163822972
+04/21/2020,country total,00,PM2.5 - Local Conditions,22.341649082541203
+04/24/2020,country total,00,PM2.5 - Local Conditions,25.288165760047555
+04/27/2020,country total,00,PM2.5 - Local Conditions,19.401425320765973
+04/30/2020,country total,00,PM2.5 - Local Conditions,19.152813157324978
+05/03/2020,country total,00,PM2.5 - Local Conditions,28.072332296433018
+05/06/2020,country total,00,PM2.5 - Local Conditions,20.687105291912957
+05/09/2020,country total,00,PM2.5 - Local Conditions,20.419293330846653
+05/12/2020,country total,00,PM2.5 - Local Conditions,21.129856582400382
+05/15/2020,country total,00,PM2.5 - Local Conditions,27.80944030143086
+05/18/2020,country total,00,PM2.5 - Local Conditions,20.972911943319893
+05/21/2020,country total,00,PM2.5 - Local Conditions,24.799531580825235
+05/24/2020,country total,00,PM2.5 - Local Conditions,26.73936604783733
+05/27/2020,country total,00,PM2.5 - Local Conditions,21.06007772273858
+05/30/2020,country total,00,PM2.5 - Local Conditions,23.40029895370093
+06/02/2020,country total,00,PM2.5 - Local Conditions,30.802743293256885
+06/05/2020,country total,00,PM2.5 - Local Conditions,30.557075355779837
+06/08/2020,country total,00,PM2.5 - Local Conditions,24.670234936496207
+06/11/2020,country total,00,PM2.5 - Local Conditions,23.520561930933255
+06/14/2020,country total,00,PM2.5 - Local Conditions,24.421389977364598
+06/17/2020,country total,00,PM2.5 - Local Conditions,32.759620905624374
+06/20/2020,country total,00,PM2.5 - Local Conditions,37.918765003834196
+06/23/2020,country total,00,PM2.5 - Local Conditions,28.90873072747847
+06/26/2020,country total,00,PM2.5 - Local Conditions,38.813609509994535
+06/29/2020,country total,00,PM2.5 - Local Conditions,34.950038140466106
+07/02/2020,country total,00,PM2.5 - Local Conditions,36.70711335926179
+07/05/2020,country total,00,PM2.5 - Local Conditions,53.68688872033023
+07/08/2020,country total,00,PM2.5 - Local Conditions,36.08307767048481
+07/11/2020,country total,00,PM2.5 - Local Conditions,25.66322798791432
+07/14/2020,country total,00,PM2.5 - Local Conditions,29.00599384291839
+07/17/2020,country total,00,PM2.5 - Local Conditions,31.11731414890618
+07/20/2020,country total,00,PM2.5 - Local Conditions,30.33865034592619
+07/23/2020,country total,00,PM2.5 - Local Conditions,24.3653837054097
+07/26/2020,country total,00,PM2.5 - Local Conditions,28.279334234308095
+07/29/2020,country total,00,PM2.5 - Local Conditions,28.09255635643796
+08/01/2020,country total,00,PM2.5 - Local Conditions,30.535476013288758
+08/04/2020,country total,00,PM2.5 - Local Conditions,27.735496167090893
+08/07/2020,country total,00,PM2.5 - Local Conditions,31.735248463801366
+08/10/2020,country total,00,PM2.5 - Local Conditions,35.996375630817404
+08/13/2020,country total,00,PM2.5 - Local Conditions,33.27377083680767
+08/16/2020,country total,00,PM2.5 - Local Conditions,30.85024409290463
+08/19/2020,country total,00,PM2.5 - Local Conditions,33.357571497366095
+08/22/2020,country total,00,PM2.5 - Local Conditions,43.58004671084423
+08/25/2020,country total,00,PM2.5 - Local Conditions,44.12024909737823
+08/28/2020,country total,00,PM2.5 - Local Conditions,33.81039094259341
+08/31/2020,country total,00,PM2.5 - Local Conditions,26.168804404189842
+09/03/2020,country total,00,PM2.5 - Local Conditions,36.54990708003021
+09/06/2020,country total,00,PM2.5 - Local Conditions,35.46582225338935
+09/09/2020,country total,00,PM2.5 - Local Conditions,27.706292793535106
+09/12/2020,country total,00,PM2.5 - Local Conditions,34.79206779707168
+10/03/2020,country total,00,PM2.5 - Local Conditions,33.58700067156714
+10/06/2020,country total,00,PM2.5 - Local Conditions,39.74599443889428
+10/09/2020,country total,00,PM2.5 - Local Conditions,42.23240939302701
+10/12/2020,country total,00,PM2.5 - Local Conditions,21.005333273993266
+10/15/2020,country total,00,PM2.5 - Local Conditions,27.338681798431338
+10/18/2020,country total,00,PM2.5 - Local Conditions,29.486464840538
+10/21/2020,country total,00,PM2.5 - Local Conditions,31.453491438474423
+10/24/2020,country total,00,PM2.5 - Local Conditions,23.991983989301055
+10/27/2020,country total,00,PM2.5 - Local Conditions,29.127565511252044
+10/30/2020,country total,00,PM2.5 - Local Conditions,24.077863844996088
+11/02/2020,country total,00,PM2.5 - Local Conditions,23.271540354821994
+11/05/2020,country total,00,PM2.5 - Local Conditions,40.01289995851374
+11/08/2020,country total,00,PM2.5 - Local Conditions,40.39748386276859
+11/11/2020,country total,00,PM2.5 - Local Conditions,23.040937785370122
+11/14/2020,country total,00,PM2.5 - Local Conditions,34.27185869871263
+11/17/2020,country total,00,PM2.5 - Local Conditions,22.97270982299185
+11/20/2020,country total,00,PM2.5 - Local Conditions,36.26703049630873
+11/23/2020,country total,00,PM2.5 - Local Conditions,27.722703250919505
+11/26/2020,country total,00,PM2.5 - Local Conditions,26.539166393904626
+11/29/2020,country total,00,PM2.5 - Local Conditions,31.875645405402647
+09/21/2020,country total,00,PM2.5 - Local Conditions,33.342004324771366
+09/24/2020,country total,00,PM2.5 - Local Conditions,39.15703814457533
+09/26/2020,country total,00,PM2.5 - Local Conditions,33.90567774649397
+09/30/2020,country total,00,PM2.5 - Local Conditions,24.989771505273847
+09/15/2020,country total,00,PM2.5 - Local Conditions,34.63553184653251
+09/18/2020,country total,00,PM2.5 - Local Conditions,39.373661121884176
+09/27/2020,country total,00,PM2.5 - Local Conditions,26.393236248219473
+05/29/2020,country total,00,PM2.5 - Local Conditions,23.203626933207058
+10/13/2020,country total,00,PM2.5 - Local Conditions,22.81811738961405
+11/03/2020,country total,00,PM2.5 - Local Conditions,32.761017170941734
+11/24/2020,country total,00,PM2.5 - Local Conditions,29.529384841246582
+12/02/2020,country total,00,PM2.5 - Local Conditions,26.547686335975296
+12/05/2020,country total,00,PM2.5 - Local Conditions,35.034069527570324
+12/08/2020,country total,00,PM2.5 - Local Conditions,35.050910804107936
+12/11/2020,country total,00,PM2.5 - Local Conditions,45.778590502632476
+12/15/2020,country total,00,PM2.5 - Local Conditions,27.390426471502103
+12/17/2020,country total,00,PM2.5 - Local Conditions,35.97178268185082
+12/20/2020,country total,00,PM2.5 - Local Conditions,41.755644976561726
+12/23/2020,country total,00,PM2.5 - Local Conditions,25.60215058701583
+12/29/2020,country total,00,PM2.5 - Local Conditions,29.794221716815546
+01/02/2020,country total,00,PM2.5 - Local Conditions,27.513438151255322
+01/03/2020,country total,00,PM2.5 - Local Conditions,30.434961489675732
+01/05/2020,country total,00,PM2.5 - Local Conditions,20.11517489797073
+01/06/2020,country total,00,PM2.5 - Local Conditions,22.40702802487862
+01/08/2020,country total,00,PM2.5 - Local Conditions,23.25130349380542
+01/09/2020,country total,00,PM2.5 - Local Conditions,26.617894146429155
+01/11/2020,country total,00,PM2.5 - Local Conditions,22.716671952372447
+01/12/2020,country total,00,PM2.5 - Local Conditions,20.304258691832175
+01/14/2020,country total,00,PM2.5 - Local Conditions,33.55087298678399
+01/15/2020,country total,00,PM2.5 - Local Conditions,34.141336081811964
+01/17/2020,country total,00,PM2.5 - Local Conditions,22.3948212826306
+01/18/2020,country total,00,PM2.5 - Local Conditions,24.05928106251196
+01/20/2020,country total,00,PM2.5 - Local Conditions,27.89010146926249
+01/24/2020,country total,00,PM2.5 - Local Conditions,36.51287827376182
+01/26/2020,country total,00,PM2.5 - Local Conditions,26.216266398772184
+01/27/2020,country total,00,PM2.5 - Local Conditions,27.0976211116457
+01/29/2020,country total,00,PM2.5 - Local Conditions,26.6011631504868
+01/30/2020,country total,00,PM2.5 - Local Conditions,33.94349495602028
+02/01/2020,country total,00,PM2.5 - Local Conditions,37.5281928357895
+02/02/2020,country total,00,PM2.5 - Local Conditions,26.31948585392708
+02/04/2020,country total,00,PM2.5 - Local Conditions,25.413141549231263
+02/05/2020,country total,00,PM2.5 - Local Conditions,21.418853512506512
+02/07/2020,country total,00,PM2.5 - Local Conditions,21.592618982924733
+02/08/2020,country total,00,PM2.5 - Local Conditions,26.9789681400813
+02/10/2020,country total,00,PM2.5 - Local Conditions,29.048419385742754
+02/11/2020,country total,00,PM2.5 - Local Conditions,28.213371045036094
+02/13/2020,country total,00,PM2.5 - Local Conditions,23.592523353849757
+02/14/2020,country total,00,PM2.5 - Local Conditions,24.086241360834567
+02/16/2020,country total,00,PM2.5 - Local Conditions,32.54953948018509
+02/17/2020,country total,00,PM2.5 - Local Conditions,35.34020087043835
+02/19/2020,country total,00,PM2.5 - Local Conditions,25.906659932343054
+02/20/2020,country total,00,PM2.5 - Local Conditions,24.691521250166936
+02/22/2020,country total,00,PM2.5 - Local Conditions,33.27373318911203
+02/23/2020,country total,00,PM2.5 - Local Conditions,35.229706519591154
+02/25/2020,country total,00,PM2.5 - Local Conditions,26.929818198136015
+02/26/2020,country total,00,PM2.5 - Local Conditions,23.14301876052436
+02/28/2020,country total,00,PM2.5 - Local Conditions,23.94019235959081
+02/29/2020,country total,00,PM2.5 - Local Conditions,25.444888444148408
+03/02/2020,country total,00,PM2.5 - Local Conditions,30.256876338291267
+03/03/2020,country total,00,PM2.5 - Local Conditions,30.423656938641127
+03/05/2020,country total,00,PM2.5 - Local Conditions,22.649490831267993
+03/06/2020,country total,00,PM2.5 - Local Conditions,23.797468647710364
+03/08/2020,country total,00,PM2.5 - Local Conditions,29.31467711840579
+03/09/2020,country total,00,PM2.5 - Local Conditions,30.104374638570825
+03/11/2020,country total,00,PM2.5 - Local Conditions,27.592015019922254
+03/12/2020,country total,00,PM2.5 - Local Conditions,30.13326278022738
+03/14/2020,country total,00,PM2.5 - Local Conditions,19.836003430512967
+03/15/2020,country total,00,PM2.5 - Local Conditions,22.717924997458194
+03/17/2020,country total,00,PM2.5 - Local Conditions,27.452322652874045
+03/18/2020,country total,00,PM2.5 - Local Conditions,29.768365127478813
+03/20/2020,country total,00,PM2.5 - Local Conditions,24.34079358723194
+03/21/2020,country total,00,PM2.5 - Local Conditions,20.074729329068994
+03/23/2020,country total,00,PM2.5 - Local Conditions,23.033399359223132
+03/24/2020,country total,00,PM2.5 - Local Conditions,24.944358219736863
+03/26/2020,country total,00,PM2.5 - Local Conditions,28.59137263428238
+03/27/2020,country total,00,PM2.5 - Local Conditions,34.26822362396224
+03/29/2020,country total,00,PM2.5 - Local Conditions,21.659994037362956
+03/30/2020,country total,00,PM2.5 - Local Conditions,20.088568812978398
+04/01/2020,country total,00,PM2.5 - Local Conditions,22.268798182873955
+04/02/2020,country total,00,PM2.5 - Local Conditions,22.282164030551787
+04/04/2020,country total,00,PM2.5 - Local Conditions,26.620926449480905
+04/05/2020,country total,00,PM2.5 - Local Conditions,31.268096085440636
+04/07/2020,country total,00,PM2.5 - Local Conditions,32.70631448331559
+04/08/2020,country total,00,PM2.5 - Local Conditions,30.676763967480092
+04/10/2020,country total,00,PM2.5 - Local Conditions,20.874647834726836
+04/11/2020,country total,00,PM2.5 - Local Conditions,29.09010988239562
+04/13/2020,country total,00,PM2.5 - Local Conditions,21.330478695143977
+04/14/2020,country total,00,PM2.5 - Local Conditions,21.639299793688583
+04/16/2020,country total,00,PM2.5 - Local Conditions,26.85639233379061
+04/17/2020,country total,00,PM2.5 - Local Conditions,31.302261544317172
+04/19/2020,country total,00,PM2.5 - Local Conditions,27.851029350536425
+04/20/2020,country total,00,PM2.5 - Local Conditions,24.273325599886725
+04/22/2020,country total,00,PM2.5 - Local Conditions,23.29077478209913
+04/23/2020,country total,00,PM2.5 - Local Conditions,26.376150302416125
+04/25/2020,country total,00,PM2.5 - Local Conditions,27.3043614271398
+04/26/2020,country total,00,PM2.5 - Local Conditions,20.70088535398234
+04/28/2020,country total,00,PM2.5 - Local Conditions,25.957706246246136
+04/29/2020,country total,00,PM2.5 - Local Conditions,22.07297876877856
+05/01/2020,country total,00,PM2.5 - Local Conditions,22.395280871244232
+05/02/2020,country total,00,PM2.5 - Local Conditions,26.002735378817217
+05/04/2020,country total,00,PM2.5 - Local Conditions,21.675229503824976
+05/05/2020,country total,00,PM2.5 - Local Conditions,22.01848537552237
+05/07/2020,country total,00,PM2.5 - Local Conditions,23.139936027584
+05/08/2020,country total,00,PM2.5 - Local Conditions,22.804293362139084
+05/10/2020,country total,00,PM2.5 - Local Conditions,21.32318005071505
+05/11/2020,country total,00,PM2.5 - Local Conditions,20.533525811297228
+05/13/2020,country total,00,PM2.5 - Local Conditions,24.95750013661493
+05/14/2020,country total,00,PM2.5 - Local Conditions,28.302871211820054
+05/16/2020,country total,00,PM2.5 - Local Conditions,24.35129179945684
+05/17/2020,country total,00,PM2.5 - Local Conditions,22.854890221803505
+05/19/2020,country total,00,PM2.5 - Local Conditions,21.45921284403029
+05/20/2020,country total,00,PM2.5 - Local Conditions,20.965424463796346
+05/22/2020,country total,00,PM2.5 - Local Conditions,26.055011846581326
+05/23/2020,country total,00,PM2.5 - Local Conditions,25.58548228315634
+05/25/2020,country total,00,PM2.5 - Local Conditions,24.435985098096516
+05/26/2020,country total,00,PM2.5 - Local Conditions,22.989995865999944
+05/28/2020,country total,00,PM2.5 - Local Conditions,20.254526098691034
+05/31/2020,country total,00,PM2.5 - Local Conditions,21.88866022028197
+06/01/2020,country total,00,PM2.5 - Local Conditions,23.906653547511375
+06/03/2020,country total,00,PM2.5 - Local Conditions,34.11529588184762
+06/04/2020,country total,00,PM2.5 - Local Conditions,32.56425900043481
+06/06/2020,country total,00,PM2.5 - Local Conditions,27.898782637725446
+06/07/2020,country total,00,PM2.5 - Local Conditions,23.326162932297397
+06/09/2020,country total,00,PM2.5 - Local Conditions,28.644474177658783
+06/10/2020,country total,00,PM2.5 - Local Conditions,27.633255108810907
+06/12/2020,country total,00,PM2.5 - Local Conditions,24.192333782046514
+06/13/2020,country total,00,PM2.5 - Local Conditions,23.632418895636924
+06/15/2020,country total,00,PM2.5 - Local Conditions,26.741262040816792
+06/16/2020,country total,00,PM2.5 - Local Conditions,29.854774171632307
+06/18/2020,country total,00,PM2.5 - Local Conditions,32.419603587989265
+06/19/2020,country total,00,PM2.5 - Local Conditions,36.64534399670353
+06/21/2020,country total,00,PM2.5 - Local Conditions,32.58946925189319
+06/22/2020,country total,00,PM2.5 - Local Conditions,26.67498206012413
+06/24/2020,country total,00,PM2.5 - Local Conditions,30.890363877189
+06/25/2020,country total,00,PM2.5 - Local Conditions,30.98894184873256
+06/27/2020,country total,00,PM2.5 - Local Conditions,46.77538561465662
+06/28/2020,country total,00,PM2.5 - Local Conditions,38.98055850492952
+06/30/2020,country total,00,PM2.5 - Local Conditions,31.100686762945834
+07/01/2020,country total,00,PM2.5 - Local Conditions,29.74502845021441
+07/03/2020,country total,00,PM2.5 - Local Conditions,41.68550422979883
+07/04/2020,country total,00,PM2.5 - Local Conditions,57.93313939445354
+07/06/2020,country total,00,PM2.5 - Local Conditions,37.18262719677998
+07/07/2020,country total,00,PM2.5 - Local Conditions,34.44206752479093
+07/09/2020,country total,00,PM2.5 - Local Conditions,33.71522907785409
+07/10/2020,country total,00,PM2.5 - Local Conditions,27.347679306755172
+07/12/2020,country total,00,PM2.5 - Local Conditions,24.525554911448488
+07/13/2020,country total,00,PM2.5 - Local Conditions,27.25644818132293
+07/15/2020,country total,00,PM2.5 - Local Conditions,31.08613681776924
+07/16/2020,country total,00,PM2.5 - Local Conditions,29.358491328436784
+07/18/2020,country total,00,PM2.5 - Local Conditions,34.20541746650026
+07/19/2020,country total,00,PM2.5 - Local Conditions,33.59153614834337
+07/21/2020,country total,00,PM2.5 - Local Conditions,27.26303221640888
+07/22/2020,country total,00,PM2.5 - Local Conditions,25.931800424177414
+07/24/2020,country total,00,PM2.5 - Local Conditions,25.16766082485415
+07/25/2020,country total,00,PM2.5 - Local Conditions,28.027715790558652
+07/27/2020,country total,00,PM2.5 - Local Conditions,27.920462339234575
+07/28/2020,country total,00,PM2.5 - Local Conditions,26.235580537247504
+07/30/2020,country total,00,PM2.5 - Local Conditions,33.91435917776238
+07/31/2020,country total,00,PM2.5 - Local Conditions,29.38432061600828
+08/02/2020,country total,00,PM2.5 - Local Conditions,29.69880504039045
+08/03/2020,country total,00,PM2.5 - Local Conditions,27.914800978049254
+08/05/2020,country total,00,PM2.5 - Local Conditions,30.98568464638992
+08/06/2020,country total,00,PM2.5 - Local Conditions,31.481537213293368
+08/08/2020,country total,00,PM2.5 - Local Conditions,35.302936400720164
+08/09/2020,country total,00,PM2.5 - Local Conditions,37.49608915601115
+08/11/2020,country total,00,PM2.5 - Local Conditions,36.233838199073276
+08/12/2020,country total,00,PM2.5 - Local Conditions,31.30600457215997
+08/14/2020,country total,00,PM2.5 - Local Conditions,33.26384840204548
+08/15/2020,country total,00,PM2.5 - Local Conditions,32.18105640934255
+08/17/2020,country total,00,PM2.5 - Local Conditions,31.346063179631944
+08/18/2020,country total,00,PM2.5 - Local Conditions,32.731047214965976
+08/20/2020,country total,00,PM2.5 - Local Conditions,36.18781274991873
+08/21/2020,country total,00,PM2.5 - Local Conditions,42.96628535554808
+08/23/2020,country total,00,PM2.5 - Local Conditions,44.63849213575179
+08/24/2020,country total,00,PM2.5 - Local Conditions,44.65389553583196
+08/26/2020,country total,00,PM2.5 - Local Conditions,37.46175367710598
+08/27/2020,country total,00,PM2.5 - Local Conditions,35.980037285448475
+08/29/2020,country total,00,PM2.5 - Local Conditions,29.79887972927042
+08/30/2020,country total,00,PM2.5 - Local Conditions,27.80039168653347
+09/01/2020,country total,00,PM2.5 - Local Conditions,26.884668377255785
+09/02/2020,country total,00,PM2.5 - Local Conditions,31.387082467518628
+09/04/2020,country total,00,PM2.5 - Local Conditions,34.19608566623471
+09/05/2020,country total,00,PM2.5 - Local Conditions,31.213701036951807
+09/07/2020,country total,00,PM2.5 - Local Conditions,36.346020486212744
+09/08/2020,country total,00,PM2.5 - Local Conditions,31.443548336300147
+09/10/2020,country total,00,PM2.5 - Local Conditions,26.92509657966084
+09/11/2020,country total,00,PM2.5 - Local Conditions,32.63975204000908
+09/13/2020,country total,00,PM2.5 - Local Conditions,35.96217732348944
+09/14/2020,country total,00,PM2.5 - Local Conditions,34.785685309185894
+09/16/2020,country total,00,PM2.5 - Local Conditions,41.09791371987393
+09/17/2020,country total,00,PM2.5 - Local Conditions,40.761473550050454
+09/19/2020,country total,00,PM2.5 - Local Conditions,36.28661482542178
+09/20/2020,country total,00,PM2.5 - Local Conditions,34.54137009855807
+09/25/2020,country total,00,PM2.5 - Local Conditions,38.34992002610788
+09/28/2020,country total,00,PM2.5 - Local Conditions,22.27215816165109
+09/29/2020,country total,00,PM2.5 - Local Conditions,21.697404902876123
+10/01/2020,country total,00,PM2.5 - Local Conditions,25.68324713000634
+10/02/2020,country total,00,PM2.5 - Local Conditions,28.646007035296144
+10/04/2020,country total,00,PM2.5 - Local Conditions,36.45198675036516
+10/05/2020,country total,00,PM2.5 - Local Conditions,35.92159611424309
+10/07/2020,country total,00,PM2.5 - Local Conditions,42.989384462008495
+10/08/2020,country total,00,PM2.5 - Local Conditions,39.623123713373275
+10/10/2020,country total,00,PM2.5 - Local Conditions,38.874104994420975
+10/11/2020,country total,00,PM2.5 - Local Conditions,27.26347228907223
+10/14/2020,country total,00,PM2.5 - Local Conditions,26.587862096780817
+10/16/2020,country total,00,PM2.5 - Local Conditions,24.180761335267768
+10/17/2020,country total,00,PM2.5 - Local Conditions,26.806328942244875
+10/19/2020,country total,00,PM2.5 - Local Conditions,31.105120818041588
+10/20/2020,country total,00,PM2.5 - Local Conditions,31.471442334117185
+10/22/2020,country total,00,PM2.5 - Local Conditions,31.726762426325525
+10/23/2020,country total,00,PM2.5 - Local Conditions,27.95095411652099
+10/25/2020,country total,00,PM2.5 - Local Conditions,22.95453082944631
+10/26/2020,country total,00,PM2.5 - Local Conditions,27.064283433214744
+10/28/2020,country total,00,PM2.5 - Local Conditions,30.736413679770568
+10/29/2020,country total,00,PM2.5 - Local Conditions,24.096621520252377
+10/31/2020,country total,00,PM2.5 - Local Conditions,30.965430918072016
+11/01/2020,country total,00,PM2.5 - Local Conditions,27.525639297923792
+11/04/2020,country total,00,PM2.5 - Local Conditions,36.75766760694982
+11/06/2020,country total,00,PM2.5 - Local Conditions,43.27013010577726
+11/07/2020,country total,00,PM2.5 - Local Conditions,45.24039822034331
+11/09/2020,country total,00,PM2.5 - Local Conditions,32.761193620845056
+11/10/2020,country total,00,PM2.5 - Local Conditions,27.609873376755893
+11/12/2020,country total,00,PM2.5 - Local Conditions,28.77687620227093
+11/13/2020,country total,00,PM2.5 - Local Conditions,30.754475749710245
+11/15/2020,country total,00,PM2.5 - Local Conditions,26.892647114436667
+11/16/2020,country total,00,PM2.5 - Local Conditions,21.48120619641599
+11/18/2020,country total,00,PM2.5 - Local Conditions,24.40331183791107
+11/19/2020,country total,00,PM2.5 - Local Conditions,30.485867874861167
+11/21/2020,country total,00,PM2.5 - Local Conditions,41.29729433768422
+11/22/2020,country total,00,PM2.5 - Local Conditions,34.32280416804998
+11/25/2020,country total,00,PM2.5 - Local Conditions,29.290005731171203
+11/27/2020,country total,00,PM2.5 - Local Conditions,29.810483576252807
+11/28/2020,country total,00,PM2.5 - Local Conditions,31.522547403373466
+11/30/2020,country total,00,PM2.5 - Local Conditions,22.562782394846163
+12/01/2020,country total,00,PM2.5 - Local Conditions,21.991411634999857
+12/03/2020,country total,00,PM2.5 - Local Conditions,31.218971545578505
+12/04/2020,country total,00,PM2.5 - Local Conditions,33.460020245060484
+12/06/2020,country total,00,PM2.5 - Local Conditions,33.52919946743991
+12/07/2020,country total,00,PM2.5 - Local Conditions,32.448740130839134
+12/09/2020,country total,00,PM2.5 - Local Conditions,43.356901655520325
+12/10/2020,country total,00,PM2.5 - Local Conditions,46.80769716338541
+12/12/2020,country total,00,PM2.5 - Local Conditions,38.25285010658051
+12/13/2020,country total,00,PM2.5 - Local Conditions,30.23256221103107
+12/14/2020,country total,00,PM2.5 - Local Conditions,26.016658711471827
+12/16/2020,country total,00,PM2.5 - Local Conditions,30.31981788122371
+12/18/2020,country total,00,PM2.5 - Local Conditions,38.73829616920828
+12/19/2020,country total,00,PM2.5 - Local Conditions,41.167813018510955
+12/21/2020,country total,00,PM2.5 - Local Conditions,38.677985249216206
+12/22/2020,country total,00,PM2.5 - Local Conditions,29.455331435189407
+12/24/2020,country total,00,PM2.5 - Local Conditions,23.86990540874656
+12/25/2020,country total,00,PM2.5 - Local Conditions,23.707099725840447
+12/26/2020,country total,00,PM2.5 - Local Conditions,27.92367528854794
+12/27/2020,country total,00,PM2.5 - Local Conditions,33.48506698476445
+12/28/2020,country total,00,PM2.5 - Local Conditions,31.666091801729547
+12/30/2020,country total,00,PM2.5 - Local Conditions,29.1879934695751
+12/31/2020,country total,00,PM2.5 - Local Conditions,35.187485109296055
+01/21/2020,country total,00,PM2.5 - Local Conditions,34.24974207961436
+01/23/2020,country total,00,PM2.5 - Local Conditions,42.588097049171715
+09/22/2020,country total,00,PM2.5 - Local Conditions,35.44011043513256
+09/23/2020,country total,00,PM2.5 - Local Conditions,38.08331002158572
+01/03/2019,country total,00,PM2.5 - Local Conditions,29.096934690899154
+01/06/2019,country total,00,PM2.5 - Local Conditions,26.893176507864233
+01/09/2019,country total,00,PM2.5 - Local Conditions,18.684188801260966
+01/12/2019,country total,00,PM2.5 - Local Conditions,32.84117995096566
+01/15/2019,country total,00,PM2.5 - Local Conditions,39.076617783798106
+01/24/2019,country total,00,PM2.5 - Local Conditions,25.299602611847448
+01/27/2019,country total,00,PM2.5 - Local Conditions,35.35655351343941
+01/30/2019,country total,00,PM2.5 - Local Conditions,24.228754155352746
+02/02/2019,country total,00,PM2.5 - Local Conditions,46.383125413810056
+02/05/2019,country total,00,PM2.5 - Local Conditions,32.953442979276716
+02/08/2019,country total,00,PM2.5 - Local Conditions,20.571501947608212
+02/14/2019,country total,00,PM2.5 - Local Conditions,24.84147430553574
+02/17/2019,country total,00,PM2.5 - Local Conditions,26.11745831757083
+02/20/2019,country total,00,PM2.5 - Local Conditions,27.22776060514545
+02/23/2019,country total,00,PM2.5 - Local Conditions,34.57586377020378
+02/26/2019,country total,00,PM2.5 - Local Conditions,25.274417250365776
+03/01/2019,country total,00,PM2.5 - Local Conditions,35.54004204445119
+03/04/2019,country total,00,PM2.5 - Local Conditions,26.553236820655673
+03/07/2019,country total,00,PM2.5 - Local Conditions,33.85976105512775
+03/10/2019,country total,00,PM2.5 - Local Conditions,26.051317433629254
+03/13/2019,country total,00,PM2.5 - Local Conditions,26.05339931397909
+03/16/2019,country total,00,PM2.5 - Local Conditions,17.165077191414657
+03/19/2019,country total,00,PM2.5 - Local Conditions,31.296291968743816
+03/22/2019,country total,00,PM2.5 - Local Conditions,21.283557311191682
+03/25/2019,country total,00,PM2.5 - Local Conditions,29.39752132751287
+03/28/2019,country total,00,PM2.5 - Local Conditions,29.520647711126646
+04/03/2019,country total,00,PM2.5 - Local Conditions,28.289790021018092
+04/09/2019,country total,00,PM2.5 - Local Conditions,20.149405051090593
+04/12/2019,country total,00,PM2.5 - Local Conditions,20.218514941240482
+04/15/2019,country total,00,PM2.5 - Local Conditions,16.57269063655336
+04/21/2019,country total,00,PM2.5 - Local Conditions,19.403926648769158
+04/24/2019,country total,00,PM2.5 - Local Conditions,23.718906996175523
+04/27/2019,country total,00,PM2.5 - Local Conditions,19.355911924960104
+04/30/2019,country total,00,PM2.5 - Local Conditions,27.866922992019926
+05/03/2019,country total,00,PM2.5 - Local Conditions,24.51379442267227
+05/06/2019,country total,00,PM2.5 - Local Conditions,20.712580653510607
+05/12/2019,country total,00,PM2.5 - Local Conditions,17.191438571542452
+05/15/2019,country total,00,PM2.5 - Local Conditions,26.743634820306443
+05/18/2019,country total,00,PM2.5 - Local Conditions,27.38929085633142
+05/21/2019,country total,00,PM2.5 - Local Conditions,18.252671454529366
+05/24/2019,country total,00,PM2.5 - Local Conditions,24.761825814382615
+05/27/2019,country total,00,PM2.5 - Local Conditions,26.75641140177613
+06/02/2019,country total,00,PM2.5 - Local Conditions,34.98559224985419
+06/05/2019,country total,00,PM2.5 - Local Conditions,36.90171576736842
+06/08/2019,country total,00,PM2.5 - Local Conditions,27.71700823345254
+06/11/2019,country total,00,PM2.5 - Local Conditions,21.668919635163427
+06/14/2019,country total,00,PM2.5 - Local Conditions,22.161440629816845
+06/17/2019,country total,00,PM2.5 - Local Conditions,26.550519432147944
+06/20/2019,country total,00,PM2.5 - Local Conditions,26.012357574337454
+06/23/2019,country total,00,PM2.5 - Local Conditions,25.356494114539736
+06/26/2019,country total,00,PM2.5 - Local Conditions,31.4038950555554
+06/29/2019,country total,00,PM2.5 - Local Conditions,36.528797786130966
+07/02/2019,country total,00,PM2.5 - Local Conditions,33.61391455036788
+07/05/2019,country total,00,PM2.5 - Local Conditions,41.80387945848515
+07/08/2019,country total,00,PM2.5 - Local Conditions,34.542679383644405
+07/11/2019,country total,00,PM2.5 - Local Conditions,29.810978169623393
+07/14/2019,country total,00,PM2.5 - Local Conditions,32.56790139671036
+07/17/2019,country total,00,PM2.5 - Local Conditions,32.52796458953011
+07/20/2019,country total,00,PM2.5 - Local Conditions,34.34252709054683
+07/23/2019,country total,00,PM2.5 - Local Conditions,25.36905257575402
+07/26/2019,country total,00,PM2.5 - Local Conditions,38.676129690319485
+07/29/2019,country total,00,PM2.5 - Local Conditions,37.961631680419835
+08/01/2019,country total,00,PM2.5 - Local Conditions,29.654767280243824
+08/04/2019,country total,00,PM2.5 - Local Conditions,32.31203761602633
+08/07/2019,country total,00,PM2.5 - Local Conditions,32.255887843287944
+08/10/2019,country total,00,PM2.5 - Local Conditions,26.526444721366566
+08/13/2019,country total,00,PM2.5 - Local Conditions,32.0575727396151
+08/16/2019,country total,00,PM2.5 - Local Conditions,30.323544293208794
+08/19/2019,country total,00,PM2.5 - Local Conditions,29.19454892399774
+08/22/2019,country total,00,PM2.5 - Local Conditions,26.412055542345975
+08/25/2019,country total,00,PM2.5 - Local Conditions,22.96179569947583
+08/28/2019,country total,00,PM2.5 - Local Conditions,21.834544456510475
+08/31/2019,country total,00,PM2.5 - Local Conditions,28.89814463704476
+09/03/2019,country total,00,PM2.5 - Local Conditions,29.756449880185592
+09/06/2019,country total,00,PM2.5 - Local Conditions,28.125528216505778
+09/09/2019,country total,00,PM2.5 - Local Conditions,30.076738310033022
+09/12/2019,country total,00,PM2.5 - Local Conditions,29.970988283708557
+09/15/2019,country total,00,PM2.5 - Local Conditions,27.023958803418402
+09/18/2019,country total,00,PM2.5 - Local Conditions,29.73248691582134
+09/21/2019,country total,00,PM2.5 - Local Conditions,30.71320957930883
+09/24/2019,country total,00,PM2.5 - Local Conditions,20.443526535080778
+09/27/2019,country total,00,PM2.5 - Local Conditions,25.18037958182121
+09/30/2019,country total,00,PM2.5 - Local Conditions,27.98557385940096
+10/03/2019,country total,00,PM2.5 - Local Conditions,25.302365959552834
+10/06/2019,country total,00,PM2.5 - Local Conditions,22.625178987208322
+10/09/2019,country total,00,PM2.5 - Local Conditions,24.591836623492433
+10/12/2019,country total,00,PM2.5 - Local Conditions,19.927851303968975
+10/15/2019,country total,00,PM2.5 - Local Conditions,24.740664219623728
+10/18/2019,country total,00,PM2.5 - Local Conditions,20.26806715481067
+10/21/2019,country total,00,PM2.5 - Local Conditions,21.51242834935534
+10/24/2019,country total,00,PM2.5 - Local Conditions,22.230259894498097
+10/27/2019,country total,00,PM2.5 - Local Conditions,19.505090462854795
+10/30/2019,country total,00,PM2.5 - Local Conditions,21.180538401094193
+11/08/2019,country total,00,PM2.5 - Local Conditions,22.70937798224113
+11/11/2019,country total,00,PM2.5 - Local Conditions,31.88331274995098
+11/14/2019,country total,00,PM2.5 - Local Conditions,34.47524054031308
+11/17/2019,country total,00,PM2.5 - Local Conditions,32.26684527334144
+11/20/2019,country total,00,PM2.5 - Local Conditions,32.62709072487895
+11/23/2019,country total,00,PM2.5 - Local Conditions,25.19634737065974
+11/26/2019,country total,00,PM2.5 - Local Conditions,33.57996522681605
+11/29/2019,country total,00,PM2.5 - Local Conditions,19.51030549181693
+12/02/2019,country total,00,PM2.5 - Local Conditions,17.972613360856485
+12/14/2019,country total,00,PM2.5 - Local Conditions,28.059964381936247
+12/17/2019,country total,00,PM2.5 - Local Conditions,26.27858965049894
+12/20/2019,country total,00,PM2.5 - Local Conditions,39.35520783891792
+12/26/2019,country total,00,PM2.5 - Local Conditions,36.678587425787555
+12/29/2019,country total,00,PM2.5 - Local Conditions,26.581369500234814
+01/18/2019,country total,00,PM2.5 - Local Conditions,34.97371508864635
+01/21/2019,country total,00,PM2.5 - Local Conditions,19.284528128832854
+02/11/2019,country total,00,PM2.5 - Local Conditions,31.5697808350196
+04/06/2019,country total,00,PM2.5 - Local Conditions,31.82857533158301
+04/18/2019,country total,00,PM2.5 - Local Conditions,23.29056706682298
+05/30/2019,country total,00,PM2.5 - Local Conditions,27.121558901833442
+11/05/2019,country total,00,PM2.5 - Local Conditions,31.864124512406654
+03/31/2019,country total,00,PM2.5 - Local Conditions,18.46397119177833
+05/09/2019,country total,00,PM2.5 - Local Conditions,20.42344367425614
+11/02/2019,country total,00,PM2.5 - Local Conditions,25.90384408345371
+12/08/2019,country total,00,PM2.5 - Local Conditions,32.87762826507265
+12/23/2019,country total,00,PM2.5 - Local Conditions,43.229665722833275
+12/05/2019,country total,00,PM2.5 - Local Conditions,29.850528286170636
+12/11/2019,country total,00,PM2.5 - Local Conditions,27.452867100512698
+01/01/2019,country total,00,PM2.5 - Local Conditions,24.90904643657678
+01/02/2019,country total,00,PM2.5 - Local Conditions,28.681654998256967
+01/04/2019,country total,00,PM2.5 - Local Conditions,35.761241553640225
+01/05/2019,country total,00,PM2.5 - Local Conditions,33.7214059335173
+01/07/2019,country total,00,PM2.5 - Local Conditions,23.282111385386493
+01/08/2019,country total,00,PM2.5 - Local Conditions,28.97555789468881
+01/10/2019,country total,00,PM2.5 - Local Conditions,25.174985883931104
+01/11/2019,country total,00,PM2.5 - Local Conditions,32.3456992274902
+01/13/2019,country total,00,PM2.5 - Local Conditions,33.86425046623124
+01/14/2019,country total,00,PM2.5 - Local Conditions,38.0521969894268
+01/16/2019,country total,00,PM2.5 - Local Conditions,40.27463819973084
+01/17/2019,country total,00,PM2.5 - Local Conditions,33.796153764421696
+01/19/2019,country total,00,PM2.5 - Local Conditions,28.639554005162847
+01/20/2019,country total,00,PM2.5 - Local Conditions,21.026525011964985
+01/22/2019,country total,00,PM2.5 - Local Conditions,26.611748229519378
+01/23/2019,country total,00,PM2.5 - Local Conditions,30.258075890176862
+01/25/2019,country total,00,PM2.5 - Local Conditions,27.547801313468796
+01/26/2019,country total,00,PM2.5 - Local Conditions,33.72299682491392
+01/28/2019,country total,00,PM2.5 - Local Conditions,32.001457015270084
+01/29/2019,country total,00,PM2.5 - Local Conditions,30.008546826192394
+01/31/2019,country total,00,PM2.5 - Local Conditions,30.21094320072611
+02/01/2019,country total,00,PM2.5 - Local Conditions,40.72370314254255
+02/03/2019,country total,00,PM2.5 - Local Conditions,44.93257421690187
+02/04/2019,country total,00,PM2.5 - Local Conditions,39.76977123115962
+02/06/2019,country total,00,PM2.5 - Local Conditions,28.310391339512716
+02/07/2019,country total,00,PM2.5 - Local Conditions,25.623114692256383
+02/09/2019,country total,00,PM2.5 - Local Conditions,23.991347441714577
+02/10/2019,country total,00,PM2.5 - Local Conditions,31.420057389273815
+02/12/2019,country total,00,PM2.5 - Local Conditions,22.66024262479161
+02/13/2019,country total,00,PM2.5 - Local Conditions,24.25383359884257
+02/15/2019,country total,00,PM2.5 - Local Conditions,30.27691622939968
+02/16/2019,country total,00,PM2.5 - Local Conditions,27.544151349068635
+02/18/2019,country total,00,PM2.5 - Local Conditions,27.905518947969803
+02/19/2019,country total,00,PM2.5 - Local Conditions,31.05904340871058
+02/21/2019,country total,00,PM2.5 - Local Conditions,33.33834332205187
+02/22/2019,country total,00,PM2.5 - Local Conditions,39.80918167549005
+02/24/2019,country total,00,PM2.5 - Local Conditions,23.165448928891625
+02/25/2019,country total,00,PM2.5 - Local Conditions,21.777740565905578
+02/27/2019,country total,00,PM2.5 - Local Conditions,31.787602476961943
+02/28/2019,country total,00,PM2.5 - Local Conditions,36.63510861934333
+03/02/2019,country total,00,PM2.5 - Local Conditions,39.1182808180686
+03/03/2019,country total,00,PM2.5 - Local Conditions,34.50422155973881
+03/05/2019,country total,00,PM2.5 - Local Conditions,29.248107549658886
+03/06/2019,country total,00,PM2.5 - Local Conditions,32.51205214578233
+03/08/2019,country total,00,PM2.5 - Local Conditions,44.489372329737336
+03/09/2019,country total,00,PM2.5 - Local Conditions,40.13510790456081
+03/11/2019,country total,00,PM2.5 - Local Conditions,28.050779996025444
+03/12/2019,country total,00,PM2.5 - Local Conditions,28.583186627944315
+03/14/2019,country total,00,PM2.5 - Local Conditions,27.153554886899922
+03/15/2019,country total,00,PM2.5 - Local Conditions,23.484192332025387
+03/17/2019,country total,00,PM2.5 - Local Conditions,23.610422962745595
+03/18/2019,country total,00,PM2.5 - Local Conditions,29.61991571301304
+03/20/2019,country total,00,PM2.5 - Local Conditions,37.61968646652132
+03/21/2019,country total,00,PM2.5 - Local Conditions,30.064299066754273
+03/23/2019,country total,00,PM2.5 - Local Conditions,26.03396035998949
+03/24/2019,country total,00,PM2.5 - Local Conditions,33.54337657012352
+03/26/2019,country total,00,PM2.5 - Local Conditions,26.575703533351714
+03/27/2019,country total,00,PM2.5 - Local Conditions,29.619975145703567
+03/29/2019,country total,00,PM2.5 - Local Conditions,31.233004927266894
+03/30/2019,country total,00,PM2.5 - Local Conditions,28.67252404045994
+04/01/2019,country total,00,PM2.5 - Local Conditions,22.954959454424024
+04/02/2019,country total,00,PM2.5 - Local Conditions,28.502977733752324
+04/04/2019,country total,00,PM2.5 - Local Conditions,30.44173578324896
+04/05/2019,country total,00,PM2.5 - Local Conditions,30.427300142760515
+04/07/2019,country total,00,PM2.5 - Local Conditions,31.232712803185297
+04/08/2019,country total,00,PM2.5 - Local Conditions,24.128919859126338
+04/10/2019,country total,00,PM2.5 - Local Conditions,21.383549286934592
+04/11/2019,country total,00,PM2.5 - Local Conditions,21.28634549959811
+04/13/2019,country total,00,PM2.5 - Local Conditions,22.430381267386352
+04/14/2019,country total,00,PM2.5 - Local Conditions,20.078647387478643
+04/16/2019,country total,00,PM2.5 - Local Conditions,23.205953877603232
+04/17/2019,country total,00,PM2.5 - Local Conditions,26.483758934788405
+04/19/2019,country total,00,PM2.5 - Local Conditions,21.64595777435277
+04/20/2019,country total,00,PM2.5 - Local Conditions,20.834913023811026
+04/22/2019,country total,00,PM2.5 - Local Conditions,23.532529411319743
+04/23/2019,country total,00,PM2.5 - Local Conditions,25.495492807606094
+04/25/2019,country total,00,PM2.5 - Local Conditions,26.987781900893022
+04/26/2019,country total,00,PM2.5 - Local Conditions,23.15239378671003
+04/28/2019,country total,00,PM2.5 - Local Conditions,23.783135231648732
+04/29/2019,country total,00,PM2.5 - Local Conditions,25.375545707129668
+05/01/2019,country total,00,PM2.5 - Local Conditions,26.433058298469334
+05/02/2019,country total,00,PM2.5 - Local Conditions,27.068586686864293
+05/05/2019,country total,00,PM2.5 - Local Conditions,22.104243349993222
+05/07/2019,country total,00,PM2.5 - Local Conditions,25.928529769185737
+05/08/2019,country total,00,PM2.5 - Local Conditions,24.086918492793668
+05/10/2019,country total,00,PM2.5 - Local Conditions,22.282835174833146
+05/11/2019,country total,00,PM2.5 - Local Conditions,21.792585254193682
+05/13/2019,country total,00,PM2.5 - Local Conditions,21.29617878548839
+05/14/2019,country total,00,PM2.5 - Local Conditions,23.523162316771884
+05/16/2019,country total,00,PM2.5 - Local Conditions,32.78069751130935
+05/17/2019,country total,00,PM2.5 - Local Conditions,33.0042748927561
+05/19/2019,country total,00,PM2.5 - Local Conditions,28.26678745016373
+05/20/2019,country total,00,PM2.5 - Local Conditions,25.42793334909334
+05/22/2019,country total,00,PM2.5 - Local Conditions,24.434987121382456
+05/23/2019,country total,00,PM2.5 - Local Conditions,26.313711373337494
+05/25/2019,country total,00,PM2.5 - Local Conditions,26.748539195486035
+05/26/2019,country total,00,PM2.5 - Local Conditions,29.698472479176736
+05/28/2019,country total,00,PM2.5 - Local Conditions,29.326983448126775
+05/29/2019,country total,00,PM2.5 - Local Conditions,28.50686082096988
+05/31/2019,country total,00,PM2.5 - Local Conditions,34.20517555296584
+06/04/2019,country total,00,PM2.5 - Local Conditions,29.403597282480586
+06/06/2019,country total,00,PM2.5 - Local Conditions,32.42073440707839
+06/07/2019,country total,00,PM2.5 - Local Conditions,31.274288386124606
+06/09/2019,country total,00,PM2.5 - Local Conditions,27.933245233354928
+06/10/2019,country total,00,PM2.5 - Local Conditions,25.065331023043594
+06/12/2019,country total,00,PM2.5 - Local Conditions,24.832414846062136
+06/13/2019,country total,00,PM2.5 - Local Conditions,21.93729277839352
+06/15/2019,country total,00,PM2.5 - Local Conditions,30.095838982550852
+06/16/2019,country total,00,PM2.5 - Local Conditions,31.746001621419516
+06/18/2019,country total,00,PM2.5 - Local Conditions,27.13454335853952
+06/19/2019,country total,00,PM2.5 - Local Conditions,26.514133351767622
+06/21/2019,country total,00,PM2.5 - Local Conditions,29.157280328419393
+06/22/2019,country total,00,PM2.5 - Local Conditions,27.542216794977083
+06/24/2019,country total,00,PM2.5 - Local Conditions,28.91719889993485
+06/25/2019,country total,00,PM2.5 - Local Conditions,28.991379242845607
+06/27/2019,country total,00,PM2.5 - Local Conditions,33.210865568726675
+06/28/2019,country total,00,PM2.5 - Local Conditions,35.59700366517432
+06/30/2019,country total,00,PM2.5 - Local Conditions,32.08912227193188
+07/01/2019,country total,00,PM2.5 - Local Conditions,29.672660207659057
+07/03/2019,country total,00,PM2.5 - Local Conditions,36.11259462010829
+07/04/2019,country total,00,PM2.5 - Local Conditions,49.867495579391644
+07/06/2019,country total,00,PM2.5 - Local Conditions,38.78217643441208
+07/07/2019,country total,00,PM2.5 - Local Conditions,35.03658079224816
+07/09/2019,country total,00,PM2.5 - Local Conditions,39.0734416062529
+07/10/2019,country total,00,PM2.5 - Local Conditions,38.27153621688768
+07/12/2019,country total,00,PM2.5 - Local Conditions,27.817181671359297
+07/13/2019,country total,00,PM2.5 - Local Conditions,33.28725045511899
+07/15/2019,country total,00,PM2.5 - Local Conditions,30.162318365180596
+07/16/2019,country total,00,PM2.5 - Local Conditions,33.892750955978784
+07/18/2019,country total,00,PM2.5 - Local Conditions,29.459484373773467
+07/19/2019,country total,00,PM2.5 - Local Conditions,33.631397596490956
+07/21/2019,country total,00,PM2.5 - Local Conditions,30.524697914175647
+07/22/2019,country total,00,PM2.5 - Local Conditions,24.705545560383424
+07/24/2019,country total,00,PM2.5 - Local Conditions,32.67052407162728
+07/25/2019,country total,00,PM2.5 - Local Conditions,35.380559088854525
+07/27/2019,country total,00,PM2.5 - Local Conditions,40.120950465151424
+07/28/2019,country total,00,PM2.5 - Local Conditions,41.00297336361902
+07/30/2019,country total,00,PM2.5 - Local Conditions,36.31028182561354
+07/31/2019,country total,00,PM2.5 - Local Conditions,32.18913689212708
+08/02/2019,country total,00,PM2.5 - Local Conditions,31.07438543549667
+08/03/2019,country total,00,PM2.5 - Local Conditions,34.568897048206125
+08/05/2019,country total,00,PM2.5 - Local Conditions,33.446315810945066
+08/06/2019,country total,00,PM2.5 - Local Conditions,34.950102085678495
+08/08/2019,country total,00,PM2.5 - Local Conditions,29.895453651669616
+08/09/2019,country total,00,PM2.5 - Local Conditions,28.793203112567163
+08/11/2019,country total,00,PM2.5 - Local Conditions,25.59508232940258
+08/12/2019,country total,00,PM2.5 - Local Conditions,31.148734880583817
+08/14/2019,country total,00,PM2.5 - Local Conditions,30.45099568772705
+08/15/2019,country total,00,PM2.5 - Local Conditions,32.23296414855427
+08/17/2019,country total,00,PM2.5 - Local Conditions,28.94460638505881
+08/18/2019,country total,00,PM2.5 - Local Conditions,29.15479228406315
+08/20/2019,country total,00,PM2.5 - Local Conditions,31.298327219940365
+08/21/2019,country total,00,PM2.5 - Local Conditions,29.42280876523024
+08/23/2019,country total,00,PM2.5 - Local Conditions,23.994722942111487
+08/24/2019,country total,00,PM2.5 - Local Conditions,23.391560068755247
+08/26/2019,country total,00,PM2.5 - Local Conditions,23.96557651795866
+08/27/2019,country total,00,PM2.5 - Local Conditions,23.697620310031176
+08/29/2019,country total,00,PM2.5 - Local Conditions,24.029265681008162
+08/30/2019,country total,00,PM2.5 - Local Conditions,28.424488293497802
+09/01/2019,country total,00,PM2.5 - Local Conditions,29.722767874822182
+09/02/2019,country total,00,PM2.5 - Local Conditions,29.88624154880919
+09/04/2019,country total,00,PM2.5 - Local Conditions,30.866884761290102
+09/05/2019,country total,00,PM2.5 - Local Conditions,29.122019081541435
+09/07/2019,country total,00,PM2.5 - Local Conditions,28.372757160807595
+09/08/2019,country total,00,PM2.5 - Local Conditions,27.80755082037473
+09/10/2019,country total,00,PM2.5 - Local Conditions,31.854087093255174
+09/11/2019,country total,00,PM2.5 - Local Conditions,33.94953954269115
+09/13/2019,country total,00,PM2.5 - Local Conditions,27.311133538837375
+09/14/2019,country total,00,PM2.5 - Local Conditions,25.601890982826138
+09/16/2019,country total,00,PM2.5 - Local Conditions,32.65179229643025
+09/17/2019,country total,00,PM2.5 - Local Conditions,33.76097877351836
+09/19/2019,country total,00,PM2.5 - Local Conditions,29.247395100808056
+09/20/2019,country total,00,PM2.5 - Local Conditions,32.97104949307263
+09/22/2019,country total,00,PM2.5 - Local Conditions,31.886239003495735
+09/23/2019,country total,00,PM2.5 - Local Conditions,29.47337771591778
+09/25/2019,country total,00,PM2.5 - Local Conditions,24.36839548290733
+09/26/2019,country total,00,PM2.5 - Local Conditions,27.437572110624274
+09/28/2019,country total,00,PM2.5 - Local Conditions,28.472860193944445
+09/29/2019,country total,00,PM2.5 - Local Conditions,25.104567227715833
+10/01/2019,country total,00,PM2.5 - Local Conditions,30.01523261949509
+10/02/2019,country total,00,PM2.5 - Local Conditions,31.10098673866407
+10/04/2019,country total,00,PM2.5 - Local Conditions,21.547848534501515
+10/05/2019,country total,00,PM2.5 - Local Conditions,22.364802553079713
+10/07/2019,country total,00,PM2.5 - Local Conditions,20.729442156717216
+10/08/2019,country total,00,PM2.5 - Local Conditions,22.865865575794984
+10/10/2019,country total,00,PM2.5 - Local Conditions,23.91109453703437
+10/11/2019,country total,00,PM2.5 - Local Conditions,20.535194439931768
+10/13/2019,country total,00,PM2.5 - Local Conditions,23.122403906549163
+10/14/2019,country total,00,PM2.5 - Local Conditions,27.626085419368458
+10/16/2019,country total,00,PM2.5 - Local Conditions,23.27349464574106
+10/17/2019,country total,00,PM2.5 - Local Conditions,20.3936432361098
+10/19/2019,country total,00,PM2.5 - Local Conditions,26.98109334867604
+10/20/2019,country total,00,PM2.5 - Local Conditions,29.53920811892207
+10/22/2019,country total,00,PM2.5 - Local Conditions,18.54811682610107
+10/23/2019,country total,00,PM2.5 - Local Conditions,19.315311508611387
+10/25/2019,country total,00,PM2.5 - Local Conditions,28.957404828503936
+10/26/2019,country total,00,PM2.5 - Local Conditions,28.888946891095006
+10/28/2019,country total,00,PM2.5 - Local Conditions,23.320310222412566
+10/29/2019,country total,00,PM2.5 - Local Conditions,24.133955987530484
+10/31/2019,country total,00,PM2.5 - Local Conditions,21.282677087805208
+11/01/2019,country total,00,PM2.5 - Local Conditions,24.989052551075556
+11/03/2019,country total,00,PM2.5 - Local Conditions,29.777875097305767
+11/04/2019,country total,00,PM2.5 - Local Conditions,30.730514709733807
+11/06/2019,country total,00,PM2.5 - Local Conditions,33.564569921804946
+11/07/2019,country total,00,PM2.5 - Local Conditions,31.840457017903915
+11/09/2019,country total,00,PM2.5 - Local Conditions,31.30693040458729
+11/10/2019,country total,00,PM2.5 - Local Conditions,38.72323398578013
+11/12/2019,country total,00,PM2.5 - Local Conditions,22.043196387660604
+11/13/2019,country total,00,PM2.5 - Local Conditions,25.197560240044307
+11/15/2019,country total,00,PM2.5 - Local Conditions,42.033152006300014
+11/16/2019,country total,00,PM2.5 - Local Conditions,34.328418600375
+11/18/2019,country total,00,PM2.5 - Local Conditions,34.59383459297684
+11/19/2019,country total,00,PM2.5 - Local Conditions,37.542550424255865
+11/21/2019,country total,00,PM2.5 - Local Conditions,32.49441321854683
+11/22/2019,country total,00,PM2.5 - Local Conditions,30.33125281445592
+11/24/2019,country total,00,PM2.5 - Local Conditions,28.173109424985395
+11/25/2019,country total,00,PM2.5 - Local Conditions,35.25743557720094
+11/27/2019,country total,00,PM2.5 - Local Conditions,29.020803960253136
+11/28/2019,country total,00,PM2.5 - Local Conditions,17.114163966062954
+11/30/2019,country total,00,PM2.5 - Local Conditions,22.713261670071482
+12/01/2019,country total,00,PM2.5 - Local Conditions,19.62213431055447
+12/03/2019,country total,00,PM2.5 - Local Conditions,25.04520072789117
+12/04/2019,country total,00,PM2.5 - Local Conditions,31.465240122350547
+12/06/2019,country total,00,PM2.5 - Local Conditions,33.767467160877665
+12/07/2019,country total,00,PM2.5 - Local Conditions,33.836449237989896
+12/09/2019,country total,00,PM2.5 - Local Conditions,30.434095717218735
+12/10/2019,country total,00,PM2.5 - Local Conditions,28.134910749638227
+12/12/2019,country total,00,PM2.5 - Local Conditions,32.48706218028252
+12/13/2019,country total,00,PM2.5 - Local Conditions,36.020042220612396
+12/15/2019,country total,00,PM2.5 - Local Conditions,28.948661645514896
+12/16/2019,country total,00,PM2.5 - Local Conditions,30.13506647954954
+12/18/2019,country total,00,PM2.5 - Local Conditions,30.09820829382096
+12/19/2019,country total,00,PM2.5 - Local Conditions,35.60358058670095
+12/21/2019,country total,00,PM2.5 - Local Conditions,45.07288273151771
+12/22/2019,country total,00,PM2.5 - Local Conditions,47.37064195767285
+12/24/2019,country total,00,PM2.5 - Local Conditions,38.476538060089595
+12/25/2019,country total,00,PM2.5 - Local Conditions,38.26166850681457
+12/27/2019,country total,00,PM2.5 - Local Conditions,37.88927297956334
+12/28/2019,country total,00,PM2.5 - Local Conditions,36.71504252233872
+12/30/2019,country total,00,PM2.5 - Local Conditions,17.27834723277065
+12/31/2019,country total,00,PM2.5 - Local Conditions,21.609890586868378
+05/04/2019,country total,00,PM2.5 - Local Conditions,28.22225164959559
+06/01/2019,country total,00,PM2.5 - Local Conditions,39.31642982948081
+06/03/2019,country total,00,PM2.5 - Local Conditions,29.094076092801963
+01/02/2018,country total,00,PM2.5 - Local Conditions,35.822136815480086
+01/05/2018,country total,00,PM2.5 - Local Conditions,31.721279083033846
+01/08/2018,country total,00,PM2.5 - Local Conditions,39.53708601133766
+01/11/2018,country total,00,PM2.5 - Local Conditions,28.443700090760412
+01/14/2018,country total,00,PM2.5 - Local Conditions,25.857586896489835
+01/17/2018,country total,00,PM2.5 - Local Conditions,41.88459353834665
+01/20/2018,country total,00,PM2.5 - Local Conditions,34.768275967978646
+01/23/2018,country total,00,PM2.5 - Local Conditions,20.467497848682758
+01/26/2018,country total,00,PM2.5 - Local Conditions,32.58498539745207
+01/29/2018,country total,00,PM2.5 - Local Conditions,26.742563610090627
+02/01/2018,country total,00,PM2.5 - Local Conditions,29.984527272504447
+02/04/2018,country total,00,PM2.5 - Local Conditions,26.729827137385183
+02/07/2018,country total,00,PM2.5 - Local Conditions,37.65326001981583
+02/10/2018,country total,00,PM2.5 - Local Conditions,38.807664864652295
+02/13/2018,country total,00,PM2.5 - Local Conditions,35.98320481602182
+02/16/2018,country total,00,PM2.5 - Local Conditions,26.232408122408508
+02/19/2018,country total,00,PM2.5 - Local Conditions,27.771358657909268
+02/22/2018,country total,00,PM2.5 - Local Conditions,24.51639585269061
+02/25/2018,country total,00,PM2.5 - Local Conditions,20.595582901484473
+02/28/2018,country total,00,PM2.5 - Local Conditions,28.0339738221208
+03/03/2018,country total,00,PM2.5 - Local Conditions,19.429272349248443
+03/06/2018,country total,00,PM2.5 - Local Conditions,21.410330703989093
+03/09/2018,country total,00,PM2.5 - Local Conditions,28.897331172360072
+03/12/2018,country total,00,PM2.5 - Local Conditions,27.18884645258352
+03/15/2018,country total,00,PM2.5 - Local Conditions,30.752985123949294
+03/18/2018,country total,00,PM2.5 - Local Conditions,29.373547500715215
+03/21/2018,country total,00,PM2.5 - Local Conditions,22.09314437823231
+03/24/2018,country total,00,PM2.5 - Local Conditions,22.663517180426872
+03/27/2018,country total,00,PM2.5 - Local Conditions,27.28718335795642
+03/30/2018,country total,00,PM2.5 - Local Conditions,22.920090242763283
+04/02/2018,country total,00,PM2.5 - Local Conditions,25.91046180190456
+04/05/2018,country total,00,PM2.5 - Local Conditions,24.811494032993316
+04/08/2018,country total,00,PM2.5 - Local Conditions,22.01037556828647
+04/11/2018,country total,00,PM2.5 - Local Conditions,37.35553203781509
+04/14/2018,country total,00,PM2.5 - Local Conditions,28.76399187242335
+04/17/2018,country total,00,PM2.5 - Local Conditions,20.363903128680096
+04/20/2018,country total,00,PM2.5 - Local Conditions,23.507375884072985
+04/23/2018,country total,00,PM2.5 - Local Conditions,27.235970016097227
+04/26/2018,country total,00,PM2.5 - Local Conditions,23.816164650078385
+04/29/2018,country total,00,PM2.5 - Local Conditions,22.884006831381384
+05/02/2018,country total,00,PM2.5 - Local Conditions,37.323955095325914
+05/05/2018,country total,00,PM2.5 - Local Conditions,27.393599716212485
+05/08/2018,country total,00,PM2.5 - Local Conditions,30.869395664219674
+05/11/2018,country total,00,PM2.5 - Local Conditions,30.21406866131993
+05/14/2018,country total,00,PM2.5 - Local Conditions,33.579203222367425
+05/17/2018,country total,00,PM2.5 - Local Conditions,27.645017906581923
+05/20/2018,country total,00,PM2.5 - Local Conditions,25.2469236523118
+05/23/2018,country total,00,PM2.5 - Local Conditions,26.182987579723267
+05/26/2018,country total,00,PM2.5 - Local Conditions,33.623309503380796
+05/29/2018,country total,00,PM2.5 - Local Conditions,30.404509829149276
+06/01/2018,country total,00,PM2.5 - Local Conditions,28.650566671172072
+06/04/2018,country total,00,PM2.5 - Local Conditions,23.258520136277678
+06/07/2018,country total,00,PM2.5 - Local Conditions,32.80211702881205
+06/10/2018,country total,00,PM2.5 - Local Conditions,32.22253281170691
+06/13/2018,country total,00,PM2.5 - Local Conditions,31.095083692928903
+06/16/2018,country total,00,PM2.5 - Local Conditions,33.82408138853334
+06/19/2018,country total,00,PM2.5 - Local Conditions,33.301820941034634
+06/22/2018,country total,00,PM2.5 - Local Conditions,26.564932713343467
+06/25/2018,country total,00,PM2.5 - Local Conditions,25.72555929020435
+06/28/2018,country total,00,PM2.5 - Local Conditions,29.177327976319873
+07/04/2018,country total,00,PM2.5 - Local Conditions,47.76795497310656
+07/07/2018,country total,00,PM2.5 - Local Conditions,25.956893076569237
+07/10/2018,country total,00,PM2.5 - Local Conditions,38.30929158230119
+07/13/2018,country total,00,PM2.5 - Local Conditions,38.363131427093926
+07/19/2018,country total,00,PM2.5 - Local Conditions,32.016682828529476
+07/22/2018,country total,00,PM2.5 - Local Conditions,30.49811735054623
+07/25/2018,country total,00,PM2.5 - Local Conditions,31.165289601831812
+08/03/2018,country total,00,PM2.5 - Local Conditions,33.975156846639244
+08/06/2018,country total,00,PM2.5 - Local Conditions,45.80002896743637
+08/09/2018,country total,00,PM2.5 - Local Conditions,40.464775701387794
+08/12/2018,country total,00,PM2.5 - Local Conditions,43.56036834580866
+08/15/2018,country total,00,PM2.5 - Local Conditions,47.996115861970665
+08/18/2018,country total,00,PM2.5 - Local Conditions,36.48857589782091
+08/21/2018,country total,00,PM2.5 - Local Conditions,37.038307814034994
+08/27/2018,country total,00,PM2.5 - Local Conditions,46.80433853116322
+09/05/2018,country total,00,PM2.5 - Local Conditions,31.940566003869044
+09/08/2018,country total,00,PM2.5 - Local Conditions,22.809913821525605
+09/14/2018,country total,00,PM2.5 - Local Conditions,26.235044760109407
+09/17/2018,country total,00,PM2.5 - Local Conditions,27.190530411565078
+09/20/2018,country total,00,PM2.5 - Local Conditions,34.76638797026912
+09/23/2018,country total,00,PM2.5 - Local Conditions,21.008676203098386
+09/26/2018,country total,00,PM2.5 - Local Conditions,21.304457829860503
+09/29/2018,country total,00,PM2.5 - Local Conditions,25.672244597518947
+10/02/2018,country total,00,PM2.5 - Local Conditions,27.828805470166635
+10/05/2018,country total,00,PM2.5 - Local Conditions,24.458034345498046
+10/08/2018,country total,00,PM2.5 - Local Conditions,25.660531136752525
+10/11/2018,country total,00,PM2.5 - Local Conditions,16.494507269746403
+10/14/2018,country total,00,PM2.5 - Local Conditions,21.74259807577844
+10/17/2018,country total,00,PM2.5 - Local Conditions,18.98860198682905
+10/23/2018,country total,00,PM2.5 - Local Conditions,25.820921417426053
+10/26/2018,country total,00,PM2.5 - Local Conditions,24.53498502054482
+10/29/2018,country total,00,PM2.5 - Local Conditions,21.49450693511544
+11/01/2018,country total,00,PM2.5 - Local Conditions,25.42809751844701
+11/04/2018,country total,00,PM2.5 - Local Conditions,20.514340414257628
+11/07/2018,country total,00,PM2.5 - Local Conditions,20.331206258898437
+11/10/2018,country total,00,PM2.5 - Local Conditions,22.873072462495234
+12/01/2018,country total,00,PM2.5 - Local Conditions,31.289718069994013
+12/04/2018,country total,00,PM2.5 - Local Conditions,17.27862865429381
+12/07/2018,country total,00,PM2.5 - Local Conditions,32.520178502279876
+12/10/2018,country total,00,PM2.5 - Local Conditions,43.40497977251693
+12/13/2018,country total,00,PM2.5 - Local Conditions,38.22341472253375
+12/16/2018,country total,00,PM2.5 - Local Conditions,26.300473680112276
+12/19/2018,country total,00,PM2.5 - Local Conditions,35.770876458174165
+12/22/2018,country total,00,PM2.5 - Local Conditions,22.591040448970688
+12/25/2018,country total,00,PM2.5 - Local Conditions,29.192274972330928
+12/28/2018,country total,00,PM2.5 - Local Conditions,19.422695887635587
+12/31/2018,country total,00,PM2.5 - Local Conditions,31.005537860684893
+07/01/2018,country total,00,PM2.5 - Local Conditions,42.87567359206399
+07/16/2018,country total,00,PM2.5 - Local Conditions,38.05808594986152
+07/28/2018,country total,00,PM2.5 - Local Conditions,34.807353059941406
+07/31/2018,country total,00,PM2.5 - Local Conditions,36.07113182166903
+08/24/2018,country total,00,PM2.5 - Local Conditions,48.693078758024924
+08/30/2018,country total,00,PM2.5 - Local Conditions,27.255499408896718
+09/02/2018,country total,00,PM2.5 - Local Conditions,25.605383446931107
+09/11/2018,country total,00,PM2.5 - Local Conditions,22.984612616044075
+10/20/2018,country total,00,PM2.5 - Local Conditions,21.62935872247424
+11/13/2018,country total,00,PM2.5 - Local Conditions,26.835207278957398
+11/16/2018,country total,00,PM2.5 - Local Conditions,31.36001927873854
+11/19/2018,country total,00,PM2.5 - Local Conditions,41.95012566104937
+11/22/2018,country total,00,PM2.5 - Local Conditions,28.94489178877321
+11/25/2018,country total,00,PM2.5 - Local Conditions,26.92015301339104
+11/28/2018,country total,00,PM2.5 - Local Conditions,24.9844234760777
+01/01/2018,country total,00,PM2.5 - Local Conditions,37.8508586711089
+01/03/2018,country total,00,PM2.5 - Local Conditions,41.302493267482426
+01/04/2018,country total,00,PM2.5 - Local Conditions,37.1954801780729
+01/06/2018,country total,00,PM2.5 - Local Conditions,36.24351660648315
+01/07/2018,country total,00,PM2.5 - Local Conditions,37.88206107846681
+01/09/2018,country total,00,PM2.5 - Local Conditions,41.97417447047085
+01/10/2018,country total,00,PM2.5 - Local Conditions,36.63451911922934
+01/12/2018,country total,00,PM2.5 - Local Conditions,20.727232804759247
+01/13/2018,country total,00,PM2.5 - Local Conditions,21.312812342244843
+01/15/2018,country total,00,PM2.5 - Local Conditions,34.33286275575428
+01/16/2018,country total,00,PM2.5 - Local Conditions,37.7883605463297
+01/18/2018,country total,00,PM2.5 - Local Conditions,41.83046878819883
+01/19/2018,country total,00,PM2.5 - Local Conditions,41.37840185577975
+01/21/2018,country total,00,PM2.5 - Local Conditions,41.063282646877475
+01/22/2018,country total,00,PM2.5 - Local Conditions,34.52378487416446
+01/24/2018,country total,00,PM2.5 - Local Conditions,25.808257775768467
+01/25/2018,country total,00,PM2.5 - Local Conditions,30.004643572669117
+01/27/2018,country total,00,PM2.5 - Local Conditions,34.4895518657384
+01/28/2018,country total,00,PM2.5 - Local Conditions,31.94779039569036
+01/30/2018,country total,00,PM2.5 - Local Conditions,27.99324822287574
+01/31/2018,country total,00,PM2.5 - Local Conditions,27.9801569806133
+02/02/2018,country total,00,PM2.5 - Local Conditions,25.591944445288732
+02/03/2018,country total,00,PM2.5 - Local Conditions,27.565510224602885
+02/05/2018,country total,00,PM2.5 - Local Conditions,27.970206789228094
+02/06/2018,country total,00,PM2.5 - Local Conditions,36.84855684520318
+02/08/2018,country total,00,PM2.5 - Local Conditions,39.52767991091289
+02/09/2018,country total,00,PM2.5 - Local Conditions,42.552544158471136
+02/11/2018,country total,00,PM2.5 - Local Conditions,30.891926608392485
+02/12/2018,country total,00,PM2.5 - Local Conditions,31.38511138551481
+02/14/2018,country total,00,PM2.5 - Local Conditions,38.86114820665634
+02/15/2018,country total,00,PM2.5 - Local Conditions,33.83991126005697
+02/17/2018,country total,00,PM2.5 - Local Conditions,27.610812280432203
+02/18/2018,country total,00,PM2.5 - Local Conditions,29.166159945324626
+02/20/2018,country total,00,PM2.5 - Local Conditions,29.603677863776003
+02/21/2018,country total,00,PM2.5 - Local Conditions,28.905502116851714
+02/23/2018,country total,00,PM2.5 - Local Conditions,29.935423084813202
+02/24/2018,country total,00,PM2.5 - Local Conditions,29.911794996803593
+02/26/2018,country total,00,PM2.5 - Local Conditions,24.37533271055381
+02/27/2018,country total,00,PM2.5 - Local Conditions,26.123463749078827
+03/01/2018,country total,00,PM2.5 - Local Conditions,30.910441863003335
+03/02/2018,country total,00,PM2.5 - Local Conditions,22.44733306222334
+03/04/2018,country total,00,PM2.5 - Local Conditions,20.936378166886072
+03/05/2018,country total,00,PM2.5 - Local Conditions,22.046080722652977
+03/07/2018,country total,00,PM2.5 - Local Conditions,22.562425939479105
+03/08/2018,country total,00,PM2.5 - Local Conditions,26.757355852467562
+03/10/2018,country total,00,PM2.5 - Local Conditions,33.088260756888786
+03/11/2018,country total,00,PM2.5 - Local Conditions,30.589338232121534
+03/13/2018,country total,00,PM2.5 - Local Conditions,24.977693928750206
+03/14/2018,country total,00,PM2.5 - Local Conditions,25.441843930766897
+03/16/2018,country total,00,PM2.5 - Local Conditions,27.157269464193377
+03/17/2018,country total,00,PM2.5 - Local Conditions,29.65657570104979
+03/19/2018,country total,00,PM2.5 - Local Conditions,30.118452972371887
+03/20/2018,country total,00,PM2.5 - Local Conditions,25.05386504589737
+03/22/2018,country total,00,PM2.5 - Local Conditions,26.444685541533516
+03/23/2018,country total,00,PM2.5 - Local Conditions,28.366541798749967
+03/25/2018,country total,00,PM2.5 - Local Conditions,24.912500196638142
+03/26/2018,country total,00,PM2.5 - Local Conditions,29.49771454295852
+03/28/2018,country total,00,PM2.5 - Local Conditions,34.472913825958116
+03/29/2018,country total,00,PM2.5 - Local Conditions,34.02746937475645
+03/31/2018,country total,00,PM2.5 - Local Conditions,23.69548573403581
+04/01/2018,country total,00,PM2.5 - Local Conditions,23.738535747235044
+04/03/2018,country total,00,PM2.5 - Local Conditions,30.284264711639334
+04/04/2018,country total,00,PM2.5 - Local Conditions,24.20676634319372
+04/06/2018,country total,00,PM2.5 - Local Conditions,30.274588844518355
+04/07/2018,country total,00,PM2.5 - Local Conditions,22.542759973496967
+04/09/2018,country total,00,PM2.5 - Local Conditions,28.850112413065546
+04/10/2018,country total,00,PM2.5 - Local Conditions,35.61094805803556
+04/12/2018,country total,00,PM2.5 - Local Conditions,40.83052360225905
+04/13/2018,country total,00,PM2.5 - Local Conditions,38.963027538511874
+04/15/2018,country total,00,PM2.5 - Local Conditions,21.86375896742858
+04/16/2018,country total,00,PM2.5 - Local Conditions,20.061993010495105
+04/18/2018,country total,00,PM2.5 - Local Conditions,23.22959069492298
+04/19/2018,country total,00,PM2.5 - Local Conditions,25.00072416927401
+04/21/2018,country total,00,PM2.5 - Local Conditions,30.275970519153496
+04/22/2018,country total,00,PM2.5 - Local Conditions,29.607119270506665
+04/24/2018,country total,00,PM2.5 - Local Conditions,28.641587397886244
+04/25/2018,country total,00,PM2.5 - Local Conditions,24.52849046010683
+04/27/2018,country total,00,PM2.5 - Local Conditions,28.136751086138265
+04/28/2018,country total,00,PM2.5 - Local Conditions,29.66738355356385
+05/01/2018,country total,00,PM2.5 - Local Conditions,33.516699638945376
+05/03/2018,country total,00,PM2.5 - Local Conditions,37.39210864200721
+05/04/2018,country total,00,PM2.5 - Local Conditions,36.326718360351
+05/06/2018,country total,00,PM2.5 - Local Conditions,30.24854588132758
+05/07/2018,country total,00,PM2.5 - Local Conditions,30.6108041239238
+05/18/2018,country total,00,PM2.5 - Local Conditions,26.95896418415995
+05/19/2018,country total,00,PM2.5 - Local Conditions,26.719050701004164
+05/21/2018,country total,00,PM2.5 - Local Conditions,27.706271415445624
+05/22/2018,country total,00,PM2.5 - Local Conditions,28.51526042380711
+05/24/2018,country total,00,PM2.5 - Local Conditions,30.60470939378888
+05/25/2018,country total,00,PM2.5 - Local Conditions,35.35432299702628
+05/27/2018,country total,00,PM2.5 - Local Conditions,31.74765857966142
+05/28/2018,country total,00,PM2.5 - Local Conditions,28.339101471352617
+05/30/2018,country total,00,PM2.5 - Local Conditions,27.355825772540932
+05/31/2018,country total,00,PM2.5 - Local Conditions,27.94259172339849
+07/03/2018,country total,00,PM2.5 - Local Conditions,43.17774068801649
+07/05/2018,country total,00,PM2.5 - Local Conditions,38.56968451614595
+07/06/2018,country total,00,PM2.5 - Local Conditions,29.733521410534333
+07/08/2018,country total,00,PM2.5 - Local Conditions,30.979435521616534
+07/09/2018,country total,00,PM2.5 - Local Conditions,34.95740449123413
+07/11/2018,country total,00,PM2.5 - Local Conditions,38.131431892974376
+07/12/2018,country total,00,PM2.5 - Local Conditions,36.06390547300404
+07/14/2018,country total,00,PM2.5 - Local Conditions,36.79518484204103
+07/15/2018,country total,00,PM2.5 - Local Conditions,37.32363837031835
+07/17/2018,country total,00,PM2.5 - Local Conditions,35.08162679253421
+07/18/2018,country total,00,PM2.5 - Local Conditions,32.13714690437076
+07/20/2018,country total,00,PM2.5 - Local Conditions,34.79641626157107
+07/21/2018,country total,00,PM2.5 - Local Conditions,31.83804690058682
+07/23/2018,country total,00,PM2.5 - Local Conditions,34.284756465915535
+07/24/2018,country total,00,PM2.5 - Local Conditions,31.99608965501872
+07/26/2018,country total,00,PM2.5 - Local Conditions,34.13977636732121
+07/27/2018,country total,00,PM2.5 - Local Conditions,37.69832091404956
+07/29/2018,country total,00,PM2.5 - Local Conditions,36.58184435133511
+07/30/2018,country total,00,PM2.5 - Local Conditions,38.2539023726052
+08/01/2018,country total,00,PM2.5 - Local Conditions,35.31210237037464
+08/07/2018,country total,00,PM2.5 - Local Conditions,43.78048583592256
+08/08/2018,country total,00,PM2.5 - Local Conditions,40.749003502777484
+08/10/2018,country total,00,PM2.5 - Local Conditions,46.42355892063514
+08/11/2018,country total,00,PM2.5 - Local Conditions,45.120876751988696
+08/13/2018,country total,00,PM2.5 - Local Conditions,45.29226858427807
+08/14/2018,country total,00,PM2.5 - Local Conditions,44.02550114622095
+08/16/2018,country total,00,PM2.5 - Local Conditions,48.3588060315249
+08/17/2018,country total,00,PM2.5 - Local Conditions,43.39384145706877
+08/19/2018,country total,00,PM2.5 - Local Conditions,40.57489504781829
+08/20/2018,country total,00,PM2.5 - Local Conditions,40.412826581706625
+08/22/2018,country total,00,PM2.5 - Local Conditions,42.40175439256568
+08/23/2018,country total,00,PM2.5 - Local Conditions,46.37021975831363
+08/25/2018,country total,00,PM2.5 - Local Conditions,49.44908441757743
+08/26/2018,country total,00,PM2.5 - Local Conditions,46.06009639757606
+08/28/2018,country total,00,PM2.5 - Local Conditions,43.04488912453867
+08/29/2018,country total,00,PM2.5 - Local Conditions,36.639702182690115
+08/31/2018,country total,00,PM2.5 - Local Conditions,28.089565609213178
+09/01/2018,country total,00,PM2.5 - Local Conditions,28.15550031687429
+09/03/2018,country total,00,PM2.5 - Local Conditions,28.521438973067244
+09/04/2018,country total,00,PM2.5 - Local Conditions,30.088042798366665
+09/06/2018,country total,00,PM2.5 - Local Conditions,31.158640648290742
+09/07/2018,country total,00,PM2.5 - Local Conditions,27.142840591425944
+09/09/2018,country total,00,PM2.5 - Local Conditions,20.845094368192218
+08/05/2018,country total,00,PM2.5 - Local Conditions,43.40539109893396
+11/02/2018,country total,00,PM2.5 - Local Conditions,23.42239102592429
+04/30/2018,country total,00,PM2.5 - Local Conditions,27.83860894635514
+05/09/2018,country total,00,PM2.5 - Local Conditions,33.09708194866989
+05/10/2018,country total,00,PM2.5 - Local Conditions,31.71573773817613
+05/12/2018,country total,00,PM2.5 - Local Conditions,35.71092051375807
+05/13/2018,country total,00,PM2.5 - Local Conditions,34.33299187258521
+05/15/2018,country total,00,PM2.5 - Local Conditions,33.25292196861581
+05/16/2018,country total,00,PM2.5 - Local Conditions,29.202917300835736
+06/02/2018,country total,00,PM2.5 - Local Conditions,31.050073552361063
+06/03/2018,country total,00,PM2.5 - Local Conditions,26.34587749436346
+06/05/2018,country total,00,PM2.5 - Local Conditions,27.934602698998226
+06/06/2018,country total,00,PM2.5 - Local Conditions,30.021396723786605
+06/08/2018,country total,00,PM2.5 - Local Conditions,37.74851611607433
+06/09/2018,country total,00,PM2.5 - Local Conditions,38.36793220211702
+06/11/2018,country total,00,PM2.5 - Local Conditions,29.347375139890374
+06/12/2018,country total,00,PM2.5 - Local Conditions,31.704165950246832
+06/14/2018,country total,00,PM2.5 - Local Conditions,29.03202882850101
+06/15/2018,country total,00,PM2.5 - Local Conditions,31.821679735406907
+06/17/2018,country total,00,PM2.5 - Local Conditions,38.36537715088983
+06/18/2018,country total,00,PM2.5 - Local Conditions,40.875488135788636
+06/20/2018,country total,00,PM2.5 - Local Conditions,30.925174354066836
+06/21/2018,country total,00,PM2.5 - Local Conditions,30.433451471763874
+06/23/2018,country total,00,PM2.5 - Local Conditions,29.308053788079214
+06/24/2018,country total,00,PM2.5 - Local Conditions,30.307689121401793
+06/26/2018,country total,00,PM2.5 - Local Conditions,26.124442631839962
+06/27/2018,country total,00,PM2.5 - Local Conditions,27.150097513585244
+06/29/2018,country total,00,PM2.5 - Local Conditions,34.95921737591638
+06/30/2018,country total,00,PM2.5 - Local Conditions,41.207015737007374
+07/02/2018,country total,00,PM2.5 - Local Conditions,41.00143340385772
+08/02/2018,country total,00,PM2.5 - Local Conditions,33.49213395465855
+08/04/2018,country total,00,PM2.5 - Local Conditions,37.5439571013185
+09/10/2018,country total,00,PM2.5 - Local Conditions,21.55494892373238
+09/12/2018,country total,00,PM2.5 - Local Conditions,27.34634967845083
+09/13/2018,country total,00,PM2.5 - Local Conditions,26.394733061546003
+09/15/2018,country total,00,PM2.5 - Local Conditions,28.393443227001416
+09/16/2018,country total,00,PM2.5 - Local Conditions,27.39166096110798
+09/18/2018,country total,00,PM2.5 - Local Conditions,27.394085826540895
+09/19/2018,country total,00,PM2.5 - Local Conditions,34.00640804545024
+09/21/2018,country total,00,PM2.5 - Local Conditions,32.03797971087475
+09/22/2018,country total,00,PM2.5 - Local Conditions,24.25992118407299
+09/24/2018,country total,00,PM2.5 - Local Conditions,22.292898363524362
+09/25/2018,country total,00,PM2.5 - Local Conditions,22.362588855328138
+09/27/2018,country total,00,PM2.5 - Local Conditions,22.970988224378573
+09/28/2018,country total,00,PM2.5 - Local Conditions,23.41388851387691
+09/30/2018,country total,00,PM2.5 - Local Conditions,30.22790292969243
+10/01/2018,country total,00,PM2.5 - Local Conditions,32.08697159748176
+10/03/2018,country total,00,PM2.5 - Local Conditions,28.161046743718828
+10/04/2018,country total,00,PM2.5 - Local Conditions,28.864376435866127
+10/06/2018,country total,00,PM2.5 - Local Conditions,27.25579934082102
+10/07/2018,country total,00,PM2.5 - Local Conditions,27.745941852464643
+10/09/2018,country total,00,PM2.5 - Local Conditions,23.3746560962318
+10/10/2018,country total,00,PM2.5 - Local Conditions,19.617896643681256
+10/12/2018,country total,00,PM2.5 - Local Conditions,20.55884411998439
+10/13/2018,country total,00,PM2.5 - Local Conditions,20.75408249905088
+10/15/2018,country total,00,PM2.5 - Local Conditions,24.550198026632437
+10/16/2018,country total,00,PM2.5 - Local Conditions,20.6922069488297
+10/18/2018,country total,00,PM2.5 - Local Conditions,20.373348005689635
+10/19/2018,country total,00,PM2.5 - Local Conditions,25.500260993617943
+10/21/2018,country total,00,PM2.5 - Local Conditions,18.272774526693087
+10/22/2018,country total,00,PM2.5 - Local Conditions,25.371965198647004
+10/24/2018,country total,00,PM2.5 - Local Conditions,25.739413194377537
+10/25/2018,country total,00,PM2.5 - Local Conditions,26.497610337552537
+10/27/2018,country total,00,PM2.5 - Local Conditions,25.863158200878893
+10/28/2018,country total,00,PM2.5 - Local Conditions,23.551503658558214
+10/30/2018,country total,00,PM2.5 - Local Conditions,26.98261868309035
+10/31/2018,country total,00,PM2.5 - Local Conditions,32.04712417411315
+11/03/2018,country total,00,PM2.5 - Local Conditions,22.670863394142717
+11/05/2018,country total,00,PM2.5 - Local Conditions,21.38177018005991
+12/08/2018,country total,00,PM2.5 - Local Conditions,39.506673982828865
+12/09/2018,country total,00,PM2.5 - Local Conditions,41.7658702672561
+12/11/2018,country total,00,PM2.5 - Local Conditions,46.613973753456136
+12/12/2018,country total,00,PM2.5 - Local Conditions,41.98089166628289
+12/14/2018,country total,00,PM2.5 - Local Conditions,38.72878989198615
+12/15/2018,country total,00,PM2.5 - Local Conditions,33.60743554475219
+12/17/2018,country total,00,PM2.5 - Local Conditions,28.615117182932273
+12/18/2018,country total,00,PM2.5 - Local Conditions,29.85820702527037
+12/20/2018,country total,00,PM2.5 - Local Conditions,37.44921224281284
+12/21/2018,country total,00,PM2.5 - Local Conditions,24.71600820874427
+12/23/2018,country total,00,PM2.5 - Local Conditions,28.40603109950224
+12/24/2018,country total,00,PM2.5 - Local Conditions,32.872943266666
+12/26/2018,country total,00,PM2.5 - Local Conditions,36.401271273513984
+12/27/2018,country total,00,PM2.5 - Local Conditions,28.878426650179478
+12/29/2018,country total,00,PM2.5 - Local Conditions,25.29994629311708
+12/30/2018,country total,00,PM2.5 - Local Conditions,31.643141914094297
+11/06/2018,country total,00,PM2.5 - Local Conditions,18.63227645657491
+11/08/2018,country total,00,PM2.5 - Local Conditions,26.11719674039886
+11/09/2018,country total,00,PM2.5 - Local Conditions,27.641415058581025
+11/11/2018,country total,00,PM2.5 - Local Conditions,31.085495463559152
+11/12/2018,country total,00,PM2.5 - Local Conditions,35.05167897823967
+11/14/2018,country total,00,PM2.5 - Local Conditions,30.283616220299695
+11/15/2018,country total,00,PM2.5 - Local Conditions,31.309666487315404
+11/17/2018,country total,00,PM2.5 - Local Conditions,39.5378360035253
+11/18/2018,country total,00,PM2.5 - Local Conditions,38.934241766747775
+11/20/2018,country total,00,PM2.5 - Local Conditions,38.66174284018332
+11/21/2018,country total,00,PM2.5 - Local Conditions,37.34738578795694
+11/23/2018,country total,00,PM2.5 - Local Conditions,28.56519234635298
+11/24/2018,country total,00,PM2.5 - Local Conditions,30.113361338570503
+11/26/2018,country total,00,PM2.5 - Local Conditions,24.79070654278856
+11/27/2018,country total,00,PM2.5 - Local Conditions,21.901735108748476
+11/29/2018,country total,00,PM2.5 - Local Conditions,33.849239460160135
+11/30/2018,country total,00,PM2.5 - Local Conditions,39.74179789483945
+12/02/2018,country total,00,PM2.5 - Local Conditions,21.562782897402393
+12/03/2018,country total,00,PM2.5 - Local Conditions,21.39457948524579
+12/05/2018,country total,00,PM2.5 - Local Conditions,29.01402581072739
+12/06/2018,country total,00,PM2.5 - Local Conditions,34.04690188646681
